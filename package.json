@@ -1,0 +1,21 @@
+{
+  "name": "serverless-design-system",
+  "version": "0.0.1",
+  "description": "A design system for Serverless Inc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "author": "Anand Narayan",
+  "license": "MIT",
+  "devDependencies": {
+    "@storybook/react": "^3.4.8",
+    "babel-core": "^6.26.3"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "styled-components": "^3.3.3"
+  }
+}
