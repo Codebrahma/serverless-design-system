@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "build": "x0 build docs -d .out && build-storybook -c .storybook -o .out/storybook"
   },
   "author": "Anand Narayan",
   "license": "MIT",
@@ -14,6 +15,7 @@
     "babel-core": "^6.26.3"
   },
   "dependencies": {
+    "@compositor/x0": "^6.0.2",
     "babel-polyfill": "^6.26.0",
     "component-playground": "^3.2.0",
     "react": "^16.4.1",
