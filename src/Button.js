@@ -1,45 +1,51 @@
 import styled from 'styled-components'
-import theme from './theme'
+import {color, border, borderColor, 
+  fontFamily, fontSize, letterSpacing, space} from 'styled-system'
 
-const white = theme.colors.white;
-const serverlessRed = theme.colors.serverlessRed;
+import {hexToRgbA} from './utils'
 
+
+//TODO refactor the hover state implementation 
+//i.e the logic for disabled buttons not to hover is repeated
+//across primary and secondary
 const secondary = (props) =>{
   if(!props.secondary) return;
   return {
     background: 'transparent',
-    border: `1px solid ${serverlessRed}`,
-    color: `${serverlessRed}`,
+    border: `1px solid ${props.theme.colors.primaryColor}`,
+    color: `${props.theme.colors.primaryColor}`,
     '&:hover': {
       //TODO fix the hover to base on the variable
-      background: `rgba(253,87,80,0.10)`
+      background: props.disabled? null: 
+        hexToRgbA(props.theme.colors.secondaryColor,'0.1')
     }
   }
 }
 
-const Button = styled.button`
-  border: none;
-  padding: 1em 3.500em;
-  background-color: ${serverlessRed};
-  color: ${white};
-  font-family: serverless;
-  font-size: 1.125em;
-  letter-spacing: 0.047em;
+const Button = styled.button.attrs({
+  color: 'white',
+  bg: 'primaryColor',
+  border: '0',
+  fontFamily: 'Serverless',
+  px: '3.5em',
+  py: '1em',
+  fontSize: '3',
+  letterSpacing: 'primaryBtn',
+})`
+  ${color} ${border} ${borderColor}
+  ${fontFamily} ${fontSize} ${space}
+  ${letterSpacing}
   transition: background 0.5s ease;
   &:disabled {
     opacity: 0.2;
   }
   &:hover {
     background-color: ${props => props.disabled? 
-      null : props.theme.colors.darkServerlessRed
+      null : props.theme.colors.secondaryColor
     };
   }
   ${secondary}
 `
-
-Button.defaultProps = {
-  theme: theme
-}
 
 Button.displayName = 'Button'
 

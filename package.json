@@ -20,6 +20,10 @@
     "component-playground": "^3.2.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "styled-components": "^3.3.3"
+    "styled-components": "^3.3.3",
+    "styled-system": "^3.0.2"
+  },
+  "x0": {
+    "template": "./docs/src/template.js"
   }
 }

@@ -3,8 +3,16 @@ import { injectGlobal } from 'styled-components'
 
 injectGlobal`
   @font-face {
-    font-family: 'serverless';
+    font-family: 'Serverless';
     src: url('https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/fonts/serverless.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'SoleilBk';
+    src: url('https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/fonts/soleil-bk.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Soleil';
+    src: url('https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/fonts/soleil.otf') format('opentype');
   }
 `;
 
