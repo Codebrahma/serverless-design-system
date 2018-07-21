@@ -19,21 +19,18 @@ module.exports = ({
     font-family: 'Soleil';
     src: url('https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/fonts/soleil.otf') format('opentype');
   }
-  .playground {
+  .react-live {
     display: flex;
     align-items:center;
     margin: 20px;
   }
-  .playgroundCode {
+  .react-live-editor {
     width: 30%;
   }
-  .playgroundPreview {
-    width: 70%;
+  .react-live-preview {
     margin-left: 20px;
   }
   </style>
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.0.0/codemirror.min.css"/>
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.0.0/theme/monokai.min.css"/>
 </head>
 <div id=root><ThemeProvider theme={theme}>${html}</ThemeProvider></div>
 ${scripts}
