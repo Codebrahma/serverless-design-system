@@ -7,7 +7,7 @@ import Testimonial from '../../src/Testimonial'
 import theme from '../../src/theme'
 
 
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 
 
 const scope = {styled, React, Button, Testimonial};
@@ -23,55 +23,30 @@ import {
 const LiveWrapper = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: stretch;
-  align-items: stretch;
-
-  @media (max-width: 600px) {
-    flex-direction: column;
-  }
+  width: 100%
 `
 
-const column = css`
-  @media (max-width: 600px) {
-    flex-basis: auto;
-    width: 100%;
-    max-width: 100%;
-  }
-`
 
 const StyledEditor = styled(LiveEditor)`
-  background: grey;
-  font-family: 'Source Code Pro', monospace;
   font-size: 20px;
-  height: 500px;
   overflow: scroll;
-
-  ${column}
+  width: 30%;
 `
 
 const StyledPreview = styled(LivePreview)`
-  ${column}
-`
-
-const StyledError = styled(LiveError)`
-  display: block;
-  padding: 10px;
-  background: red;
-  color: white;
+  width: 70%;
 `
 
 const LiveEdit = ({ code }) => (
   <LiveProvider
     code={code} scope={scope}
   >
-    <LiveWrapper style={{width:'100%'}}>
-      <StyledEditor style={{width: '30%'}}/>
+    <LiveWrapper>
+      <StyledEditor/>
       <ThemeProvider theme={theme}>
-        <StyledPreview style={{width: '70%'}}/>
+        <StyledPreview/>
       </ThemeProvider>
     </LiveWrapper>
-
-    <StyledError />
   </LiveProvider>
 )
 
