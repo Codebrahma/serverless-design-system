@@ -10,7 +10,7 @@ const ImgWithOrder = styled(Img)`
   ${order}
 `
 
-const comp = ({img, children, name, designation})=> {
+const comp = ({img, children, name, designation, alt})=> {
   const testimonial = children;
   return(
     <Box px={[3,4]} py={5}
@@ -33,7 +33,7 @@ const comp = ({img, children, name, designation})=> {
         <Img
           mt={3} 
           width={[82,128]} height={[27,42]}
-          src={img} alt='Coca Cola'
+          src={img} alt={alt}
         />
       </Box>
       
