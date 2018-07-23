@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 9001 -c .storybook",
-    "build": "x0 build docs -d .out && build-storybook -c .storybook -o .out/storybook"
+    "build": "x0 build docs -d .out && build-storybook -c .storybook -o .out/storybook",
+    "start": "x0 docs --open"
   },
   "author": "Anand Narayan",
   "license": "MIT",
