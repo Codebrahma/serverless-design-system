@@ -4,13 +4,14 @@ import {ThemeProvider} from 'styled-components'
 
 import Button from '../../src/Button'
 import Testimonial from '../../src/Testimonial'
+import Benefit from '../../src/Benefit';
 import theme from '../../src/theme'
 
 
 import styled from 'styled-components'
 
 
-const scope = {styled, React, Button, Testimonial};
+const scope = {styled, React, Button, Testimonial, Benefit};
 
 import {
   LiveProvider,

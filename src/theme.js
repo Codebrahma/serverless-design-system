@@ -23,6 +23,7 @@ const colors = {
     '#ccc',
     '#eee',
     '#f6f6f6',
+    '#5b5b5b',
   ]
 }
 colors.primaryColor = colors.serverlessRed;
@@ -42,7 +43,7 @@ const fontSizes = [
 
 // for any scale, either array or objects will work
 const lineHeights = [
-  1, 1.125, 1.25, 1.33, 1.5
+  1, 1.125, 1.25, 1.33, 1.5, 1.67
 ]
 
 const fontWeights = {
