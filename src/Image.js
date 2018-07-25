@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import {width, space, height} from 'styled-system'
+import {width, space, height,display,maxWidth} from 'styled-system'
 
 export default styled.img`
-  ${width} ${space} ${height}
+  ${width} ${space} ${height} ${display} ${maxWidth}
 `
