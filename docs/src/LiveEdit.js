@@ -5,13 +5,14 @@ import {ThemeProvider} from 'styled-components'
 import Button from '../../src/Button'
 import Testimonial from '../../src/Testimonial'
 import Benefit from '../../src/Benefit';
+import MainHeader from '../../src/MainHeader';
 import theme from '../../src/theme'
 
 
 import styled from 'styled-components'
 
 
-const scope = {styled, React, Button, Testimonial, Benefit};
+const scope = {styled, React, Button, Testimonial, Benefit,MainHeader};
 
 import {
   LiveProvider,
@@ -25,17 +26,20 @@ const LiveWrapper = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%
+  flex-wrap: wrap;
 `
 
 
 const StyledEditor = styled(LiveEditor)`
   font-size: 20px;
   overflow: scroll;
-  width: 30%;
+  width: 100%;
 `
 
 const StyledPreview = styled(LivePreview)`
-  width: 70%;
+  margin: 0px;
+  margin-top: 20px;
+  width: 100%;
 `
 
 const LiveEdit = ({ code }) => (

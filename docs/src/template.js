@@ -6,6 +6,7 @@ module.exports = ({
 }) => `<!DOCTYPE html>
 <head>
   <title> Design Components</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
   @font-face {
     font-family: 'serverless';

@@ -1,7 +1,7 @@
 const defaultFont = 'Serverless';
 
 const breakpoints = [
-  '40em', '52em', '64em'
+  '768px', '992px', '1200px'
 ]
 
 const colors = {
@@ -10,6 +10,7 @@ const colors = {
   blue: '#07c',
   serverlessRed : '#fd5750',
   darkServerlessRed : '#cb0a02',
+  black: '#000',
   // nested objects work as well
   dark: {
     blue: '#058'
