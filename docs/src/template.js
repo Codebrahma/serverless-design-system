@@ -34,4 +34,4 @@ module.exports = ({
 </head>
 <div id=root><ThemeProvider theme={theme}>${html}</ThemeProvider></div>
 ${scripts}
-`
+`;
