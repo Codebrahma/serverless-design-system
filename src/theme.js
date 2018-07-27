@@ -55,6 +55,7 @@ const letterSpacings = {
   normal: 'normal',
   caps: '0.25em',
   smallNegative: '-0.03px',
+  negative: '-0.5px',
   primaryBtn: '0.05em',
 }
 
