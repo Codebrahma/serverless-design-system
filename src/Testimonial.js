@@ -21,13 +21,11 @@ const comp = ({img, children, name, designation, alt})=> {
         flexDirection={['column', 'row']}
         justifyContent={['','space-between']}
     >
-      <Box width={1}>
-        <Text 
-          fontFamily="SoleilBk" fontSize={5} fontStyle='italic'
-          lineHeight={3} mb={3}>
-            {testimonial}
-        </Text>
-      </Box>
+      <Text 
+        fontFamily="SoleilBk" fontSize={5} fontStyle='italic'
+        lineHeight={3} mb={3} width={1}>
+          {testimonial}
+      </Text>
       
       <Box order={['0','1']}>
         <Img
@@ -37,7 +35,7 @@ const comp = ({img, children, name, designation, alt})=> {
         />
       </Box>
       
-      <Box mt={3}>
+      <Box mt={3} width={6/10}>
         <Text 
           fontFamily="SoleilBk" fontSize={3}
           letterSpacing={'smallNegative'}
