@@ -1,26 +1,26 @@
-import styled from 'styled-components'
-import {color, border, borderColor, 
-  fontFamily, fontSize, letterSpacing, space} from 'styled-system'
+import styled from 'styled-components';
+import { color, border, borderColor,
+  fontFamily, fontSize, letterSpacing, space } from 'styled-system';
 
-import {hexToRgbA} from './utils'
+import { hexToRgbA } from './utils';
 
 
-//TODO refactor the hover state implementation 
-//i.e the logic for disabled buttons not to hover is repeated
-//across primary and secondary
-const secondary = (props) =>{
-  if(!props.secondary) return;
+// TODO refactor the hover state implementation
+// i.e the logic for disabled buttons not to hover is repeated
+// across primary and secondary
+const secondary = (props) => {
+  if (!props.secondary) return null;
   return {
     background: 'transparent',
     border: `1px solid ${props.theme.colors.primaryColor}`,
     color: `${props.theme.colors.primaryColor}`,
     '&:hover': {
-      //TODO fix the hover to base on the variable
-      background: props.disabled? null: 
-        hexToRgbA(props.theme.colors.secondaryColor,'0.1')
-    }
-  }
-}
+      // TODO fix the hover to base on the variable
+      background: props.disabled ? null :
+        hexToRgbA(props.theme.colors.secondaryColor, '0.1'),
+    },
+  };
+};
 
 const Button = styled.button.attrs({
   color: 'white',
@@ -40,13 +40,13 @@ const Button = styled.button.attrs({
     opacity: 0.2;
   }
   &:hover {
-    background-color: ${props => props.disabled? 
-      null : props.theme.colors.secondaryColor
-    };
+    background-color: ${props => (props.disabled ?
+    null : props.theme.colors.secondaryColor)
+};
   }
   ${secondary}
-`
+`;
 
-Button.displayName = 'Button'
+Button.displayName = 'Button';
 
-export default Button
+export default Button;
