@@ -22,7 +22,7 @@ const comp = ({img, children, name, designation, alt})=> {
         justifyContent={['','space-between']}
     >
       <Text 
-        fontFamily="SoleilBk" fontSize={5} fontStyle='italic'
+        fontFamily="SoleilBk" fontSize={4} fontStyle='italic'
         lineHeight={3} mb={3} width={1}>
           {testimonial}
       </Text>

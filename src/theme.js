@@ -1,13 +1,19 @@
-const defaultFont = 'Serverless';
+const font = {
+  default: 'Serverless',
+  header: 'SoleilBk',
+  p: 'SoleilBk',
+  psmall : 'Soleil',
+  plarge : 'SoleilLt',
+}
 
 const breakpoints = [
-  '40em', '52em', '64em'
+  '30em', '48em', '75em'
 ]
 
 const colors = {
   text: '#024',
   white : '#fff',
-  blue: '#07c',
+  black : '#000',
   serverlessRed : '#fd5750',
   darkServerlessRed : '#cb0a02',
   // nested objects work as well
@@ -16,13 +22,9 @@ const colors = {
   },
   // arrays can be used for scales of colors
   gray: [
-    '#333',
-    '#666',
+    '#f7f7f7',
+    '#eaeaea',
     '#8c8c8c',
-    '#999',
-    '#ccc',
-    '#eee',
-    '#f6f6f6',
     '#5b5b5b',
   ]
 }
@@ -34,31 +36,31 @@ colors.secondaryColor = colors.darkServerlessRed;
 // when used in nested elements
 // numbers are converted to px
 const space = [
-  0, 4, 8, 16, 32, 64, 128, 256, 512
+  0,  4,  8, 
+  10, 20, 30,
+  40, 60, 80
 ]
 // typographic scale
 const fontSizes = [
-  12, 14, 16, 18, 20, 24, 32, 48, 64, 96, 128
+  '0.75rem', '0.875rem', '1rem', 
+  '1.125rem', '1.5rem', '2rem', 
+  '2.5rem', '3rem', '5.625rem'
 ]
 
 // for any scale, either array or objects will work
 const lineHeights = [
-  1, 1.125, 1.25, 1.33, 1.5, 1.67
+  1, 1.125, 1.25, 1.33, 
+  1.5, 2, 3, 7, 
 ]
 
 const fontWeights = {
-  normal: 500,
+  normal: 400,
   bold: 700
 }
 
-const letterSpacings = {
-  normal: 'normal',
-  caps: '0.25em',
-  smallNegative: '-0.03px',
-  negative: '-0.5px',
-  primaryBtn: '0.05em',
-}
-
+const letterSpacings = [
+  0, '-0.018rem', '-0.024rem', '-0.0315rem', '0.0315rem', '0.048rem'
+]
 // border-radius
 const radii = [
   0, 2, 4, 8
@@ -74,7 +76,7 @@ const shadows = [
 ]
 
 const theme = {
-  defaultFont,
+  font,
   breakpoints,
   colors,
   space,

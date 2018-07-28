@@ -19,6 +19,11 @@ module.exports = ({
     font-family: 'Soleil';
     src: url('https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/fonts/soleil.otf') format('opentype');
   }
+  @font-face {
+    font-family: 'SoleilLt';
+    src: url('https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/fonts/soleil-lt.otf') format('opentype');
+  }
+  
   </style>
 </head>
 <div id=root>${html}</div>
