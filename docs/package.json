@@ -1,11 +1,8 @@
 {
-  "name": "gatsby-starter-portfolio-emilia",
-  "description": "Gatsby Starter Portfolio Emilia",
+  "name": "Serverlessdesignsystem",
+  "description": "Documentation for serverless design system",
   "version": "1.0.0",
-  "author": "LekoArts <hello@lekoarts.de>",
-  "bugs": {
-    "url": "https://github.com/LeKoArts/gatsby-starter-portfolio-emilia/issues"
-  },
+  "author": "Anand Narayan",
   "dependencies": {
     "babel-plugin-styled-components": "^1.5.1",
     "gatsby": "^1.9.266",
@@ -44,14 +41,10 @@
     "eslint-plugin-react": "^7.8.2",
     "prettier": "^1.13.3"
   },
-  "homepage":
-    "https://github.com/LeKoArts/gatsby-starter-portfolio-emilia#readme",
   "keywords": [
     "gatsby",
     "starter-portfolio",
-    "designer",
-    "photographer",
-    "lekoarts"
+    "designer"
   ],
   "license": "MIT",
   "main": "n/a",
