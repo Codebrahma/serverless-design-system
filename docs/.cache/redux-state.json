@@ -1,0 +1,3538 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "19e9cc8718ced6724ede5e4455c965a0",
+        "description": "Plugin dev-404-page",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "51005fc47ddb4d50c2e996457f13643e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3ef7adedeee59db6c06cd88628c041e6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "90ffd65a2c850c59068668932f7ac1f7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9df7791b24c96ba0603ecd9a79ab57eb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "789c709f39dcd911afed64a9fa96c2d2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "63cf7dd26688071386f2d979b4b62d99",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-styled-components": {
+      "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-plugin-styled-components",
+      "id": "Plugin gatsby-plugin-styled-components",
+      "name": "gatsby-plugin-styled-components",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyBabelrc"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "replaceRenderer"
+      ],
+      "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": {
+          "name": "Guten Ye",
+          "email": "ywzhaifei@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "styled-components",
+            "version": ">= 2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7839489870a3f1133d5930ec81e542df",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.39",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "projects",
+        "path": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.39",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "16a27457c5037c2021951abba37fbff2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.44",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-remark-external-links",
+            "id": "Plugin gatsby-remark-external-links",
+            "name": "gatsby-remark-external-links",
+            "version": "0.0.4",
+            "pluginOptions": {
+              "plugins": [],
+              "target": "_blank",
+              "rel": "nofollow noopener noreferrer"
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-remark-external-links"
+          },
+          {
+            "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "1.5.67",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 1600,
+              "quality": 90,
+              "linkImagesToOriginal": false,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "showCaptions": false,
+              "pathPrefix": ""
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-remark-images"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.44",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e18e44c53132e792b2a0d66a0b99ce38",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-external-links": {
+      "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-remark-external-links",
+      "id": "Plugin gatsby-remark-external-links",
+      "name": "gatsby-remark-external-links",
+      "version": "0.0.4",
+      "pluginOptions": {
+        "plugins": [],
+        "target": "_blank",
+        "rel": "nofollow noopener noreferrer"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-remark-external-links",
+      "packageJson": {
+        "name": "gatsby-remark-external-links",
+        "description": "Automatically adds the target and rel attributes to external links in markdown.",
+        "version": "0.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": {
+          "name": "Jimmy Longley",
+          "email": "jimmylongley@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "unist-util-find",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          },
+          {
+            "name": "dedent",
+            "version": "^0.7.0"
+          },
+          {
+            "name": "jest",
+            "version": "^21.2.1"
+          },
+          {
+            "name": "remark",
+            "version": "^8.0.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a5a18547c2ce491a4528757d028542e2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "1.5.67",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 1600,
+        "quality": 90,
+        "linkImagesToOriginal": false,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "showCaptions": false,
+        "pathPrefix": ""
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "1.5.67",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.48"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a658b3d8605de97cc692872bc55a5b46",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-google-analytics": {
+      "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-plugin-google-analytics",
+      "id": "Plugin gatsby-plugin-google-analytics",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "1.0.31",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-12345689-1"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "1.0.31",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7bd02dcc57d05ffec8a13bc6b5ba9071",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-nprogress": {
+      "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-plugin-nprogress",
+      "id": "Plugin gatsby-plugin-nprogress",
+      "name": "gatsby-plugin-nprogress",
+      "version": "1.0.14",
+      "pluginOptions": {
+        "plugins": [],
+        "color": "#3498DB"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-plugin-nprogress",
+      "packageJson": {
+        "name": "gatsby-plugin-nprogress",
+        "description": "Shows page loading indicator when loading page resources is delayed",
+        "version": "1.0.14",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "nprogress",
+            "version": "^0.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ddfc379e416517d0a7e535d8bc09d2d1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.48",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.48",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "5.0.1"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "321a6a5eddd5906f54cf5fca5bdbad17",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "1.6.27",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "1.6.27",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6253923b94cb04739590fb1f5222f6ec",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-next": {
+      "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-plugin-react-next",
+      "id": "Plugin gatsby-plugin-react-next",
+      "name": "gatsby-plugin-react-next",
+      "version": "1.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-plugin-react-next",
+      "packageJson": {
+        "name": "gatsby-plugin-react-next",
+        "description": "Use React 16 with your Gatsby v1 site",
+        "version": "1.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "core-js",
+            "version": "^2.5.1"
+          },
+          {
+            "name": "react",
+            "version": "^16.0.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9bce59ba00975944ced57eb95a9f3bd2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-typography": {
+      "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-plugin-typography",
+      "id": "Plugin gatsby-plugin-typography",
+      "name": "gatsby-plugin-typography",
+      "version": "1.7.19",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography.js"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "1.7.19",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6594f1478c4f4411f60c1102c6d13db4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sitemap": {
+      "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-plugin-sitemap",
+      "id": "Plugin gatsby-plugin-sitemap",
+      "name": "gatsby-plugin-sitemap",
+      "version": "1.2.25",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-plugin-sitemap",
+      "packageJson": {
+        "name": "gatsby-plugin-sitemap",
+        "description": "Gatsby plugin that automatically creates a sitemap for your site",
+        "version": "1.2.25",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Nicholas Young &lt;nicholas@nicholaswyoung.com&gt;"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "minimatch",
+            "version": "^3.0.4"
+          },
+          {
+            "name": "sitemap",
+            "version": "^1.12.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "78cadb48c619b8f77b65048254d3a1b6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-manifest": {
+      "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-plugin-manifest",
+      "id": "Plugin gatsby-plugin-manifest",
+      "name": "gatsby-plugin-manifest",
+      "version": "1.0.27",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "Emilia",
+        "short_name": "Emilia - Gatsby Starter Portfolio",
+        "description": "Dark One-Page portfolio with cards & detailed project views",
+        "start_url": "/",
+        "background_color": "#2b2e3c",
+        "theme_color": "#3498DB",
+        "display": "minimal-ui",
+        "icons": [
+          {
+            "src": "/logos/logo-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+          },
+          {
+            "src": "/logos/logo-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "1.0.27",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2de2376a7307fe4c589b810b8aae5bd1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-offline": {
+      "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-plugin-offline",
+      "id": "Plugin gatsby-plugin-offline",
+      "name": "gatsby-plugin-offline",
+      "version": "1.0.18",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "1.0.18",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "sw-precache",
+            "version": "^5.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "913088ec69e61d7f4d5757403cf229fb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "2b8cdf579e117b8970cf301226ae9c36",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs",
+      "packageJson": {
+        "name": "gatsby-starter-portfolio-emilia",
+        "description": "Gatsby Starter Portfolio Emilia",
+        "version": "1.0.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby",
+          "starter-portfolio",
+          "designer",
+          "photographer",
+          "lekoarts"
+        ],
+        "author": "LekoArts <hello@lekoarts.de>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": "^1.5.1"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.9.266"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^1.0.51"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.44"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^1.0.31"
+          },
+          {
+            "name": "gatsby-plugin-lodash",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^1.0.24"
+          },
+          {
+            "name": "gatsby-plugin-nprogress",
+            "version": "^1.0.14"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^1.0.18"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-plugin-react-next",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.46"
+          },
+          {
+            "name": "gatsby-plugin-sitemap",
+            "version": "^1.2.25"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^1.7.18"
+          },
+          {
+            "name": "gatsby-remark-external-links",
+            "version": "^0.0.4"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^1.5.65"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.38"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.41"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^1.6.26"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-overdrive",
+            "version": "^0.0.10"
+          },
+          {
+            "name": "styled-components",
+            "version": "^3.2.6"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-eslint",
+            "version": "^8.2.3"
+          },
+          {
+            "name": "babel-preset-env",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "eslint",
+            "version": "^4.19.1"
+          },
+          {
+            "name": "eslint-config-airbnb",
+            "version": "^16.1.0"
+          },
+          {
+            "name": "eslint-config-prettier",
+            "version": "^2.9.0"
+          },
+          {
+            "name": "eslint-plugin-import",
+            "version": "^2.12.0"
+          },
+          {
+            "name": "eslint-plugin-jsx-a11y",
+            "version": "^6.0.3"
+          },
+          {
+            "name": "eslint-plugin-prettier",
+            "version": "^2.6.0"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.8.2"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.13.3"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "be6eb4c931f87f197eece9ede6e4fae0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "1.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "1.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7dbf2f62ceb2618c13300f2d65a2dd2e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "siteUrl": "https://portfolio-emilia.netlify.com"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-07-28T18:33:57.190Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "972b3326f545a13570be12dbb1c67fde",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3800a62b320b4dca5308efe0b3a26c11",
+        "type": "Directory",
+        "description": "Directory \"content/projects\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects",
+      "relativePath": "",
+      "extension": "",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:34:03.165Z",
+      "changeTime": "2018-07-28T18:18:55.512Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content",
+      "base": "projects",
+      "ext": "",
+      "name": "projects",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 7,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652964,
+      "blocks": 0,
+      "atimeMs": 1532802843164.6982,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935511.7422,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:34:03.165Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.512Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01 absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01 absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "36ac32ce83bb273c94d6da8470472498",
+        "type": "Directory",
+        "description": "Directory \"content/projects/2017-12-01\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01",
+      "relativePath": "2017-12-01",
+      "extension": "",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:34:03.170Z",
+      "changeTime": "2018-07-28T18:18:55.512Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects",
+      "base": "2017-12-01",
+      "ext": "",
+      "name": "2017-12-01",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652985,
+      "blocks": 0,
+      "atimeMs": 1532802843170.006,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935511.5884,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:34:03.170Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.512Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02 absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02 absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3eadbf17dfc4fcd5f1f4144a15fcc258",
+        "type": "Directory",
+        "description": "Directory \"content/projects/2017-12-02\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02",
+      "relativePath": "2017-12-02",
+      "extension": "",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:34:03.170Z",
+      "changeTime": "2018-07-28T18:18:55.505Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects",
+      "base": "2017-12-02",
+      "ext": "",
+      "name": "2017-12-02",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652980,
+      "blocks": 0,
+      "atimeMs": 1532802843170.0608,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935505.0676,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:34:03.170Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.505Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03 absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03 absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "32556f614bcd0758b2083f2edd5325db",
+        "type": "Directory",
+        "description": "Directory \"content/projects/2017-12-03\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03",
+      "relativePath": "2017-12-03",
+      "extension": "",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:34:03.170Z",
+      "changeTime": "2018-07-28T18:18:55.369Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects",
+      "base": "2017-12-03",
+      "ext": "",
+      "name": "2017-12-03",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652965,
+      "blocks": 0,
+      "atimeMs": 1532802843170.1194,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935369.0127,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:34:03.170Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.369Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04 absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04 absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "21e838cbcf8b1c6d2edd8643b7b55cae",
+        "type": "Directory",
+        "description": "Directory \"content/projects/2017-12-04\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04",
+      "relativePath": "2017-12-04",
+      "extension": "",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:34:03.170Z",
+      "changeTime": "2018-07-28T18:18:55.374Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects",
+      "base": "2017-12-04",
+      "ext": "",
+      "name": "2017-12-04",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652970,
+      "blocks": 0,
+      "atimeMs": 1532802843170.0337,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935374.3467,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:34:03.170Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.374Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05 absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05 absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b7bb37a08cdf3b4f352c334d0a0461dd",
+        "type": "Directory",
+        "description": "Directory \"content/projects/2017-12-05\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05",
+      "relativePath": "2017-12-05",
+      "extension": "",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:34:03.170Z",
+      "changeTime": "2018-07-28T18:18:55.419Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects",
+      "base": "2017-12-05",
+      "ext": "",
+      "name": "2017-12-05",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652975,
+      "blocks": 0,
+      "atimeMs": 1532802843170.1462,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935419.276,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:34:03.170Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.419Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/index.md absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/index.md absPath of file",
+      "children": [
+        "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2ce435ad7200ef66d9f64bf24f4939bc",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"content/projects/2017-12-01/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/index.md",
+      "relativePath": "2017-12-01/index.md",
+      "extension": "md",
+      "size": 148,
+      "prettySize": "148 B",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:18:56.879Z",
+      "changeTime": "2018-07-28T18:18:55.511Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2017-12-01",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652989,
+      "blocks": 8,
+      "atimeMs": 1532801936879.3315,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935511.4272,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:18:56.879Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.511Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/index.md absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/index.md absPath of file",
+      "children": [
+        "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b494d10164305918101791afccba47e3",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"content/projects/2017-12-04/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/index.md",
+      "relativePath": "2017-12-04/index.md",
+      "extension": "md",
+      "size": 148,
+      "prettySize": "148 B",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:18:55.925Z",
+      "changeTime": "2018-07-28T18:18:55.374Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2017-12-04",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652974,
+      "blocks": 8,
+      "atimeMs": 1532801935924.7456,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935374.169,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:18:55.925Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.374Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/index.md absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/index.md absPath of file",
+      "children": [
+        "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "795a1dcc89e29b9632f6891affe126bd",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"content/projects/2017-12-02/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/index.md",
+      "relativePath": "2017-12-02/index.md",
+      "extension": "md",
+      "size": 161,
+      "prettySize": "161 B",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:18:56.878Z",
+      "changeTime": "2018-07-28T18:18:55.503Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2017-12-02",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652983,
+      "blocks": 8,
+      "atimeMs": 1532801936877.6682,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935503.2217,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:18:56.878Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.503Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/index.md absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/index.md absPath of file",
+      "children": [
+        "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f6c536afb3f8b4eac91f4f50ebd401aa",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"content/projects/2017-12-03/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/index.md",
+      "relativePath": "2017-12-03/index.md",
+      "extension": "md",
+      "size": 149,
+      "prettySize": "149 B",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:18:55.804Z",
+      "changeTime": "2018-07-28T18:18:55.369Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2017-12-03",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652969,
+      "blocks": 8,
+      "atimeMs": 1532801935804.4856,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935368.8462,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:18:55.804Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.369Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/index.md absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/index.md absPath of file",
+      "children": [
+        "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "68956d05d1554d8e479fb6f2abbe513c",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"content/projects/2017-12-05/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/index.md",
+      "relativePath": "2017-12-05/index.md",
+      "extension": "md",
+      "size": 164,
+      "prettySize": "164 B",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:18:56.879Z",
+      "changeTime": "2018-07-28T18:18:55.419Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2017-12-05",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652979,
+      "blocks": 8,
+      "atimeMs": 1532801936878.6409,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935419.177,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:18:56.879Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.419Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/mona-magnussen.jpg absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/mona-magnussen.jpg absPath of file",
+      "children": [
+        "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/mona-magnussen.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2b34dc686b9cbc06f3cd4461e11206d1",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"content/projects/2017-12-02/mona-magnussen.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/mona-magnussen.jpg",
+      "relativePath": "2017-12-02/mona-magnussen.jpg",
+      "extension": "jpg",
+      "size": 165086,
+      "prettySize": "165 kB",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:18:56.879Z",
+      "changeTime": "2018-07-28T18:18:55.505Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02",
+      "base": "mona-magnussen.jpg",
+      "ext": ".jpg",
+      "name": "mona-magnussen",
+      "relativeDirectory": "2017-12-02",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652984,
+      "blocks": 328,
+      "atimeMs": 1532801936879.1382,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935504.8975,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:18:56.879Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.505Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/sabina-ciesielska.jpg absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/sabina-ciesielska.jpg absPath of file",
+      "children": [
+        "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/sabina-ciesielska.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e5be70b557240557ed95c58e7969be32",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"content/projects/2017-12-02/sabina-ciesielska.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/sabina-ciesielska.jpg",
+      "relativePath": "2017-12-02/sabina-ciesielska.jpg",
+      "extension": "jpg",
+      "size": 181101,
+      "prettySize": "181 kB",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:18:56.953Z",
+      "changeTime": "2018-07-28T18:18:55.421Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02",
+      "base": "sabina-ciesielska.jpg",
+      "ext": ".jpg",
+      "name": "sabina-ciesielska",
+      "relativeDirectory": "2017-12-02",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652981,
+      "blocks": 360,
+      "atimeMs": 1532801936952.6216,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935420.6426,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:18:56.953Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.421Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/amy-luo.jpg absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/amy-luo.jpg absPath of file",
+      "children": [
+        "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/amy-luo.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "cf95502fb73eb54c67b5e40541a09ea5",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"content/projects/2017-12-01/amy-luo.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/amy-luo.jpg",
+      "relativePath": "2017-12-01/amy-luo.jpg",
+      "extension": "jpg",
+      "size": 203563,
+      "prettySize": "204 kB",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:18:56.891Z",
+      "changeTime": "2018-07-28T18:18:55.509Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01",
+      "base": "amy-luo.jpg",
+      "ext": ".jpg",
+      "name": "amy-luo",
+      "relativeDirectory": "2017-12-01",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652987,
+      "blocks": 400,
+      "atimeMs": 1532801936891.4692,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935508.9443,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:18:56.891Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.509Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/andrea-natali.jpg absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/andrea-natali.jpg absPath of file",
+      "children": [
+        "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/andrea-natali.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3631085ed1c6e2a479dd97163d737cac",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"content/projects/2017-12-01/andrea-natali.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/andrea-natali.jpg",
+      "relativePath": "2017-12-01/andrea-natali.jpg",
+      "extension": "jpg",
+      "size": 200853,
+      "prettySize": "201 kB",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:18:56.899Z",
+      "changeTime": "2018-07-28T18:18:55.510Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01",
+      "base": "andrea-natali.jpg",
+      "ext": ".jpg",
+      "name": "andrea-natali",
+      "relativeDirectory": "2017-12-01",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652988,
+      "blocks": 400,
+      "atimeMs": 1532801936899.453,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935509.9185,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:18:56.899Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.510Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/carlota-vidal.jpg absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/carlota-vidal.jpg absPath of file",
+      "children": [
+        "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/carlota-vidal.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c4996d19d121d2aa78454936ab49e4b5",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"content/projects/2017-12-03/carlota-vidal.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/carlota-vidal.jpg",
+      "relativePath": "2017-12-03/carlota-vidal.jpg",
+      "extension": "jpg",
+      "size": 202077,
+      "prettySize": "202 kB",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:18:56.022Z",
+      "changeTime": "2018-07-28T18:18:55.368Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03",
+      "base": "carlota-vidal.jpg",
+      "ext": ".jpg",
+      "name": "carlota-vidal",
+      "relativeDirectory": "2017-12-03",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652968,
+      "blocks": 400,
+      "atimeMs": 1532801936022.4636,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935367.7944,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:18:56.022Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.368Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/roman-kraft.jpg absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/roman-kraft.jpg absPath of file",
+      "children": [
+        "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/roman-kraft.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4c34dd7a393ddc01f319d19be3ec40fb",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"content/projects/2017-12-03/roman-kraft.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/roman-kraft.jpg",
+      "relativePath": "2017-12-03/roman-kraft.jpg",
+      "extension": "jpg",
+      "size": 211598,
+      "prettySize": "212 kB",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:18:55.704Z",
+      "changeTime": "2018-07-28T18:18:55.365Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03",
+      "base": "roman-kraft.jpg",
+      "ext": ".jpg",
+      "name": "roman-kraft",
+      "relativeDirectory": "2017-12-03",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652966,
+      "blocks": 416,
+      "atimeMs": 1532801935704.172,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935364.77,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:18:55.704Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.365Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/mona-magnussen.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/mona-magnussen.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/mona-magnussen.jpg absPath of file",
+      "internal": {
+        "contentDigest": "2b34dc686b9cbc06f3cd4461e11206d1",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/sabina-ciesielska.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/sabina-ciesielska.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/sabina-ciesielska.jpg absPath of file",
+      "internal": {
+        "contentDigest": "e5be70b557240557ed95c58e7969be32",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/amy-luo.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/amy-luo.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/amy-luo.jpg absPath of file",
+      "internal": {
+        "contentDigest": "cf95502fb73eb54c67b5e40541a09ea5",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/andrea-natali.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/andrea-natali.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/andrea-natali.jpg absPath of file",
+      "internal": {
+        "contentDigest": "3631085ed1c6e2a479dd97163d737cac",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/index.md absPath of file",
+      "internal": {
+        "content": "---\ncover: \"./amy-luo.jpg\"\ndate: \"2017-12-01\"\ntitle: \"Amy Luo\"\nareas:\n    - Photography\n    - Art\n---\n\n![](./andrea-natali.jpg)\n![](./kari-shea.jpg)",
+        "type": "MarkdownRemark",
+        "contentDigest": "0b22ff6d1677b29fdb8c20f395a62021",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Amy Luo",
+        "cover": "./amy-luo.jpg",
+        "date": "2017-12-01",
+        "areas": [
+          "Photography",
+          "Art"
+        ],
+        "_PARENT": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/index.md absPath of file",
+        "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](./andrea-natali.jpg)\n![](./kari-shea.jpg)",
+      "fileAbsolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/index.md",
+      "fields": {
+        "slug": "/amy-luo"
+      }
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/index.md absPath of file",
+      "internal": {
+        "content": "---\ncover: \"./matt-cannon.jpg\"\ndate: \"2017-12-04\"\ntitle: \"Matt Cannon\"\nareas:\n    - Photography\n---\n\n![](./isak-dalsfelt.jpg)\n![](./trevor-cole.jpg)",
+        "type": "MarkdownRemark",
+        "contentDigest": "26b073c133317b11269e7ac86bd78f9c",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Matt Cannon",
+        "cover": "./matt-cannon.jpg",
+        "date": "2017-12-04",
+        "areas": [
+          "Photography"
+        ],
+        "_PARENT": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/index.md absPath of file",
+        "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](./isak-dalsfelt.jpg)\n![](./trevor-cole.jpg)",
+      "fileAbsolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/index.md",
+      "fields": {
+        "slug": "/matt-cannon"
+      }
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/kari-shea.jpg absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/kari-shea.jpg absPath of file",
+      "children": [
+        "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/kari-shea.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ba8b91306aa7538a51022d14db1e8f9c",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"content/projects/2017-12-01/kari-shea.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/kari-shea.jpg",
+      "relativePath": "2017-12-01/kari-shea.jpg",
+      "extension": "jpg",
+      "size": 286685,
+      "prettySize": "287 kB",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:18:56.890Z",
+      "changeTime": "2018-07-28T18:18:55.508Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01",
+      "base": "kari-shea.jpg",
+      "ext": ".jpg",
+      "name": "kari-shea",
+      "relativeDirectory": "2017-12-01",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652986,
+      "blocks": 560,
+      "atimeMs": 1532801936890.439,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935507.6865,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:18:56.890Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.508Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/tanalee-youngblood.jpg absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/tanalee-youngblood.jpg absPath of file",
+      "children": [
+        "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/tanalee-youngblood.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "069600f7d952a55f443dadf10bf3f6b3",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"content/projects/2017-12-03/tanalee-youngblood.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/tanalee-youngblood.jpg",
+      "relativePath": "2017-12-03/tanalee-youngblood.jpg",
+      "extension": "jpg",
+      "size": 269911,
+      "prettySize": "270 kB",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:18:56.024Z",
+      "changeTime": "2018-07-28T18:18:55.367Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03",
+      "base": "tanalee-youngblood.jpg",
+      "ext": ".jpg",
+      "name": "tanalee-youngblood",
+      "relativeDirectory": "2017-12-03",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652967,
+      "blocks": 528,
+      "atimeMs": 1532801936023.598,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935366.5925,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:18:56.024Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.367Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/robert-katzki.jpg absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/robert-katzki.jpg absPath of file",
+      "children": [
+        "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/robert-katzki.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f033927ca3f44ee647222d6b7c044e1c",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"content/projects/2017-12-05/robert-katzki.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/robert-katzki.jpg",
+      "relativePath": "2017-12-05/robert-katzki.jpg",
+      "extension": "jpg",
+      "size": 276842,
+      "prettySize": "277 kB",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:18:56.878Z",
+      "changeTime": "2018-07-28T18:18:55.418Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05",
+      "base": "robert-katzki.jpg",
+      "ext": ".jpg",
+      "name": "robert-katzki",
+      "relativeDirectory": "2017-12-05",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652978,
+      "blocks": 544,
+      "atimeMs": 1532801936878.123,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935417.732,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:18:56.878Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.418Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/carlota-vidal.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/carlota-vidal.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/carlota-vidal.jpg absPath of file",
+      "internal": {
+        "contentDigest": "c4996d19d121d2aa78454936ab49e4b5",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/roman-kraft.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/roman-kraft.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/roman-kraft.jpg absPath of file",
+      "internal": {
+        "contentDigest": "4c34dd7a393ddc01f319d19be3ec40fb",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/index.md absPath of file",
+      "internal": {
+        "content": "---\ncover: \"./mona-magnussen.jpg\"\ndate: \"2017-12-02\"\ntitle: \"Mona Magnussen\"\nareas:\n    - Photography\n---\n\n![](./averie-woodard.jpg)\n![](./sabina-ciesielska.jpg)",
+        "type": "MarkdownRemark",
+        "contentDigest": "a1f595bef744283c4ac66e4965b91cbc",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Mona Magnussen",
+        "cover": "./mona-magnussen.jpg",
+        "date": "2017-12-02",
+        "areas": [
+          "Photography"
+        ],
+        "_PARENT": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/index.md absPath of file",
+        "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](./averie-woodard.jpg)\n![](./sabina-ciesielska.jpg)",
+      "fileAbsolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/index.md",
+      "fields": {
+        "slug": "/mona-magnussen"
+      }
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/index.md absPath of file",
+      "internal": {
+        "content": "---\ncover: \"./roman-kraft.jpg\"\ndate: \"2017-12-03\"\ntitle: \"Roman Kraft\"\nareas:\n    - Still\n---\n\n![](./carlota-vidal.jpg)\n![](./tanalee-youngblood.jpg)",
+        "type": "MarkdownRemark",
+        "contentDigest": "f6a5f5ada2677c98d99b9619cc953098",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Roman Kraft",
+        "cover": "./roman-kraft.jpg",
+        "date": "2017-12-03",
+        "areas": [
+          "Still"
+        ],
+        "_PARENT": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/index.md absPath of file",
+        "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](./carlota-vidal.jpg)\n![](./tanalee-youngblood.jpg)",
+      "fileAbsolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/index.md",
+      "fields": {
+        "slug": "/roman-kraft"
+      }
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/index.md absPath of file",
+      "internal": {
+        "content": "---\ncover: \"./marion-michele.jpg\"\ndate: \"2017-12-05\"\ntitle: \"Marion Michele\"\nareas:\n    - Photography\n    - Art\n---\n\n![](./matt-safian.jpg)\n![](./robert-katzki.jpg)",
+        "type": "MarkdownRemark",
+        "contentDigest": "32ed26015a2c97d737a866e9f77d4874",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Marion Michele",
+        "cover": "./marion-michele.jpg",
+        "date": "2017-12-05",
+        "areas": [
+          "Photography",
+          "Art"
+        ],
+        "_PARENT": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/index.md absPath of file",
+        "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](./matt-safian.jpg)\n![](./robert-katzki.jpg)",
+      "fileAbsolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/index.md",
+      "fields": {
+        "slug": "/marion-michele"
+      }
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/trevor-cole.jpg absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/trevor-cole.jpg absPath of file",
+      "children": [
+        "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/trevor-cole.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ad1b342c27ef80102d7e58e9ff4a225a",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"content/projects/2017-12-04/trevor-cole.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/trevor-cole.jpg",
+      "relativePath": "2017-12-04/trevor-cole.jpg",
+      "extension": "jpg",
+      "size": 344459,
+      "prettySize": "344 kB",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:18:55.984Z",
+      "changeTime": "2018-07-28T18:18:55.373Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04",
+      "base": "trevor-cole.jpg",
+      "ext": ".jpg",
+      "name": "trevor-cole",
+      "relativeDirectory": "2017-12-04",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652973,
+      "blocks": 680,
+      "atimeMs": 1532801935983.5498,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935373.0361,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:18:55.984Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.373Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/kari-shea.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/kari-shea.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/kari-shea.jpg absPath of file",
+      "internal": {
+        "contentDigest": "ba8b91306aa7538a51022d14db1e8f9c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/tanalee-youngblood.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/tanalee-youngblood.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/tanalee-youngblood.jpg absPath of file",
+      "internal": {
+        "contentDigest": "069600f7d952a55f443dadf10bf3f6b3",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/robert-katzki.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/robert-katzki.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/robert-katzki.jpg absPath of file",
+      "internal": {
+        "contentDigest": "f033927ca3f44ee647222d6b7c044e1c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/isak-dalsfelt.jpg absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/isak-dalsfelt.jpg absPath of file",
+      "children": [
+        "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/isak-dalsfelt.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "28ad21bd2a4cd6306508baaea4b94e24",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"content/projects/2017-12-04/isak-dalsfelt.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/isak-dalsfelt.jpg",
+      "relativePath": "2017-12-04/isak-dalsfelt.jpg",
+      "extension": "jpg",
+      "size": 428310,
+      "prettySize": "428 kB",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:18:55.979Z",
+      "changeTime": "2018-07-28T18:18:55.372Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04",
+      "base": "isak-dalsfelt.jpg",
+      "ext": ".jpg",
+      "name": "isak-dalsfelt",
+      "relativeDirectory": "2017-12-04",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652972,
+      "blocks": 840,
+      "atimeMs": 1532801935979.4126,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935371.751,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:18:55.979Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.372Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/averie-woodard.jpg absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/averie-woodard.jpg absPath of file",
+      "children": [
+        "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/averie-woodard.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4cff44fefcbfc1d59ee29348a1fb75a7",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"content/projects/2017-12-02/averie-woodard.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/averie-woodard.jpg",
+      "relativePath": "2017-12-02/averie-woodard.jpg",
+      "extension": "jpg",
+      "size": 450441,
+      "prettySize": "450 kB",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:18:56.883Z",
+      "changeTime": "2018-07-28T18:18:55.422Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02",
+      "base": "averie-woodard.jpg",
+      "ext": ".jpg",
+      "name": "averie-woodard",
+      "relativeDirectory": "2017-12-02",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652982,
+      "blocks": 880,
+      "atimeMs": 1532801936882.5898,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935421.8086,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:18:56.883Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.422Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/marion-michele.jpg absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/marion-michele.jpg absPath of file",
+      "children": [
+        "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/marion-michele.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "57a1a913eea8ac760eb1e6ce1422c05a",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"content/projects/2017-12-05/marion-michele.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/marion-michele.jpg",
+      "relativePath": "2017-12-05/marion-michele.jpg",
+      "extension": "jpg",
+      "size": 444137,
+      "prettySize": "444 kB",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:18:55.989Z",
+      "changeTime": "2018-07-28T18:18:55.375Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05",
+      "base": "marion-michele.jpg",
+      "ext": ".jpg",
+      "name": "marion-michele",
+      "relativeDirectory": "2017-12-05",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652976,
+      "blocks": 872,
+      "atimeMs": 1532801935989.233,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935375.4238,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:18:55.989Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.375Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/trevor-cole.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/trevor-cole.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/trevor-cole.jpg absPath of file",
+      "internal": {
+        "contentDigest": "ad1b342c27ef80102d7e58e9ff4a225a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/isak-dalsfelt.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/isak-dalsfelt.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/isak-dalsfelt.jpg absPath of file",
+      "internal": {
+        "contentDigest": "28ad21bd2a4cd6306508baaea4b94e24",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/averie-woodard.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/averie-woodard.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/averie-woodard.jpg absPath of file",
+      "internal": {
+        "contentDigest": "4cff44fefcbfc1d59ee29348a1fb75a7",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/marion-michele.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/marion-michele.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/marion-michele.jpg absPath of file",
+      "internal": {
+        "contentDigest": "57a1a913eea8ac760eb1e6ce1422c05a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/matt-safian.jpg absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/matt-safian.jpg absPath of file",
+      "children": [
+        "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/matt-safian.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e7690336dd2ad10055710b28cd6ce0e2",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"content/projects/2017-12-05/matt-safian.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/matt-safian.jpg",
+      "relativePath": "2017-12-05/matt-safian.jpg",
+      "extension": "jpg",
+      "size": 551215,
+      "prettySize": "551 kB",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:18:55.994Z",
+      "changeTime": "2018-07-28T18:18:55.377Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05",
+      "base": "matt-safian.jpg",
+      "ext": ".jpg",
+      "name": "matt-safian",
+      "relativeDirectory": "2017-12-05",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652977,
+      "blocks": 1080,
+      "atimeMs": 1532801935993.8252,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935376.5344,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:18:55.994Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.377Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/matt-safian.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/matt-safian.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/matt-safian.jpg absPath of file",
+      "internal": {
+        "contentDigest": "e7690336dd2ad10055710b28cd6ce0e2",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/matt-cannon.jpg absPath of file": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/matt-cannon.jpg absPath of file",
+      "children": [
+        "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/matt-cannon.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b4dc7e95659dcc1deb1a4a369d66d29e",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"content/projects/2017-12-04/matt-cannon.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/matt-cannon.jpg",
+      "relativePath": "2017-12-04/matt-cannon.jpg",
+      "extension": "jpg",
+      "size": 910646,
+      "prettySize": "911 kB",
+      "modifiedTime": "2018-07-07T05:26:30.000Z",
+      "accessTime": "2018-07-28T18:18:56.023Z",
+      "changeTime": "2018-07-28T18:18:55.371Z",
+      "birthTime": "2018-07-07T05:26:30.000Z",
+      "root": "/",
+      "dir": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04",
+      "base": "matt-cannon.jpg",
+      "ext": ".jpg",
+      "name": "matt-cannon",
+      "relativeDirectory": "2017-12-04",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4313652971,
+      "blocks": 1784,
+      "atimeMs": 1532801936022.8022,
+      "mtimeMs": 1530941190000,
+      "ctimeMs": 1532801935370.7273,
+      "birthtimeMs": 1530941190000,
+      "atime": "2018-07-28T18:18:56.023Z",
+      "mtime": "2018-07-07T05:26:30.000Z",
+      "ctime": "2018-07-28T18:18:55.371Z",
+      "birthtime": "2018-07-07T05:26:30.000Z"
+    },
+    "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/matt-cannon.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/matt-cannon.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/matt-cannon.jpg absPath of file",
+      "internal": {
+        "contentDigest": "b4dc7e95659dcc1deb1a4a369d66d29e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /amy-luo": {
+      "layout": "index",
+      "jsonName": "amy-luo.json",
+      "internalComponentName": "ComponentAmyLuo",
+      "path": "/amy-luo",
+      "component": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/src/templates/project.js",
+      "componentChunkName": "component---src-templates-project-js",
+      "context": {
+        "slug": "/amy-luo",
+        "prev": {
+          "fields": {
+            "slug": "/matt-cannon"
+          },
+          "frontmatter": {
+            "title": "Matt Cannon"
+          }
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/src/templates/project.js",
+      "id": "SitePage /amy-luo",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8a43c108e62d1db27af6060659440139",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /matt-cannon": {
+      "layout": "index",
+      "jsonName": "matt-cannon.json",
+      "internalComponentName": "ComponentMattCannon",
+      "path": "/matt-cannon",
+      "component": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/src/templates/project.js",
+      "componentChunkName": "component---src-templates-project-js",
+      "context": {
+        "slug": "/matt-cannon",
+        "prev": {
+          "fields": {
+            "slug": "/mona-magnussen"
+          },
+          "frontmatter": {
+            "title": "Mona Magnussen"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/amy-luo"
+          },
+          "frontmatter": {
+            "title": "Amy Luo"
+          }
+        }
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/src/templates/project.js",
+      "id": "SitePage /matt-cannon",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c34264e7f54737a5abd9d2b638bdb0ab",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /mona-magnussen": {
+      "layout": "index",
+      "jsonName": "mona-magnussen.json",
+      "internalComponentName": "ComponentMonaMagnussen",
+      "path": "/mona-magnussen",
+      "component": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/src/templates/project.js",
+      "componentChunkName": "component---src-templates-project-js",
+      "context": {
+        "slug": "/mona-magnussen",
+        "prev": {
+          "fields": {
+            "slug": "/roman-kraft"
+          },
+          "frontmatter": {
+            "title": "Roman Kraft"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/matt-cannon"
+          },
+          "frontmatter": {
+            "title": "Matt Cannon"
+          }
+        }
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/src/templates/project.js",
+      "id": "SitePage /mona-magnussen",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "763258ed71c2b37183622cf03418fe6b",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /roman-kraft": {
+      "layout": "index",
+      "jsonName": "roman-kraft.json",
+      "internalComponentName": "ComponentRomanKraft",
+      "path": "/roman-kraft",
+      "component": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/src/templates/project.js",
+      "componentChunkName": "component---src-templates-project-js",
+      "context": {
+        "slug": "/roman-kraft",
+        "prev": {
+          "fields": {
+            "slug": "/marion-michele"
+          },
+          "frontmatter": {
+            "title": "Marion Michele"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/mona-magnussen"
+          },
+          "frontmatter": {
+            "title": "Mona Magnussen"
+          }
+        }
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/src/templates/project.js",
+      "id": "SitePage /roman-kraft",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "40c5d616165a7ae56fd0ed210e73aae1",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /marion-michele": {
+      "layout": "index",
+      "jsonName": "marion-michele.json",
+      "internalComponentName": "ComponentMarionMichele",
+      "path": "/marion-michele",
+      "component": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/src/templates/project.js",
+      "componentChunkName": "component---src-templates-project-js",
+      "context": {
+        "slug": "/marion-michele",
+        "prev": null,
+        "next": {
+          "fields": {
+            "slug": "/roman-kraft"
+          },
+          "frontmatter": {
+            "title": "Roman Kraft"
+          }
+        }
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/src/templates/project.js",
+      "id": "SitePage /marion-michele",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c51da39ebaac0863e578ad0dfca9b75a",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/codebrhama/Documents/projects/serverless-design-system/docs/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "dd6f1ed29c999c0e9714d9c20851711d",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "0620d05d0edd57e617ae253b1b8acb09"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/index.md absPath of file >>> MarkdownRemark": [
+        "/amy-luo"
+      ],
+      "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/amy-luo.jpg absPath of file": [
+        "/amy-luo"
+      ],
+      "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-01/amy-luo.jpg absPath of file >> ImageSharp": [
+        "/amy-luo"
+      ],
+      "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/index.md absPath of file >>> MarkdownRemark": [
+        "/matt-cannon"
+      ],
+      "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/matt-cannon.jpg absPath of file": [
+        "/matt-cannon"
+      ],
+      "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-04/matt-cannon.jpg absPath of file >> ImageSharp": [
+        "/matt-cannon"
+      ],
+      "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/index.md absPath of file >>> MarkdownRemark": [
+        "/mona-magnussen"
+      ],
+      "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/mona-magnussen.jpg absPath of file": [
+        "/mona-magnussen"
+      ],
+      "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-02/mona-magnussen.jpg absPath of file >> ImageSharp": [
+        "/mona-magnussen"
+      ],
+      "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/index.md absPath of file >>> MarkdownRemark": [
+        "/roman-kraft"
+      ],
+      "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/roman-kraft.jpg absPath of file": [
+        "/roman-kraft"
+      ],
+      "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-03/roman-kraft.jpg absPath of file >> ImageSharp": [
+        "/roman-kraft"
+      ],
+      "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/index.md absPath of file >>> MarkdownRemark": [
+        "/marion-michele"
+      ],
+      "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/marion-michele.jpg absPath of file": [
+        "/marion-michele"
+      ],
+      "/Users/codebrhama/Documents/projects/serverless-design-system/docs/content/projects/2017-12-05/marion-michele.jpg absPath of file >> ImageSharp": [
+        "/marion-michele"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [],
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+[
+    {
+        "componentChunkName": "component---src-templates-project-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "amy-luo.json",
+        "path": "/amy-luo"
+    },
+    {
+        "componentChunkName": "component---src-templates-project-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "matt-cannon.json",
+        "path": "/matt-cannon"
+    },
+    {
+        "componentChunkName": "component---src-templates-project-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "mona-magnussen.json",
+        "path": "/mona-magnussen"
+    },
+    {
+        "componentChunkName": "component---src-templates-project-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "roman-kraft.json",
+        "path": "/roman-kraft"
+    },
+    {
+        "componentChunkName": "component---src-templates-project-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "marion-michele.json",
+        "path": "/marion-michele"
+    },
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "dev-404-page.json",
+        "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-pages-index-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "index.json",
+        "path": "/"
+    }
+]
