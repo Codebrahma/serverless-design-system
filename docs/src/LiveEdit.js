@@ -6,13 +6,15 @@ import Button from '../../src/Button'
 import Testimonial from '../../src/Testimonial'
 import ImgCard from '../../src/ImgCard';
 import Heading from '../../src/Heading';
+import {P} from '../../src/Typography';
+
 import theme from '../../src/theme'
 
 
 import styled from 'styled-components'
 
 
-const scope = {styled, React, Button, Testimonial, ImgCard, Heading};
+const scope = {styled, React, Button, Testimonial, ImgCard, Heading, P};
 
 import {
   LiveProvider,

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import Heading from './Heading'
-import Text from './Text'
+import {P} from './Typography'
 import Img from './Image'
 import Box from './Box'
 
@@ -23,23 +23,18 @@ const comp = ({img, title, description})=> {
         />
       </Box>
 
-      <Heading.h2
+      <Heading.h3
         textAlign="center"
         my={3}
-        lineHeight={3}
       >
         {title}
-      </Heading.h2>
-      <Text.p
-        fontFamily="Soleil"
-        fontSize={3}
-        lineHeight={5}
-        color='gray.7'
+      </Heading.h3>
+      <P
         textAlign='center'
         mt={0}
       >
         {description}
-      </Text.p>
+      </P>
 
     </Box>
   );
