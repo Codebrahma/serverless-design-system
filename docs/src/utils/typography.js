@@ -2,7 +2,7 @@ import Typography from 'typography';
 import config from '../../config/site';
 
 const typography = new Typography({
-  title: 'Emilia',
+  title: 'Codebrahma',
   baseFontSize: config.baseFontSize,
   baseLineHeight: 1.5,
   headerFontFamily: [config.headerFontFamily, 'sans-serif'],

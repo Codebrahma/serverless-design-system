@@ -1,5 +1,5 @@
 {
-  "name": "Serverlessdesignsystem",
+  "name": "Serverless-design-system",
   "description": "Documentation for serverless design system",
   "version": "1.0.0",
   "author": "Anand Narayan",
@@ -48,10 +48,6 @@
   ],
   "license": "MIT",
   "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LeKoArts/gatsby-starter-portfolio-emilia.git"
-  },
   "scripts": {
     "dev": "gatsby develop -o",
     "build": "gatsby build"
