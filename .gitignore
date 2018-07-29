@@ -6,6 +6,3 @@ docs/package-lock.json
 
 .out/
 .vscode/
-
-docs/.cache
-docs/public
