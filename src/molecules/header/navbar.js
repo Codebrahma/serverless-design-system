@@ -1,9 +1,24 @@
 import React from 'react';
+import styled from 'styled-components';
 
 import Box from '../../Box';
 import Image from '../../Image';
 import Text from '../../Text';
 import { List, ListItem } from '../../list';
+
+const NavListItem = styled(ListItem)`
+  list-style-type: none;
+
+  div > div:last-child {
+    display: none;
+  }
+
+  &:hover > div {
+    div:last-child {
+      display: inline-block;
+    }
+  }
+`;
 
 const MenuTitle = ({ name }) => (
   <Box px='25px' py='35.5px'>
@@ -19,7 +34,16 @@ const MenuTitle = ({ name }) => (
 )
 
 const DetailedMenu = () => (
-  <Box pl={6} pr={6} pt={5} pb={6}>
+  <Box
+    pl={6}
+    pr={6}
+    pt={5}
+    pb={6}
+    position='absolute'
+    zIndex='999'
+    top='90px'
+    backgroundColor='black'
+  >
     <List p={0} m={0}>
       {
         [
@@ -50,10 +74,14 @@ const DetailedMenu = () => (
           }
         ].map(({ imgProps, text }) => (
           <ListItem>
-            <Box display='flex' mb={20}>
+            <Box
+              display='flex'
+              mb={20}
+              position='relative'
+            >
               <Image {...imgProps} />
               <Box display='inline'>
-                <Text.p
+                <Text.h6
                   fontFamily='Serverless'
                   fontSize='15px'
                   lineHeight={0.7}
@@ -62,8 +90,8 @@ const DetailedMenu = () => (
                   color={'white'}
                 >
                   serverless
-                </Text.p>
-                <Text.p
+                </Text.h6>
+                <Text.h6
                   fontFamily='Serverless'
                   fontSize='20px'
                   lineHeight={1.7}
@@ -72,7 +100,7 @@ const DetailedMenu = () => (
                   color={'white'}
                 >
                   {text}
-                </Text.p>
+                </Text.h6>
               </Box>
             </Box>
           </ListItem>
@@ -87,13 +115,15 @@ const Navbar = ({ menu }) => (
     <List m='0' p='0'>
       {
         menu.map(({ name }) => (
-          <ListItem
+          <NavListItem
             display={['block', 'block', 'inline-block']}
             key={name}
           >
-            <MenuTitle name={name} />
-            <DetailedMenu />
-          </ListItem>
+            <Box>
+              <MenuTitle name={name} />
+              <DetailedMenu />
+            </Box>
+          </NavListItem>
         ))
       }
     </List>
