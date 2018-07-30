@@ -3,15 +3,12 @@ import LiveEdit from './LiveEdit';
 
 // Line height is not consistent
 const text = `
-  <Text
-    color="text"
-    fontSize={2}
-    letterSpacing="text"
-    lineHeight="1.14em"
-    opacity="0.5"
-  >
-    framework
-  </Text>
+  <List>
+    <ListItem footer>framework</ListItem>
+    <ListItem footer>dashboard</ListItem>
+    <ListItem footer>event gateway</ListItem>
+    <ListItem footer>enterprise</ListItem>
+  </List>
 `;
 
 export default () => (
