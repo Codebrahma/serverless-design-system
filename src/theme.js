@@ -58,9 +58,14 @@ const fontWeights = {
   bold: 700,
 };
 
-const letterSpacings = [
-  0, '-0.018rem', '-0.024rem', '-0.0315rem', '0.0315rem', '0.048rem',
-];
+const letterSpacings = {
+  normal: 'normal',
+  caps: '0.25em',
+  smallNegative: '-0.03px',
+  primaryBtn: '0.05em',
+  textField: '0.5px'
+};
+
 // border-radius
 const radii = [
   0, 2, 4, 8,
