@@ -7,7 +7,7 @@ const font = {
 };
 
 const breakpoints = [
-  '30em', '48em', '75em',
+  '768px', '1200px', '1500px'
 ];
 
 const colors = {
