@@ -1,5 +1,6 @@
-import React from 'react'
-import LiveEdit from './LiveEdit'
+import React from 'react';
+import LiveEdit from './LiveEdit';
+
 const h1 = `
 <div>
 <Heading.h1>Serverless</Heading.h1>
@@ -37,16 +38,16 @@ id est laborum
 </P.s>
 </div>`;
 export default class extends React.Component {
-  render(){
+  render() {
     return (
       <div>
-      <LiveEdit code={h1}/>
-      <LiveEdit code={p}/>
+        <LiveEdit code={h1} />
+        <LiveEdit code={p} />
       Props are
-      <ul>
-        <li></li>
-      </ul>
+        <ul>
+          <li />
+        </ul>
       </div>
-    )
+    );
   }
 }

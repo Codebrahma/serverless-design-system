@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --fix",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "build": "x0 build docs -d .out && build-storybook -c .storybook -o .out/storybook",
     "start": "x0 docs --open"
@@ -13,7 +14,12 @@
   "license": "MIT",
   "devDependencies": {
     "@storybook/react": "^3.4.8",
-    "babel-core": "^6.26.3"
+    "babel-core": "^6.26.3",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0"
   },
   "dependencies": {
     "@compositor/x0": "^6.0.2",
