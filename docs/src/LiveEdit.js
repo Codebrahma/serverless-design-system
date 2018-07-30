@@ -1,6 +1,21 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styled, { ThemeProvider } from 'styled-components';
+import React from 'react'
+
+import {ThemeProvider} from 'styled-components'
+
+import Button from '../../src/Button'
+import Testimonial from '../../src/Testimonial'
+import ImgCard from '../../src/ImgCard';
+import Heading from '../../src/Heading';
+import {P} from '../../src/Typography';
+
+import theme from '../../src/theme'
+
+
+import styled from 'styled-components'
+
+
+const scope = {styled, React, Button, Testimonial, ImgCard, Heading, P};
+
 import {
   LiveEditor,
   LivePreview,
@@ -18,18 +33,22 @@ const scope = {
 const LiveWrapper = styled.div`
   display: flex;
   flex-direction: row;
-  width: 100%
-`;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1300px;
+  margin: 10px auto;
+`
+
 
 const StyledEditor = styled(LiveEditor)`
-  font-size: 20px;
   overflow: scroll;
-  width: 30%;
-`;
+  width: 100%;
+`
 
 const StyledPreview = styled(LivePreview)`
-  width: 70%;
-`;
+  margin-top:10px;
+  width: 100%;
+`
 
 const LiveEdit = ({ code }) => (
   <LiveProvider
