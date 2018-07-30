@@ -16,8 +16,11 @@ import {
   LiveProvider,
 } from 'react-live';
 
+import * as components from '../../src';
+import theme from '../../src/theme';
+
 const scope = {
-  styled, React, Button, Testimonial, ImgCard, Heading, P,
+  ...components,
 };
 
 const LiveWrapper = styled.div`
