@@ -14,25 +14,21 @@ const textfield = `
     pt="11px"
     px="24px"
   />
-`
+`;
 
-export default class extends React.Component {
-  render(){
-    return (
-      <div>
-      <LiveEdit code={textfield}/>
-        props are
-        <ul>
-          <li>color: string</li>
-          <li>fontFamily: string</li>
-          <li>fontSize: number</li>
-          <li>fontStyle: string</li>
-          <li>fontWeight: string</li>
-          <li>letterSpacing: number</li>
-          <li>lineHeight: number</li>
-          <li>space: number</li>
-        </ul>
-      </div>
-   )
-  }
-}
+export default () => (
+  <div>
+    <LiveEdit code={textfield} />
+    props are
+    <ul>
+      <li>color: string</li>
+      <li>fontFamily: string</li>
+      <li>fontSize: number</li>
+      <li>fontStyle: string</li>
+      <li>fontWeight: string</li>
+      <li>letterSpacing: number</li>
+      <li>lineHeight: number</li>
+      <li>space: number</li>
+    </ul>
+  </div>
+);
