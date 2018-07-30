@@ -61,7 +61,8 @@ const letterSpacings = {
   caps: '0.25em',
   smallNegative: '-0.03px',
   primaryBtn: '0.05em',
-  textField: '0.5px'
+  textField: '0.5px',
+  text: '0.6px',
 };
 
 // border-radius
