@@ -1,6 +1,13 @@
 import styled from 'styled-components';
-import { color, border, borderColor,
-  fontFamily, fontSize, letterSpacing, space } from 'styled-system';
+import {
+  border,
+  borderColor,
+  color,
+  fontFamily,
+  fontSize,
+  letterSpacing,
+  space,
+} from 'styled-system';
 
 import { hexToRgbA } from '../../utils';
 

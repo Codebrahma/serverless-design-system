@@ -7,5 +7,8 @@ import {
 } from 'styled-system';
 
 export default styled.img`
-  ${width} ${space} ${height} ${maxHeight}
+  ${height}
+  ${maxHeight}
+  ${space}
+  ${width}
 `;
