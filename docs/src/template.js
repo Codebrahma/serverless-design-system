@@ -28,4 +28,4 @@ module.exports = ({
 </head>
 <div id=root>${html}</div>
 ${scripts}
-`
+`;

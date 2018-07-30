@@ -1,5 +1,5 @@
 import { configure } from '@storybook/react';
-import { injectGlobal } from 'styled-components'
+import { injectGlobal } from 'styled-components';
 
 injectGlobal`
   @font-face {
@@ -17,9 +17,9 @@ injectGlobal`
 `;
 
 
-const req = require.context('.', true, /\.js$/)
+const req = require.context('.', true, /\.js$/);
 const load = () => {
-  req.keys().forEach(req)
-}
+  req.keys().forEach(req);
+};
 
-configure(load, module)
+configure(load, module);

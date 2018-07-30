@@ -5,12 +5,11 @@ import theme from '../src/theme.js';
 import { action } from '@storybook/addon-actions';
 import Button from '../src/Button';
 
-const ThemeDecorator = (storyFn) => (
+const ThemeDecorator = storyFn => (
   <ThemeProvider theme={theme}>
     { storyFn() }
   </ThemeProvider>
 );
-
 
 
 storiesOf('Button', module)
