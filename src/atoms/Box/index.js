@@ -1,14 +1,31 @@
 import styled from 'styled-components';
-import { space, width, color, borderColor,
-  border, display,
-  flexWrap, flexDirection, justifyContent, order }
+import {
+  border,
+  borderColor,
+  color,
+  display,
+  flexDirection,
+  flexWrap,
+  justifyContent,
+  maxWidth,
+  order,
+  space,
+  width,
+}
   from 'styled-system';
 
 const Box = styled.div`
-  ${space} ${width} ${color} 
-  ${border} ${borderColor}
-  ${display} ${flexWrap} ${flexDirection} 
-  ${justifyContent} ${order}
+  ${border}
+  ${borderColor}
+  ${color} 
+  ${display}
+  ${flexDirection} 
+  ${flexWrap}
+  ${justifyContent}
+  ${maxWidth}
+  ${order}
+  ${space}
+  ${width}
 `;
 
 Box.displayName = 'Box';
