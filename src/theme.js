@@ -36,9 +36,7 @@ colors.secondaryColor = colors.darkServerlessRed;
 // when used in nested elements
 // numbers are converted to px
 const space = [
-  0, 4, 8,
-  10, 20, 30,
-  40, 60, 80,
+  10, 20, 30, 40, 60, 80
 ];
 // typographic scale
 const fontSizes = [
