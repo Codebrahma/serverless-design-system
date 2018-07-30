@@ -19,19 +19,13 @@ module.exports = ({
     font-family: 'Soleil';
     src: url('https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/fonts/soleil.otf') format('opentype');
   }
-  .react-live {
-    display: flex;
-    align-items:center;
-    margin: 20px;
+  @font-face {
+    font-family: 'SoleilLt';
+    src: url('https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/fonts/soleil-lt.otf') format('opentype');
   }
-  .react-live-editor {
-    width: 30%;
-  }
-  .react-live-preview {
-    margin-left: 20px;
-  }
+  
   </style>
 </head>
-<div id=root><ThemeProvider theme={theme}>${html}</ThemeProvider></div>
+<div id=root>${html}</div>
 ${scripts}
 `;
