@@ -24,6 +24,4 @@ const TextField = styled.input`
   ${space}
 `;
 
-TextField.displayName = 'TextField';
-
 export default TextField;
