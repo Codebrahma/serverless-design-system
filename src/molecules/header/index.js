@@ -1,8 +1,9 @@
 import React from 'react';
 
 import Box from '../../Box';
+import Navbar from './navbar';
 
-export default ({ logo }) => (
+export default ({ logo, menu }) => (
   <Box
     position='fixed'
     width={1}
@@ -22,6 +23,8 @@ export default ({ logo }) => (
       justifyContent='space-between'
     >
       {logo}
+
+      <Navbar menu={menu} />
     </Box>
   </Box>
 )
