@@ -2,6 +2,7 @@ import React from 'react';
 import LiveEdit from './LiveEdit';
 
 const header = `
+  {/* TODO: Need to tweak props for this component. so that links component can be passed */}
   <Header
     logo={
       <Logo
@@ -11,13 +12,6 @@ const header = `
         alt="Serverless"
       />
     }
-    menu={[
-      { name: 'platform' },
-      { name: 'developers' },
-      { name: 'learn' },
-      { name: 'resources' },
-      { name: 'enterprise' }
-    ]}
   />
 `;
 
