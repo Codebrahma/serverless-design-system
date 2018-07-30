@@ -20,7 +20,7 @@ import * as components from '../../src';
 import theme from '../../src/theme';
 
 const scope = {
-  ...components,
+  ...components.default,
 };
 
 const LiveWrapper = styled.div`

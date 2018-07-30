@@ -2,9 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import Text from './Text';
-import Img from './Image';
-import Box from './Box';
+import { Box, Text, Image as Img } from '../../atoms';
 
 const comp = ({
   img, children, name, designation, alt,
