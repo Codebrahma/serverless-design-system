@@ -2,12 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { ThemeProvider } from 'styled-components';
 
+import Box from '../../src/Box';
 import Button from '../../src/Button';
 import Testimonial from '../../src/Testimonial';
 import ImgCard from '../../src/ImgCard';
 import Heading from '../../src/Heading';
 import { P } from '../../src/Typography';
 import TextWithIcon from '../../src/molecules/TextWithIcon';
+import Logo from '../../src/Logo';
 
 import theme from '../../src/theme';
 
@@ -18,7 +20,7 @@ import {
 } from 'react-live';
 
 const scope = {
-  styled, React, Button, Testimonial, ImgCard, Heading, P, TextWithIcon
+  styled, React, Box, Button, Testimonial, ImgCard, Heading, P, TextWithIcon, Logo
 };
 
 const LiveWrapper = styled.div`
