@@ -7,8 +7,10 @@ const font = {
 };
 
 const breakpoints = [
-  '30em', '48em', '75em',
+  '320px', '768px', '992px', '1280px', '1600px'
 ];
+
+const maxWidths = [ '100%', '1260px' ];
 
 const colors = {
   text: '#024',
@@ -78,6 +80,7 @@ const shadows = [
 const theme = {
   font,
   breakpoints,
+  maxWidths,
   colors,
   space,
   fontSizes,

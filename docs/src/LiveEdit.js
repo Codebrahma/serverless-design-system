@@ -10,6 +10,7 @@ import Heading from '../../src/Heading';
 import { P } from '../../src/Typography';
 import TextWithIcon from '../../src/molecules/TextWithIcon';
 import Logo from '../../src/Logo';
+import Header from '../../src/molecules/header';
 
 import theme from '../../src/theme';
 
@@ -20,7 +21,7 @@ import {
 } from 'react-live';
 
 const scope = {
-  styled, React, Box, Button, Testimonial, ImgCard, Heading, P, TextWithIcon, Logo
+  styled, React, Box, Button, Testimonial, ImgCard, Heading, P, TextWithIcon, Logo, Header
 };
 
 const LiveWrapper = styled.div`
