@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Box from '../../Box';
+import { Box } from '../../atoms';
 import Navbar from './navbar';
 
 export default ({ logo, menu }) => (
