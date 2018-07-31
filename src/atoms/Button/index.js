@@ -7,6 +7,7 @@ import {
   fontSize,
   letterSpacing,
   space,
+  width,
 } from 'styled-system';
 
 import { hexToRgbA } from '../../utils';
@@ -41,7 +42,7 @@ const Button = styled.button.attrs({
 })`
   ${color} ${border} ${borderColor}
   ${fontFamily} ${fontSize} ${space}
-  ${letterSpacing}
+  ${letterSpacing} ${width}
   transition: background 0.5s ease;
   &:disabled {
     opacity: 0.2;
