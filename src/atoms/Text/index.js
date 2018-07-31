@@ -1,15 +1,27 @@
 import styled from 'styled-components';
-import { space, fontFamily, fontWeight,
-  fontSize, lineHeight, letterSpacing, color, textAlign } from 'styled-system';
+import {
+  color,
+  fontFamily,
+  fontSize,
+  fontWeight,
+  letterSpacing,
+  lineHeight,
+  space,
+} from 'styled-system';
 
 const fontStyle = props => ({
-  fontStyle: props.fontStyle ? props.fontStyle : null,
+  fontStyle: props.fontStyle || null,
 });
 
 const Text = styled.div`
-  ${fontFamily} ${fontWeight} ${fontSize} ${fontStyle}
-  ${lineHeight} ${letterSpacing}
-  ${space} ${color} ${textAlign}
+  ${color}
+  ${fontFamily}
+  ${fontSize}
+  ${fontStyle}
+  ${fontWeight}
+  ${letterSpacing}
+  ${lineHeight}
+  ${space}
 `;
 
 Text.displayName = 'Text';

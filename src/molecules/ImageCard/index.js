@@ -1,10 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Heading from './Heading';
-import { P } from './Typography';
-import Img from './Image';
-import Box from './Box';
+import Heading from '../Heading';
+import P from '../Typography';
+
+import {
+  Image as Img,
+  Box,
+} from '../../atoms';
 
 const comp = ({ img, title, description }) => (
   <Box
