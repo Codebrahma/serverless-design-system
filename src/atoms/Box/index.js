@@ -6,7 +6,7 @@ import {
   alignItems, justifyContent,
   order, position, zIndex,
   top, left, right, bottom,
-  maxWidth,
+  maxWidth, minWidth
 } from 'styled-system';
 
 const Box = styled.div`
@@ -16,7 +16,7 @@ const Box = styled.div`
   ${alignItems} ${justifyContent}
   ${order} ${position} ${zIndex}
   ${top} ${left} ${right} ${bottom}
-  ${maxWidth}
+  ${maxWidth} ${minWidth}
 
   background-color: ${(props) => props.backgroundColor}
 `;

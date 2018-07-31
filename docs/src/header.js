@@ -11,7 +11,12 @@ const header = `
         alt="Serverless"
       />
     }
-    menu={[{name: 'platform'}]}
+    menu={[
+      {name: 'platform'},
+      {name: 'developers'},
+      {name: 'resources'},
+      {name: 'learn'}
+    ]}
   />
 `;
 
