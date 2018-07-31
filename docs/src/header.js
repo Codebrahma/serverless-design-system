@@ -14,8 +14,9 @@ const header = `
     menu={[
       {name: 'platform'},
       {name: 'developers'},
+      {name: 'learn'},
       {name: 'resources'},
-      {name: 'learn'}
+      {name: 'enterprise'},
     ]}
   />
 `;
