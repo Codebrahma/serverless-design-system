@@ -1,10 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Box from '../../Box';
-import Image from '../../Image';
-import Text from '../../Text';
-import { List, ListItem } from '../../list';
+import { Box, Image, Text, List, ListItem } from '../../atoms';
 
 const NavListItem = styled(ListItem)`
   list-style-type: none;
