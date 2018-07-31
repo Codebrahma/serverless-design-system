@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { Box, Image, Text, List, ListItem, Heading } from '../../atoms';
+import { Box, Image, Text, List, ListItem, Button } from '../../atoms';
 import { TextWithIcon } from '../index';
 
 const NavListItem = styled(ListItem)`
@@ -267,6 +267,22 @@ const Navbar = ({ menu }) => (
           </NavListItem>
         ))
       }
+      <NavListItem
+        display={['block', 'block', 'inline-block']}
+        key={name}
+      >
+        <Box>
+          <MenuTitle name={'enterprise'} />
+        </Box>
+      </NavListItem>
+      <NavListItem
+        display={['block', 'block', 'inline-block']}
+        key={name}
+      >
+        <Box>
+          <Button>signup</Button>
+        </Box>
+      </NavListItem>
     </List>
   </Box>
 )
