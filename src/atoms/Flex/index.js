@@ -13,7 +13,7 @@ import {
   width,
 } from 'styled-system';
 
-const ListItem = styled.li`
+const List = styled.div`
   ${alignItems}
   ${border}
   ${borderColor}
@@ -27,4 +27,4 @@ const ListItem = styled.li`
   ${width}
 `;
 
-export default ListItem;
+export default List;

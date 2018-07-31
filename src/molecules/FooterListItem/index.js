@@ -1,7 +1,6 @@
 import styled from 'styled-components';
-import { ListItem } from '../../atoms';
 
-export default styled(ListItem)`
+export default styled.div`
   display: block;
   padding-right: ${props => props.theme.space[1]}px;
   padding-bottom: ${props => props.theme.space[2]}px;
