@@ -2,26 +2,17 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { ThemeProvider } from 'styled-components';
 
-import Box from '../../src/Box';
-import Button from '../../src/Button';
-import Testimonial from '../../src/Testimonial';
-import ImgCard from '../../src/ImgCard';
-import Heading from '../../src/Heading';
-import { P } from '../../src/Typography';
-import TextWithIcon from '../../src/molecules/TextWithIcon';
-import Logo from '../../src/Logo';
-import Header from '../../src/molecules/header';
-
-import theme from '../../src/theme';
-
 import {
   LiveEditor,
   LivePreview,
   LiveProvider,
 } from 'react-live';
 
+import * as components from '../../src';
+import theme from '../../src/theme';
+
 const scope = {
-  styled, React, Box, Button, Testimonial, ImgCard, Heading, P, TextWithIcon, Logo, Header
+  ...components.default,
 };
 
 const LiveWrapper = styled.div`
