@@ -8,30 +8,18 @@ import {
 
 import {
   FooterListItem,
-} from '../../molecules';
+  Heading,
+} from '../index';
 
-// TODO: remove this once kamesh makes header component
-const H4 = styled.h4`
-font-family: 'SoleilBk';
-font-weight: normal;
-margin-bottom: 20px;
-font-size: 24px;
-letter-spacing: -0.4px;
-line-height: 1;
-text-align: center;
-`;
-// Todo:
-// 1. Not sure of breakpoints.
-// 2. h4 replace with Heading
 const TrustedClients = () => (
   <Box
     px="15px"
     width="100%"
     maxWidth="1260px"
   >
-    <H4>
+    <Heading.h4>
       Serverless platform is trusted by
-    </H4>
+    </Heading.h4>
     <List
       display="flex"
       flexDirection={['column', 'row']}
