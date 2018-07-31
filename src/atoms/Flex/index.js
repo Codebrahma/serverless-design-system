@@ -11,6 +11,7 @@ import {
   order,
   space,
   width,
+  maxWidth,
 } from 'styled-system';
 
 const List = styled.div`
@@ -25,6 +26,7 @@ const List = styled.div`
   ${order}
   ${space}
   ${width}
+  ${maxWidth}
 `;
 
 export default List;
