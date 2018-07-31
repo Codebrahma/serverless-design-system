@@ -191,6 +191,66 @@ const DeveloperDetailedMenu = () => (
   </Box>
 );
 
+const LearnDetailedMenu = () => (
+  <Box
+    pl={4}
+    pr={4}
+    pt={3}
+    pb={4}
+    position='absolute'
+    zIndex='999'
+    top='90px'
+    left='-50%'
+    backgroundColor='black'
+    minWidth='225px'
+  >
+    <List m='0' p='0'>
+      <ListItem>
+        <Text.h6 color='white' fontSize='2'>why?</Text.h6>
+      </ListItem>
+      <ListItem>
+        <Text.h6 color='white' fontSize='2'>use cases</Text.h6>
+      </ListItem>
+      <ListItem>
+        <Text.h6 color='white' fontSize='2'>comparisons</Text.h6>
+      </ListItem>
+    </List>
+  </Box>
+);
+
+const ResourceDetailedMenu = () => (
+  <Box
+    pl={4}
+    pr={4}
+    pt={3}
+    pb={4}
+    position='absolute'
+    zIndex='999'
+    top='90px'
+    left='-50%'
+    backgroundColor='black'
+    minWidth='225px'
+  >
+    <List m='0' p='0'>
+      <ListItem>
+        <Text.h6 color='white' fontSize='2'>blog</Text.h6>
+      </ListItem>
+      <ListItem>
+        <Text.h6 color='white' fontSize='2'>forum</Text.h6>
+      </ListItem>
+      <ListItem>
+        <Text.h6 color='white' fontSize='2'>meetups</Text.h6>
+      </ListItem>
+      <ListItem>
+        <Text.h6 color='white' fontSize='2'>slack</Text.h6>
+      </ListItem>
+      <ListItem>
+        <Text.h6 color='white' fontSize='2'>workshops</Text.h6>
+      </ListItem>
+    </List>
+  </Box>
+)
+
 const Navbar = ({ menu }) => (
   <Box>
     <List m='0' p='0'>
@@ -202,7 +262,7 @@ const Navbar = ({ menu }) => (
           >
             <Box>
               <MenuTitle name={name} />
-              <PlatformDetailedMenu />
+              <ResourceDetailedMenu />
             </Box>
           </NavListItem>
         ))
