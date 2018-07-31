@@ -3,12 +3,12 @@ import LiveEdit from './LiveEdit';
 
 // Line height is not consistent
 const text = `
-  <List>
+  <Flex>
     <FooterListItem>framework</FooterListItem>
     <FooterListItem>dashboard</FooterListItem>
     <FooterListItem>event gateway</FooterListItem>
     <FooterListItem>enterprise</FooterListItem>
-  </List>
+  </Flex>
 `;
 
 export default () => (
