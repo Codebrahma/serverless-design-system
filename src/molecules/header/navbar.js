@@ -1,19 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { Box, Image, Text, List, ListItem } from '../../atoms';
+import { Box, Image, Text, List, ListItem, Heading } from '../../atoms';
+import { TextWithIcon } from '../index';
 
 const NavListItem = styled(ListItem)`
   list-style-type: none;
   position: relative;
 
-  div > div:last-child {
+  div > div:nth-child(2) {
     display: none;
   }
 
   &:hover > div {
     div:nth-child(2) {
-      display: block;
+      display: inline-block;
     }
   }
 `;
@@ -31,7 +32,7 @@ const MenuTitle = ({ name }) => (
   </Box>
 )
 
-const DetailedMenu = () => (
+const PlatformDetailedMenu = () => (
   <Box
     pl={4}
     pr={4}
@@ -109,6 +110,87 @@ const DetailedMenu = () => (
   </Box>
 )
 
+const DeveloperDetailedMenu = () => (
+  <Box
+    pl={4}
+    pr={4}
+    pt={3}
+    pb={4}
+    position='absolute'
+    zIndex='999'
+    top='90px'
+    left='-50%'
+    backgroundColor='black'
+    minWidth='365px'
+  >
+    <Box width="100%">
+      <Box>
+        <TextWithIcon
+          iconSrc='https://serverless.com/_/src/assets/images/dot-grid.ab343e1fdd716b7b80c667bc9eaeeb0d.png' iconHeight="24px"
+          iconWidth="30px"
+          iconTop="-5px"
+        >
+          <Text.h4 m={0} p={0} color={'white'}>documentation</Text.h4>
+        </TextWithIcon>
+        <List m='0' p='0'>
+          <ListItem>
+            <Text.h6 color='white' fontSize='2'>framework</Text.h6>
+          </ListItem>
+          <ListItem>
+            <Text.h6 color='white' fontSize='2'>platform</Text.h6>
+          </ListItem>
+        </List>
+      </Box>
+      <Box width="50%" display="inline-block">
+        <TextWithIcon
+          iconSrc='https://serverless.com/_/src/assets/images/dot-grid.ab343e1fdd716b7b80c667bc9eaeeb0d.png' iconHeight="24px"
+          iconWidth="30px"
+          iconTop="-5px"
+        >
+          <Text.h4 m={0} p={0} color={'white'}>quick starts</Text.h4>
+        </TextWithIcon>
+        <List m='0' p='0'>
+          <ListItem>
+            <Text.h6 color='white' fontSize='2'>aws</Text.h6>
+          </ListItem>
+          <ListItem>
+            <Text.h6 color='white' fontSize='2'>azure</Text.h6>
+          </ListItem>
+          <ListItem>
+            <Text.h6 color='white' fontSize='2'>google cloud</Text.h6>
+          </ListItem>
+          <ListItem>
+            <Text.h6 color='white' fontSize='2'>others</Text.h6>
+          </ListItem>
+        </List>
+      </Box>
+      <Box width="50%" display="inline-block">
+        <TextWithIcon
+          iconSrc='https://serverless.com/_/src/assets/images/dot-grid.ab343e1fdd716b7b80c667bc9eaeeb0d.png' iconHeight="24px"
+          iconWidth="30px"
+          iconTop="-5px"
+        >
+          <Text.h4 m={0} p={0} color={'white'}>example & guides</Text.h4>
+        </TextWithIcon>
+        <List m='0' p='0'>
+          <ListItem>
+            <Text.h6 color='white' fontSize='2'>api's</Text.h6>
+          </ListItem>
+          <ListItem>
+            <Text.h6 color='white' fontSize='2'>cron jobs</Text.h6>
+          </ListItem>
+          <ListItem>
+            <Text.h6 color='white' fontSize='2'>webhooks</Text.h6>
+          </ListItem>
+          <ListItem>
+            <Text.h6 color='white' fontSize='2'>event processing</Text.h6>
+          </ListItem>
+        </List>
+      </Box>
+    </Box>
+  </Box>
+);
+
 const Navbar = ({ menu }) => (
   <Box>
     <List m='0' p='0'>
@@ -120,7 +202,7 @@ const Navbar = ({ menu }) => (
           >
             <Box>
               <MenuTitle name={name} />
-              <DetailedMenu />
+              <PlatformDetailedMenu />
             </Box>
           </NavListItem>
         ))

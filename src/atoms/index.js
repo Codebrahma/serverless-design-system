@@ -5,4 +5,5 @@ export { default as Flex } from './Flex';
 export { default as Text } from './Text';
 export { default as TextField } from './TextField';
 export { default as Logo } from './Logo';
+export { default as Heading } from './Heading';
 export { List, ListItem } from './List';
