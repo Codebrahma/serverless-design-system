@@ -4,10 +4,10 @@ import LiveEdit from './LiveEdit';
 // Line height is not consistent
 const text = `
   <List>
-    <ListItem footer>framework</ListItem>
-    <ListItem footer>dashboard</ListItem>
-    <ListItem footer>event gateway</ListItem>
-    <ListItem footer>enterprise</ListItem>
+    <FooterListItem>framework</FooterListItem>
+    <FooterListItem>dashboard</FooterListItem>
+    <FooterListItem>event gateway</FooterListItem>
+    <FooterListItem>enterprise</FooterListItem>
   </List>
 `;
 
