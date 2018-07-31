@@ -1,5 +1,5 @@
-import Text from './Text';
-import theme from './theme';
+import { Text } from '../../atoms';
+import theme from '../../theme';
 
 const P = Text.withComponent('p');
 P.defaultProps = {
@@ -25,4 +25,4 @@ P.l.defaultProps = {
   fontSize: 4,
   lineHeight: 3,
 };
-export { P };
+export default P;

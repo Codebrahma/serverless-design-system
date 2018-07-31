@@ -7,7 +7,7 @@ const font = {
 };
 
 const breakpoints = [
-  '30em', '48em', '75em',
+  '768px', '1200px', '1500px'
 ];
 
 const colors = {
@@ -36,9 +36,7 @@ colors.secondaryColor = colors.darkServerlessRed;
 // when used in nested elements
 // numbers are converted to px
 const space = [
-  0, 4, 8,
-  10, 20, 30,
-  40, 60, 80,
+  10, 20, 30, 40, 60, 80
 ];
 // typographic scale
 const fontSizes = [
@@ -58,9 +56,15 @@ const fontWeights = {
   bold: 700,
 };
 
-const letterSpacings = [
-  0, '-0.018rem', '-0.024rem', '-0.0315rem', '0.0315rem', '0.048rem',
-];
+const letterSpacings = {
+  normal: 'normal',
+  caps: '0.25em',
+  smallNegative: '-0.03px',
+  primaryBtn: '0.05em',
+  textField: '0.5px',
+  text: '0.6px',
+};
+
 // border-radius
 const radii = [
   0, 2, 4, 8,

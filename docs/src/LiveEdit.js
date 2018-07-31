@@ -1,14 +1,6 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 import styled, { ThemeProvider } from 'styled-components';
-
-import Button from '../../src/Button';
-import Testimonial from '../../src/Testimonial';
-import ImgCard from '../../src/ImgCard';
-import Heading from '../../src/Heading';
-import { P } from '../../src/Typography';
-
-import theme from '../../src/theme';
 
 import {
   LiveEditor,
@@ -16,8 +8,11 @@ import {
   LiveProvider,
 } from 'react-live';
 
+import * as components from '../../src';
+import theme from '../../src/theme';
+
 const scope = {
-  styled, React, Button, Testimonial, ImgCard, Heading, P,
+  ...components.default,
 };
 
 const LiveWrapper = styled.div`
