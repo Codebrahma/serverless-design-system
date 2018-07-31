@@ -16,7 +16,6 @@ const header = `
       {name: 'developers'},
       {name: 'learn'},
       {name: 'resources'},
-      {name: 'enterprise'},
     ]}
   />
 `;
