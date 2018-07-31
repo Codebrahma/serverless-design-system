@@ -5,14 +5,15 @@ import { Box, Image, Text, List, ListItem } from '../../atoms';
 
 const NavListItem = styled(ListItem)`
   list-style-type: none;
+  position: relative;
 
   div > div:last-child {
     display: none;
   }
 
   &:hover > div {
-    div:last-child {
-      display: inline-block;
+    div:nth-child(2) {
+      display: block;
     }
   }
 `;
@@ -32,13 +33,14 @@ const MenuTitle = ({ name }) => (
 
 const DetailedMenu = () => (
   <Box
-    pl={6}
-    pr={6}
-    pt={5}
-    pb={6}
+    pl={4}
+    pr={4}
+    pt={3}
+    pb={4}
     position='absolute'
     zIndex='999'
     top='90px'
+    left='-50%'
     backgroundColor='black'
   >
     <List p={0} m={0}>
@@ -77,7 +79,7 @@ const DetailedMenu = () => (
               position='relative'
             >
               <Image {...imgProps} />
-              <Box display='inline'>
+              <Box display='inline-block' minWidth="155px">
                 <Text.h6
                   fontFamily='Serverless'
                   fontSize='15px'
