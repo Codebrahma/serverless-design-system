@@ -8,6 +8,7 @@ const TextWithIcon = styled.span`
     &:before {
       content: ' ';
       top: ${props => props.iconTop};
+      left: ${props => props.iconLeft};
       height: ${props => props.iconHeight};
       width: ${props => props.iconWidth};
       background-image: url(${props => props.iconSrc});
