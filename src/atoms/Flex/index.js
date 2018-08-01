@@ -12,7 +12,13 @@ import {
   space,
   width,
   maxWidth,
+  position,
+  top
 } from 'styled-system';
+
+const boxSizing = (props) => ({
+  boxSizing: props.boxSizing || null,
+});
 
 const List = styled.div`
   ${alignItems}
@@ -27,6 +33,9 @@ const List = styled.div`
   ${space}
   ${width}
   ${maxWidth}
+  ${boxSizing}
+  ${position}
+  ${top}
 `;
 
 export default List;

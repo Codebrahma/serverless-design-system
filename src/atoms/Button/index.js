@@ -33,13 +33,13 @@ const secondary = (props) => {
 const Button = styled.button.attrs({
   color: 'white',
   bg: 'primaryColor',
-  border: '0',
   fontFamily: 'Serverless',
   px: '3.5em',
   py: '1em',
   fontSize: '3',
   letterSpacing: 'primaryBtn',
 })`
+  ${secondary}
   ${color} ${border} ${borderColor}
   ${fontFamily} ${fontSize} ${space}
   ${letterSpacing} ${width}
@@ -52,7 +52,6 @@ const Button = styled.button.attrs({
     null : props.theme.colors.secondaryColor)
 };
   }
-  ${secondary}
 `;
 
 Button.displayName = 'Button';

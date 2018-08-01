@@ -9,6 +9,10 @@ import {
   maxWidth,
 } from 'styled-system';
 
+const boxSizing = (props) => ({
+  boxSizing: props.boxSizing || null,
+});
+
 const Box = styled.div`
   ${space} ${width} ${color}
   ${border} ${borderColor} ${display}
@@ -16,9 +20,9 @@ const Box = styled.div`
   ${alignItems} ${justifyContent}
   ${order} ${position} ${zIndex}
   ${top} ${left} ${right} ${bottom}
-  ${maxWidth}
+  ${maxWidth} ${boxSizing}
 
-  background-color: ${(props) => props.backgroundColor}
+
 `;
 
 Box.displayName = 'Box';
