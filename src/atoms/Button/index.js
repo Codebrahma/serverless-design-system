@@ -30,15 +30,7 @@ const secondary = (props) => {
   };
 };
 
-const Button = styled.button.attrs({
-  color: 'white',
-  bg: 'primaryColor',
-  fontFamily: 'Serverless',
-  px: '3.5em',
-  py: '1em',
-  fontSize: '3',
-  letterSpacing: 'primaryBtn',
-})`
+const Button = styled.button`
   ${secondary}
   ${color} ${border} ${borderColor}
   ${fontFamily} ${fontSize} ${space}
@@ -53,6 +45,16 @@ const Button = styled.button.attrs({
 };
   }
 `;
+
+Button.defaultProps = {
+  color: 'white',
+  bg: 'primaryColor',
+  fontFamily: 'Serverless',
+  px: '3.5em',
+  py: '1em',
+  fontSize: '3',
+  letterSpacing: 'primaryBtn',
+}
 
 Button.displayName = 'Button';
 
