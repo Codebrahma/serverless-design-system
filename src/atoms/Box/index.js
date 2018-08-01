@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import {
-  space, width, color,
+  space, width, height, color,
   borderColor, border, display,
   flexWrap, flexDirection,
   alignItems, justifyContent,
@@ -21,7 +21,7 @@ const boxSizing = (props) => ({
 });
 
 const Box = styled.div`
-  ${space} ${width} ${color}
+  ${space} ${width} ${height} ${color}
   ${border} ${borderColor} ${display}
   ${flexWrap} ${flexDirection}
   ${alignItems} ${justifyContent}
