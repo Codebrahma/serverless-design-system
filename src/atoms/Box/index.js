@@ -6,8 +6,15 @@ import {
   alignItems, justifyContent,
   order, position, zIndex,
   top, left, right, bottom,
-  maxWidth, minWidth, bg
+  maxWidth, minWidth,
+  minHeight, maxHeight, bg,
 } from 'styled-system';
+
+const overflow = (props) => ({
+  overflow: props.o || null,
+  overflowX: props.ox || null,
+  overflowY: props.oy || null
+});
 
 const boxSizing = (props) => ({
   boxSizing: props.boxSizing || null,
@@ -20,8 +27,9 @@ const Box = styled.div`
   ${alignItems} ${justifyContent}
   ${order} ${position} ${zIndex}
   ${top} ${left} ${right} ${bottom}
-  ${maxWidth} ${minWidth} ${boxSizing}
-  ${bg}
+  ${maxWidth} ${minWidth} ${minHeight}
+  ${maxHeight} ${boxSizing} ${bg}
+  ${overflow}
 `;
 
 Box.displayName = 'Box';
