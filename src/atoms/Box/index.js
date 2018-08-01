@@ -10,11 +10,7 @@ import {
   minHeight, maxHeight, bg,
 } from 'styled-system';
 
-const overflow = (props) => ({
-  overflow: props.o || null,
-  overflowX: props.ox || null,
-  overflowY: props.oy || null
-});
+import { overflow, overflowX, overflowY } from '../../customStyleSystem';
 
 const boxSizing = (props) => ({
   boxSizing: props.boxSizing || null,
@@ -29,7 +25,7 @@ const Box = styled.div`
   ${top} ${left} ${right} ${bottom}
   ${maxWidth} ${minWidth} ${minHeight}
   ${maxHeight} ${boxSizing} ${bg}
-  ${overflow}
+  ${overflow} ${overflowX} ${overflowY}
 `;
 
 Box.displayName = 'Box';
