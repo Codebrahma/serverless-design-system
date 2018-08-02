@@ -3,7 +3,6 @@ import theme from '../../theme';
 
 const Heading = Text.withComponent('h3').extend`
   font-family: ${theme.font.header};
-  color: ${theme.colors.black}
 `;
 
 Heading.displayName = 'Heading';
