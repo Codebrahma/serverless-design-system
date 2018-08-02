@@ -8,6 +8,7 @@ import {
   letterSpacing,
   space,
   width,
+  minWidth,
 } from 'styled-system';
 
 import { hexToRgbA } from '../../utils';
@@ -34,7 +35,7 @@ const Button = styled.button`
   ${secondary}
   ${color} ${border} ${borderColor}
   ${fontFamily} ${fontSize} ${space}
-  ${letterSpacing} ${width}
+  ${letterSpacing} ${width} ${minWidth}
   transition: background 0.5s ease;
   &:disabled {
     opacity: 0.2;
@@ -54,7 +55,7 @@ Button.defaultProps = {
   py: '1em',
   fontSize: '3',
   letterSpacing: 'primaryBtn',
-}
+};
 
 Button.displayName = 'Button';
 

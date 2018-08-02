@@ -14,6 +14,7 @@ Heading.h1.defaultProps = {
   lineHeight: 3,
   letterSpacing: theme.letterSpacings.h1,
   fontWeight: theme.fontWeights.normal,
+  mb: '20px'
 };
 
 Heading.h2 = Heading.withComponent('h2');
@@ -22,6 +23,7 @@ Heading.h2.defaultProps = {
   lineHeight: 0,
   letterSpacing: theme.letterSpacings.h2,
   fontWeight: theme.fontWeights.normal,
+  mb: '20px'
 };
 
 Heading.h3 = Heading.withComponent('h3');
@@ -30,6 +32,7 @@ Heading.h3.defaultProps = {
   lineHeight: 1,
   letterSpacing: theme.letterSpacings.h3,
   fontWeight: theme.fontWeights.normal,
+  mb: '16px'
 };
 
 Heading.h4 = Heading.withComponent('h4');
@@ -38,6 +41,7 @@ Heading.h4.defaultProps = {
   lineHeight: 0,
   letterSpacing: theme.letterSpacings.h4,
   fontWeight: theme.fontWeights.normal,
+  mb: '12px'
 };
 
 Heading.h5 = Heading.withComponent('h5');
@@ -46,6 +50,7 @@ Heading.h5.defaultProps = {
   lineHeight: 3,
   letterSpacing: theme.letterSpacings.h5,
   fontWeight: theme.fontWeights.normal,
+  mb: '8px'
 };
 
 Heading.h6 = Heading.withComponent('h6');
@@ -54,6 +59,7 @@ Heading.h6.defaultProps = {
   lineHeight: 3,
   letterSpacing: theme.letterSpacings.h6,
   fontWeight: theme.fontWeights.normal,
+  mb: '4px'
 };
 
 export default Heading;

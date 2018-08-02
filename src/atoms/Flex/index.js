@@ -11,6 +11,7 @@ import {
   order,
   space,
   width,
+  height,
   maxWidth,
   position,
   top
@@ -32,6 +33,7 @@ const Flex = styled.div`
   ${order}
   ${space}
   ${width}
+  ${height}
   ${maxWidth}
   ${boxSizing}
   ${position}
