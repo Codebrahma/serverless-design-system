@@ -42,9 +42,9 @@ const space = [
 ];
 // typographic scale
 const fontSizes = [
-  '0.75rem', '0.875rem', '1rem',
-  '1.125rem', '1.5rem', '2rem',
-  '2.5rem', '3rem', '5.625rem',
+  '1.2rem', '1.4rem', '1.6rem',
+  '1.8rem', '2.4rem', '3.2rem',
+  '4rem', '4.8rem', '9rem',
 ];
 
 // for any scale, either array or objects will work
@@ -65,6 +65,12 @@ const letterSpacings = {
   primaryBtn: '0.05em',
   textField: '0.5px',
   text: '0.6px',
+  h1: 'normal',
+  h2: '0.5px',
+  h3: 'normal',
+  h4: '-0.5px',
+  h5: '-0.4px',
+  h6: '-0.3px'
 };
 
 // border-radius
