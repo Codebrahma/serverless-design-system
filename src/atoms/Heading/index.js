@@ -3,6 +3,7 @@ import theme from '../../theme';
 
 const Heading = Text.withComponent('h3').extend`
   font-family: ${theme.font.header};
+  color: inherit;
 `;
 
 Heading.displayName = 'Heading';
@@ -10,7 +11,7 @@ Heading.displayName = 'Heading';
 Heading.h1 = Heading.withComponent('h1');
 Heading.h1.defaultProps = {
   fontSize: 7,
-  lineHeight: 2,
+  lineHeight: 3,
   letterSpacing: theme.letterSpacings.h1,
 };
 
