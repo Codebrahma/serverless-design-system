@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
-import Heading from '../Heading';
+import Heading from '../../atoms/Heading';
 import P from '../Typography';
 
 import {
