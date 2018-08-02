@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { ThemeProvider } from 'styled-components';
 import theme from '../src/theme.js';
 import { action } from '@storybook/addon-actions';
-import Button from '../src/Button';
+import Button from '../src/atoms/Button/';
 
 const ThemeDecorator = storyFn => (
   <ThemeProvider theme={theme}>
