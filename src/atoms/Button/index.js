@@ -1,8 +1,16 @@
 import styled from 'styled-components';
-import { color, border, borderColor,
-  fontFamily, fontSize, letterSpacing, space } from 'styled-system';
+import {
+  border,
+  borderColor,
+  color,
+  fontFamily,
+  fontSize,
+  letterSpacing,
+  space,
+  width,
+} from 'styled-system';
 
-import { hexToRgbA } from './utils';
+import { hexToRgbA } from '../../utils';
 
 
 // TODO refactor the hover state implementation
@@ -22,19 +30,11 @@ const secondary = (props) => {
   };
 };
 
-const Button = styled.button.attrs({
-  color: 'white',
-  bg: 'primaryColor',
-  border: '0',
-  fontFamily: 'Serverless',
-  px: '3.5em',
-  py: '1em',
-  fontSize: '3',
-  letterSpacing: 'primaryBtn',
-})`
+const Button = styled.button`
+  ${secondary}
   ${color} ${border} ${borderColor}
   ${fontFamily} ${fontSize} ${space}
-  ${letterSpacing}
+  ${letterSpacing} ${width}
   transition: background 0.5s ease;
   &:disabled {
     opacity: 0.2;
@@ -44,8 +44,17 @@ const Button = styled.button.attrs({
     null : props.theme.colors.secondaryColor)
 };
   }
-  ${secondary}
 `;
+
+Button.defaultProps = {
+  color: 'white',
+  bg: 'primaryColor',
+  fontFamily: 'Serverless',
+  px: '3.5em',
+  py: '1em',
+  fontSize: '3',
+  letterSpacing: 'primaryBtn',
+}
 
 Button.displayName = 'Button';
 

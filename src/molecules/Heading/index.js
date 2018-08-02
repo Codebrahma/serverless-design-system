@@ -1,5 +1,5 @@
-import Text from './Text';
-import theme from './theme';
+import { Text } from '../../atoms';
+import theme from '../../theme';
 
 const Heading = Text.withComponent('h3').extend`
   font-family: ${theme.font.header};

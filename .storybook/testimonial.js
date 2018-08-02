@@ -1,7 +1,7 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { storiesOf } from '@storybook/react';
-import Testimonial from '../src/Testimonial.js';
+import Testimonial from '../src/molecules/Testimonial';
 import theme from '../src/theme.js';
 
 const ThemeDecorator = storyFn => (
