@@ -20,7 +20,7 @@ const boxSizing = (props) => ({
   boxSizing: props.boxSizing || null,
 });
 
-const List = styled.div`
+const Flex = styled.div`
   ${alignItems}
   ${border}
   ${borderColor}
@@ -38,4 +38,4 @@ const List = styled.div`
   ${top}
 `;
 
-export default List;
+export default Flex;
