@@ -31,6 +31,7 @@ const secondary = (props) => {
   };
 };
 
+// TODO: Customize hovering color based on props. This will break the header / hero section button hover
 const Button = styled.button`
   ${secondary}
   ${color} ${border} ${borderColor}
@@ -41,9 +42,8 @@ const Button = styled.button`
     opacity: 0.2;
   }
   &:hover {
-    background-color: ${props => (props.disabled ?
-    null : props.theme.colors.secondaryColor)
-};
+    background-color: ${props => props.disabled ? null : hexToRgbA(props.theme.colors.white, '0.2')};
+    cursor: pointer;
   }
 `;
 

@@ -20,6 +20,7 @@ import {
   bg,
   background,
   boxShadow,
+  backgroundSize,
 } from 'styled-system';
 
 import { overflow, overflowX, overflowY } from '../../customStyleSystem';
@@ -53,6 +54,7 @@ const Box = styled.div`
   ${overflow}
   ${overflowX}
   ${overflowY}
+  ${backgroundSize}
 `;
 
 Box.displayName = 'Box';
