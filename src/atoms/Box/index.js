@@ -1,13 +1,23 @@
 import styled from 'styled-components';
 import {
-  space, width, height, color,
-  borderColor, border, display,
-  flexWrap, flexDirection,
-  alignItems, justifyContent,
-  order, position, zIndex,
-  top, left, right, bottom,
-  maxWidth, minWidth,
-  minHeight, maxHeight, bg,
+  space,
+  width,
+  height,
+  color,
+  borderColor,
+  border,
+  display,
+  position,
+  zIndex,
+  top,
+  left,
+  right,
+  bottom,
+  maxWidth,
+  minWidth,
+  minHeight,
+  maxHeight,
+  bg,
 } from 'styled-system';
 
 import { overflow, overflowX, overflowY } from '../../customStyleSystem';
@@ -17,15 +27,28 @@ const boxSizing = (props) => ({
 });
 
 const Box = styled.div`
-  ${space} ${width} ${height} ${color}
-  ${border} ${borderColor} ${display}
-  ${flexWrap} ${flexDirection}
-  ${alignItems} ${justifyContent}
-  ${order} ${position} ${zIndex}
-  ${top} ${left} ${right} ${bottom}
-  ${maxWidth} ${minWidth} ${minHeight}
-  ${maxHeight} ${boxSizing} ${bg}
-  ${overflow} ${overflowX} ${overflowY}
+  ${space}
+  ${width}
+  ${height}
+  ${color}
+  ${border}
+  ${borderColor}
+  ${display}
+  ${position}
+  ${zIndex}
+  ${top}
+  ${left}
+  ${right}
+  ${bottom}
+  ${maxWidth}
+  ${minWidth}
+  ${minHeight}
+  ${maxHeight}
+  ${boxSizing}
+  ${bg}
+  ${overflow}
+  ${overflowX}
+  ${overflowY}
 `;
 
 Box.displayName = 'Box';
