@@ -23,7 +23,7 @@ import {
   backgroundSize,
 } from 'styled-system';
 
-import { overflow, overflowX, overflowY, bk } from '../../customStyleSystem';
+import { overflow, overflowX, overflowY } from '../../customStyleSystem';
 
 const boxSizing = (props) => ({
   boxSizing: props.boxSizing || null,
