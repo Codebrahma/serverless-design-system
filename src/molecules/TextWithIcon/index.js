@@ -3,7 +3,6 @@ import { backgroundSize, position } from 'styled-system';
 
 const TextWithIcon = styled.span`
   position: relative;
-  color: ${props => props.color}
   > h1, h2, h3, h4, h5, h6, span, p, div {
     &:before {
       content: ' ';
@@ -23,7 +22,6 @@ TextWithIcon.displayName = 'TextWithIcon';
 TextWithIcon.defaultProps = {
   position: 'absolute',
   backgroundSize: 'cover',
-  color: 'white',
 };
 
 export default TextWithIcon;
