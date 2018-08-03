@@ -9,7 +9,7 @@ import {
 } from 'styled-system';
 
 const Flex = styled(Box).attrs({
-  display: 'flex'
+  display: 'flex',
 })`
   ${alignItems}
   ${flexDirection}

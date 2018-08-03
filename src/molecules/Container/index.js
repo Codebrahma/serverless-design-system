@@ -12,7 +12,7 @@ const Container = styled(Box)`
 
 Container.defaultProps = {
   m: 'auto',
-  maxWidth: [1, 1, 1, '1260px', '1260px']
+  maxWidth: [0, 0, 0, 1]
 };
 
 export default Container;
