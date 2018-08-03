@@ -10,6 +10,11 @@ const breakpoints = [
   '320px', '768px', '992px', '1280px', '1600px'
 ];
 
+const navbarHeights = {
+  mobile:'62px',
+  desktop: '90px',
+};
+
 const maxWidths = [ '100%', '1260px' ];
 
 const colors = {
@@ -90,6 +95,7 @@ const shadows = [
 const theme = {
   font,
   breakpoints,
+  navbarHeights,
   maxWidths,
   colors,
   space,
