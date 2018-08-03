@@ -18,11 +18,17 @@ const overflowY = style({
 const align = style({
   prop: 'align',
   cssProperty: 'text-align',
-})
+});
+
+const bk = style({
+  prop: 'bk',
+  cssProperty: 'background',
+});
 
 export {
   overflow,
   overflowX,
   overflowY,
-  align
+  align,
+  bk,
 };

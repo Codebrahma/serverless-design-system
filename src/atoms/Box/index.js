@@ -18,11 +18,15 @@ import {
   minHeight,
   maxHeight,
   bg,
+<<<<<<< HEAD
   background,
   boxShadow,
+=======
+  backgroundSize,
+>>>>>>> modified box component
 } from 'styled-system';
 
-import { overflow, overflowX, overflowY } from '../../customStyleSystem';
+import { overflow, overflowX, overflowY, bk } from '../../customStyleSystem';
 
 const boxSizing = (props) => ({
   boxSizing: props.boxSizing || null,
@@ -53,6 +57,8 @@ const Box = styled.div`
   ${overflow}
   ${overflowX}
   ${overflowY}
+  ${bk}
+  ${backgroundSize}
 `;
 
 Box.displayName = 'Box';
