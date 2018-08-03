@@ -22,11 +22,11 @@ const boxSizing = (props) => ({
 });
 
 const Flex = styled.div`
+  display: flex;
   ${alignItems}
   ${border}
   ${borderColor}
   ${color}
-  ${display}
   ${flexDirection}
   ${flexWrap}
   ${justifyContent}
