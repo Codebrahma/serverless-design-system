@@ -18,6 +18,8 @@ import {
   minHeight,
   maxHeight,
   bg,
+  background,
+  boxShadow,
 } from 'styled-system';
 
 import { overflow, overflowX, overflowY } from '../../customStyleSystem';
@@ -46,6 +48,8 @@ const Box = styled.div`
   ${maxHeight}
   ${boxSizing}
   ${bg}
+  ${background}
+  ${boxShadow}
   ${overflow}
   ${overflowX}
   ${overflowY}
