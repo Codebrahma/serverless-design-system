@@ -54,7 +54,6 @@ const Box = styled.div`
   ${overflow}
   ${overflowX}
   ${overflowY}
-  ${background}
   ${backgroundSize}
 `;
 
