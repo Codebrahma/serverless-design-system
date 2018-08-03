@@ -18,12 +18,9 @@ import {
   minHeight,
   maxHeight,
   bg,
-<<<<<<< HEAD
   background,
   boxShadow,
-=======
   backgroundSize,
->>>>>>> modified box component
 } from 'styled-system';
 
 import { overflow, overflowX, overflowY, bk } from '../../customStyleSystem';
@@ -57,7 +54,7 @@ const Box = styled.div`
   ${overflow}
   ${overflowX}
   ${overflowY}
-  ${bk}
+  ${background}
   ${backgroundSize}
 `;
 

@@ -20,15 +20,9 @@ const align = style({
   cssProperty: 'text-align',
 });
 
-const bk = style({
-  prop: 'bk',
-  cssProperty: 'background',
-});
-
 export {
   overflow,
   overflowX,
   overflowY,
   align,
-  bk,
 };
