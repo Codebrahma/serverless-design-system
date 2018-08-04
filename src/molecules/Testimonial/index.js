@@ -2,19 +2,19 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import { Box, Text, Image as Img } from '../../atoms';
+import { Box, Flex, Text, Image as Img } from '../../atoms';
 
 const comp = ({
   img, children, name, designation, alt,
 }) => {
   const testimonial = children;
   return (
-    <Box
-      px={[3, 4]}
+    <Flex
+      px={[2, 3, 4]}
       py={5}
       border={3}
+      mx={[3, 3, 4]}
       borderColor="primaryColor"
-      display="flex"
       flexWrap="wrap"
       flexDirection={['column', 'row']}
       justifyContent={['', 'space-between']}
@@ -30,35 +30,48 @@ const comp = ({
         {testimonial}
       </Text>
 
-      <Box order={['0', '1']}>
-        <Img
+      <Flex
+        width={1}
+        flexDirection={[ 'column', 'column', 'row' ]}
+      >
+        <Flex
+          width={[1, 1, 4 / 10]}
+          order={[ '0', '0', '1' ]}
+          justifyContent={[ 'flex-start', 'flex-start', 'flex-end' ]}
+        >
+          <Img
+            mt={3}
+            width={[82, 128]}
+            height={[27, 42]}
+            src={img}
+            alt={alt}
+          />
+        </Flex>
+
+        <Flex
+          flexDirection='column'
           mt={3}
-          width={[82, 128]}
-          height={[27, 42]}
-          src={img}
-          alt={alt}
-        />
-      </Box>
-
-      <Box mt={3} width={6 / 10}>
-        <Text
-          fontFamily="SoleilBk"
-          fontSize={3}
-          letterSpacing="smallNegative"
+          width={[1, 1, 6 / 10]}
+          order={[ '1', '1', '0' ]}
         >
-          {name}
-        </Text>
-        <Text
-          fontFamily="Soleil"
-          fontSize={0}
-          lineHeight={3}
-          color="gray.2"
-        >
-          {designation}
-        </Text>
-      </Box>
-
-    </Box>
+          <Text
+            fontFamily="SoleilBk"
+            fontSize={3}
+            letterSpacing="smallNegative"
+          >
+            {name}
+          </Text>
+          <Text
+            fontFamily="Soleil"
+            fontSize={0}
+            lineHeight={3}
+            color="gray.2"
+          >
+            {designation}
+          </Text>
+        </Flex>
+      </Flex>
+    </Flex>
   );
 };
 

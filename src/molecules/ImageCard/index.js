@@ -25,13 +25,14 @@ const comp = ({ img, title, description }) => (
     </Box>
 
     <Heading.h3
-      textAlign="center"
+      align="center"
       my={3}
+      fontFamily='SoleilBk'
     >
       {title}
     </Heading.h3>
     <P
-      textAlign="center"
+      align="center"
       mt={0}
     >
       {description}
