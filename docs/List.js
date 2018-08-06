@@ -1,17 +1,14 @@
 import React from 'react';
-import LiveEdit from './LiveEdit';
+import LiveEdit from './src/LiveEdit';
 
 // Line height is not consistent
 const text = `
-  <Text
-    color="text"
-    fontSize={2}
-    letterSpacing="text"
-    lineHeight="1.14em"
-    opacity="0.5"
-  >
-    framework
-  </Text>
+  <Flex>
+    <Box>framework</Box>
+    <Box>dashboard</Box>
+    <Box>event gateway</Box>
+    <Box>enterprise</Box>
+  </Flex>
 `;
 
 export default () => (
