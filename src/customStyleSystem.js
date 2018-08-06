@@ -1,4 +1,4 @@
-import { style } from 'styled-system'
+import { style } from 'styled-system';
 
 const overflow = style({
   prop: 'o',
@@ -48,5 +48,5 @@ export {
   beforeBoxHeight,
   afterBoxHeight,
   beforeBoxWidth,
-  afterBoxWidth
+  afterBoxWidth,
 };

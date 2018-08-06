@@ -1,5 +1,5 @@
 import React from 'react';
-import LiveEdit from './LiveEdit';
+import LiveEdit from './src/LiveEdit';
 
 // Padding is not consistent
 const textfield = `
