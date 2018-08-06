@@ -7,9 +7,9 @@ const button = `
 </Button>
 `;
 const secondary = `
-<Button secondary>
+<SecondaryButton>
   Serverless
-</Button>
+</SecondaryButton>
   `;
 
 export default () => (
