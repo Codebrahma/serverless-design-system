@@ -31,6 +31,7 @@
     "styled-system": "^3.0.2"
   },
   "x0": {
-    "template": "./docs/src/template.js"
+    "template": "./docs/src/template.js",
+    "basename": "/src/"
   }
 }

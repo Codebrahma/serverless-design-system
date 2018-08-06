@@ -1,5 +1,5 @@
 import React from 'react';
-import LiveEdit from './LiveEdit';
+import LiveEdit from './src/LiveEdit';
 
 const button = `
 <Button>
