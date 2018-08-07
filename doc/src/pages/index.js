@@ -17,9 +17,11 @@ const Wrapper = styled.div`
 
 const Content = styled.div`
   width: 80%;
+  min-width: 400px;
   padding-left: 10%;
   padding-right: 15%;
   overflow-y: scroll;
+  overflow-x: scroll;
   font-size: 1.2rem;
 `;
 
