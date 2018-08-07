@@ -30,4 +30,21 @@ Flex.fixed = styled(Flex)`
   position: fixed;
 `;
 
+Flex.spaceBetween = styled(Flex)`
+  justify-content: space-between;
+`;
+
+Flex.horizontallyCenter = styled(Flex)`
+  justify-content: center;
+`;
+
+Flex.verticallyCenter = styled(Flex)`
+  align-items: center;
+`;
+
+Flex.center = styled(Flex)`
+  justify-content: center;
+  align-items: center;
+`;
+
 export default Flex;
