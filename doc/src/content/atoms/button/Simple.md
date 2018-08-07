@@ -2,7 +2,7 @@
 path: "/button/1"
 component: "button"
 type: "atom"
-title: "Default Button"
+title: "Simple Button"
 ---
 
 <Button>
