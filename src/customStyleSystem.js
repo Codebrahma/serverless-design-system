@@ -40,6 +40,11 @@ const afterBoxHeight = style({
   cssProperty: 'height',
 });
 
+const transition = style({
+  prop: 'transition',
+  cssProperty: 'transition',
+});
+
 export {
   overflow,
   overflowX,
@@ -49,4 +54,5 @@ export {
   afterBoxHeight,
   beforeBoxWidth,
   afterBoxWidth,
+  transition
 };
