@@ -12,9 +12,11 @@ import {
 } from 'styled-system';
 
 
-// TODO: Customize hovering color based on props. 
+// TODO: Customize hovering color based on props.
 // This will break the header / hero section button hover
 const Button = styled.button`
+  padding: 1rem 3.5rem;
+
   ${color} ${border} ${borderColor}
   ${fontFamily} ${fontSize} ${space}
   ${letterSpacing} ${width} ${minWidth}
@@ -22,7 +24,7 @@ const Button = styled.button`
     opacity: 0.2;
   }
   &:hover {
-    background-color: ${ props => 
+    background-color: ${ props =>
         props.disabled ? null : props.theme.colors.secondaryColor
       };
     cursor: pointer;
@@ -34,8 +36,6 @@ Button.defaultProps = {
   bg: 'primaryColor',
   border: 'none',
   fontFamily: 'Serverless',
-  px: '3.5em',
-  py: '1em',
   fontSize: '3',
   letterSpacing: 'primaryBtn',
 };
