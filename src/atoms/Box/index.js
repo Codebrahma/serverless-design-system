@@ -24,7 +24,12 @@ import {
   backgroundImage
 } from 'styled-system';
 
-import { overflow, overflowX, overflowY } from '../../customStyleSystem';
+import {
+  overflow,
+  overflowX,
+  overflowY,
+  transition
+} from '../../customStyleSystem';
 
 const boxSizing = (props) => ({
   boxSizing: props.boxSizing || null,
@@ -57,8 +62,21 @@ const Box = styled.div`
   ${overflowY}
   ${backgroundSize}
   ${backgroundImage}
+  ${transition}
 `;
 
 Box.displayName = 'Box';
+
+Box.relative = styled(Box)`
+  position: relative;
+`;
+
+Box.absolute = styled(Box)`
+  position: absolute;
+`;
+
+Box.fixed = styled(Box)`
+  position: fixed;
+`;
 
 export default Box;
