@@ -32,12 +32,11 @@ const SidebarHeader = styled.h1`
   font-size: 1.3rem;
 `;
 
-function capitalize(str) {
+const capitalize = (str) => {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
 const Sidebar = ({ list, onClickListItem, activeComponent }) => {
-  console.log('list ', list)
   return (
     <SidebarWrapper>
       <SidebarSubList>
