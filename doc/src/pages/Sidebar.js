@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 const SidebarWrapper = styled.div`
   width: 20%;
+  min-width: 130px;
   min-height: 100vh;
   overflow-y: scroll;
   overflow-x: hidden;
