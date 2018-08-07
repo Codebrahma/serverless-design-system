@@ -8,7 +8,7 @@ const SecondaryButton = styled(Button)`
   border: 1px solid ${({ theme }) => theme.colors.primaryColor};
   color: ${({ theme }) => theme.colors.primaryColor};
   &:hover {
-    background: ${(props) => (props.disabled ? null : hexToRgbA(props.theme.colors.secondaryColor, '0.1'))};
+    background: ${(props) => (props.disabled ? null : hexToRgbA(props.theme.colors.secondaryColor, '0.2'))};
   };
 `;
 
