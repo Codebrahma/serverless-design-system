@@ -52,11 +52,14 @@ const DocContent = ({ nodes, scope }) => {
   if (nodes.length === 0) return null;
   const sortedNodes = nodes.sort((a, b) => a.node.frontmatter.path > b.node.frontmatter.path);
   return (
-    <div>
+    <div style={{ fontSize: '16px' }}>
       {
         sortedNodes.map((item, index) => {
           return (item.node.frontmatter.path.split('/')[2]) === 'props' ? (
-            <div key={index} dangerouslySetInnerHTML={{ __html: item.node.html }} />
+            <div>
+              <h3>Props</h3>
+              <div key={index} dangerouslySetInnerHTML={{ __html: item.node.html }} />
+            </div>
           ) : (
             <NodeList key={index} node={item.node} scope={scope} />
           );
