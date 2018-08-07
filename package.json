@@ -22,15 +22,11 @@
     "eslint-plugin-react": "^7.10.0"
   },
   "dependencies": {
-    "@compositor/x0": "^6.0.2",
     "babel-polyfill": "^6.26.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-live": "^1.11.0",
     "styled-components": "^3.3.3",
     "styled-system": "^3.0.2"
-  },
-  "x0": {
-    "template": "./docs/src/template.js"
   }
 }
