@@ -27,11 +27,18 @@ const StyledPreview = styled(LivePreview)`
   width: 100%;
 `;
 
+const StyledHeader = styled.h3`
+  text-decoration: italic;
+`;
+
 const NodeList = ({ node, scope }) => (
   <LiveProvider
     code={node.html}
     scope={scope}
   >
+    <StyledHeader>
+      {node.frontmatter.title}
+    </StyledHeader>
     <LiveWrapper>
       <StyledEditor />
       <ThemeProvider theme={theme}>

@@ -16,8 +16,22 @@ title: "Box"
 ***
 **bg**: Sets the color of the background ("red")
 ***
-
-
-
-
-  
+**p/px/py/pt/pb/pr/pl** as per design system padding
+***
+**m/mx/my/mt/mb/mr/ml** as per design system padding
+***
+**boxSizing** sets the box sizing property
+***
+**background** Sets the background property (Can be used for images / multiple background)
+***
+**boxShadow** Sets the box shadow
+***
+**overflow** Sets the overflow property
+***
+**overflowX** Sets the overflow X property
+***
+**overflowY** Sets the overflow Y property
+***
+**backgroundSize** Sets the background Size property.
+***
+**backgroundImage** Sets the background image based on the given URL
