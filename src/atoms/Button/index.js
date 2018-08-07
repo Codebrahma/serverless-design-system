@@ -15,7 +15,7 @@ import {
 // TODO: Customize hovering color based on props.
 // This will break the header / hero section button hover
 const Button = styled.button`
-  padding: 1rem 3.5rem;
+  padding: 2.2rem 3.5rem;
 
   ${color} ${border} ${borderColor}
   ${fontFamily} ${fontSize} ${space}
