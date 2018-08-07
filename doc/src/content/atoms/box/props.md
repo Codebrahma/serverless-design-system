@@ -5,7 +5,9 @@ type: "atom"
 title: "Box"
 ---
 
-***
+
+(***Variations***: Box.fixed, Box.relative, Box.absolute)
+
 **width**: Sets the width of the Box Component ("2px" / "50%" / {2})
 ***
 **height**: Sets the width of the Box Component ("2px" / "50%" / {2})
