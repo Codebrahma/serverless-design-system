@@ -46,11 +46,11 @@ const DocContent = ({ nodes, scope }) => {
   return (
     <div>
       {
-        nodes.map((item) => {
+        nodes.map((item, index) => {
           return (item.node.frontmatter.path.split('/')[2]) === 'props' ? (
-            <div dangerouslySetInnerHTML={{ __html: item.node.html }} />
+            <div key={index} dangerouslySetInnerHTML={{ __html: item.node.html }} />
           ) : (
-            <NodeList node={item.node} scope={scope} />
+            <NodeList key={index} node={item.node} scope={scope} />
           );
         })
       }
