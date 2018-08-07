@@ -67,4 +67,16 @@ const Box = styled.div`
 
 Box.displayName = 'Box';
 
+Box.relative = styled(Box)`
+  position: relative;
+`;
+
+Box.absolute = styled(Box)`
+  position: absolute;
+`;
+
+Box.fixed = styled(Box)`
+  position: fixed;
+`;
+
 export default Box;
