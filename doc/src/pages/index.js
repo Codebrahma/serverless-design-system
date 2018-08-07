@@ -18,11 +18,12 @@ const Wrapper = styled.div`
 const Content = styled.div`
   width: 80%;
   min-width: 400px;
-  padding-left: 10%;
-  padding-right: 15%;
+  padding-left: 5%;
+  padding-right: 10%;
   overflow-y: scroll;
   overflow-x: scroll;
   font-size: 1.2rem;
+  margin-top: 50px;
 `;
 
 class Documentation extends React.Component {
@@ -30,7 +31,7 @@ class Documentation extends React.Component {
     super(props);
 
     this.state = {
-      activeComponent: 'button',
+      activeComponent: 'box',
       nodes: [],
       sidebarList: { atoms: [], molecules: [] },
     };
@@ -64,7 +65,8 @@ class Documentation extends React.Component {
       atoms: [],
       molecules: [],
     });
-
+    sidebarList.atoms.sort((a, b) => a > b);
+    sidebarList.molecules.sort((a, b) => a > b);
     this.setState({
       nodes,
       sidebarList,
