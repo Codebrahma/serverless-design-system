@@ -28,7 +28,7 @@ const StyledPreview = styled(LivePreview)`
 `;
 
 const StyledHeader = styled.h3`
-  text-decoration: italic;
+  font-style: italic;
 `;
 
 const NodeList = ({ node, scope }) => (
