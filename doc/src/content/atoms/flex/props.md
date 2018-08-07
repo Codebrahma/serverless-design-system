@@ -7,11 +7,11 @@ title: "Flex"
 ---
 **Any prop related to flex can be used** (Example: flexDirection, flexWrap, alignItems, justifyContent)
 ***
-**width**: Sets the width of the Box Component ("2px" / "50%" / {2})
+**width**: Sets the width of the Flex Component ("2px" / "50%" / {2})
 ***
-**height**: Sets the width of the Box Component ("2px" / "50%" / {2})
+**height**: Sets the width of the Flex Component ("2px" / "50%" / {2})
 ***
-**color**: Sets the color of the box content ("red" / {colors.red})
+**color**: Sets the color of the Flex content ("red" / {colors.red})
 ***
 **maxWidth / minWidth / maxHeight / minHeight** - same as width or height
 ***

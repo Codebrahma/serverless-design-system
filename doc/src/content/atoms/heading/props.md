@@ -7,6 +7,6 @@ title: "Props for the component"
 ---
 
 ***
-**fontWeight**: Sets the width of the Box Component
+**fontWeight**: Sets the width of the Heading Component
 ***
-**letterSpacing**: Sets the width of the Box Component
+**letterSpacing**: Sets the width of the Heading Component
