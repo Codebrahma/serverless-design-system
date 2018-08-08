@@ -10,6 +10,8 @@ import {
   afterBoxLeft,
   beforeBoxBackgroundColor,
   afterBoxBackgroundColor,
+  beforeBoxContent,
+  afterBoxContent,
 } from './customStyleSystem';
 
 export default (
@@ -28,6 +30,7 @@ export default (
         ${beforeBoxBorderWidth}
         ${beforeBoxLeft}
         ${beforeBoxBackgroundColor}
+        ${beforeBoxContent}
       }
 
       &:after {
@@ -37,6 +40,7 @@ export default (
         ${afterBoxBorderWidth}
         ${afterBoxLeft}
         ${afterBoxBackgroundColor}
+        ${afterBoxContent}
       }
 
       ${selectorStyle}
