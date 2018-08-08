@@ -21,8 +21,6 @@ const Content = styled.div`
   min-width: 400px;
   padding-left: 5%;
   padding-right: 10%;
-  overflow-y: scroll;
-  overflow-x: scroll;
   font-size: 1.2rem;
   margin-top: 50px;
 `;
