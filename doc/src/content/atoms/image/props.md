@@ -6,11 +6,9 @@ date: "2017-07-12T17:12:33.962Z"
 title: "Props for the component"
 ---
 
-***
-**width**: Sets the width of the Image Component
-***
-**height**: Sets the width of the Image Component
-***
-**maxWidth**: Sets the width of the Image Component
-***
-**maxHeight**: Sets the width of the Image Component
+| Prop | Description | Type | Default |
+| ------ | ----------- | ---- | ------- |
+| width | width of the image | px string / from theme | null|
+| height | height of the image | px string / from theme | null |
+| maxWidth | max width of the image | color string / from theme | white |
+| maxHeight | max height of the image | string / from theme | null |
