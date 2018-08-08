@@ -74,8 +74,12 @@ const Sidebar = ({ list, onClickListItem, activeComponent }) => {
 };
 
 Sidebar.propTypes = {
-  list: PropTypes.object.isRequired,
+  list: PropTypes.object,
   onClickListItem: PropTypes.func.isRequired,
+};
+
+Sidebar.defaultProps = {
+  list: { atoms: [], molecules: [] },
 };
 
 export default Sidebar;
