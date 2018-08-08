@@ -7,9 +7,7 @@ const SidebarWrapper = styled.div`
   width: 20%;
   min-width: 130px;
   min-height: 100vh;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  background: #F0FFFF;
+  border-right: 1px solid #d2d2d2;
 `;
 
 const SidebarSubList = styled.div`
@@ -25,8 +23,10 @@ const SidebarItem = styled.div`
   margin-bottom: 10px;
   width: 100%;
   cursor: pointer;
-  
-  background-color: ${props => props.active ? '#d2d2d2' : null};
+  background: ${props => props.active ? '#e6f7ff' : null}; ;
+  box-sizing: border-box;
+  border-right: ${props => props.active ? '2px solid #1890ff' : null};
+  color: ${props => props.active ? '#1890ff' : null};
 `;
 
 const SidebarHeader = styled.h1`
