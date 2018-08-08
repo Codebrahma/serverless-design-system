@@ -55,6 +55,28 @@ const afterBoxBorderWidth = style({
   cssProperty: 'border-width',
 });
 
+const beforeBoxLeft = style({
+  prop: 'beforeBoxLeft',
+  cssProperty: 'left',
+});
+
+const afterBoxLeft = style({
+  prop: 'afterBoxLeft',
+  cssProperty: 'left',
+});
+
+const beforeBoxBackgroundColor = style({
+  prop: 'beforeBoxBackgroundColor',
+  cssProperty: 'background-color',
+  key: 'colors',
+});
+
+const afterBoxBackgroundColor = style({
+  prop: 'afterBoxBackgroundColor',
+  cssProperty: 'background-color',
+  key: 'colors',
+});
+
 export {
   overflow,
   overflowX,
@@ -66,5 +88,9 @@ export {
   afterBoxWidth,
   beforeBoxBorderWidth,
   afterBoxBorderWidth,
+  beforeBoxLeft,
+  afterBoxLeft,
+  beforeBoxBackgroundColor,
+  afterBoxBackgroundColor,
   transition
 };
