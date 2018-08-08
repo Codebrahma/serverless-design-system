@@ -45,6 +45,16 @@ const transition = style({
   cssProperty: 'transition',
 });
 
+const beforeBoxBorderWidth = style({
+  prop: 'beforeBoxBorderWidth',
+  cssProperty: 'border-width',
+});
+
+const afterBoxBorderWidth = style({
+  prop: 'afterBoxBorderWidth',
+  cssProperty: 'border-width',
+});
+
 export {
   overflow,
   overflowX,
@@ -54,5 +64,7 @@ export {
   afterBoxHeight,
   beforeBoxWidth,
   afterBoxWidth,
+  beforeBoxBorderWidth,
+  afterBoxBorderWidth,
   transition
 };
