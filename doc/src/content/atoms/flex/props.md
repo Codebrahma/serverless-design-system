@@ -5,34 +5,33 @@ type: "atom"
 date: "2017-07-12T17:12:33.962Z"
 title: "Flex"
 ---
-**Any prop related to flex can be used** (Example: flexDirection, flexWrap, alignItems, justifyContent)
-***
-**width**: Sets the width of the Flex Component ("2px" / "50%" / {2})
-***
-**height**: Sets the width of the Flex Component ("2px" / "50%" / {2})
-***
-**color**: Sets the color of the Flex content ("red" / {colors.red})
-***
-**maxWidth / minWidth / maxHeight / minHeight** - same as width or height
-***
-**bg**: Sets the color of the background ("red")
-***
-**p/px/py/pt/pb/pr/pl** as per design system padding
-***
-**m/mx/my/mt/mb/mr/ml** as per design system padding
-***
-**boxSizing** sets the box sizing property
-***
-**background** Sets the background property (Can be used for images / multiple background)
-***
-**boxShadow** Sets the box shadow
-***
-**overflow** Sets the overflow property
-***
-**overflowX** Sets the overflow X property
-***
-**overflowY** Sets the overflow Y property
-***
-**backgroundSize** Sets the background Size property.
-***
-**backgroundImage** Sets the background image based on the given URL
+**Any prop related to flex can be used** (Example: flexDirection, flexWrap, alignItems, justifyContent etc ...)
+
+| Prop | Description | Type | Default |
+| ------ | ----------- | ---- | ------- |
+| background | Sets the background CSS property | css value string | null |
+| backgroundImage | Sets the background image | css value string | null |
+| backgroundSize | Sets the background size | css value string | null |
+| bg | background color of the box | color string / from theme | null |
+| boxShadow | Sets the box shadow property | css value string | null |
+| boxSizing | box-sizing CSS property | css value string | content-box |
+| color | color of the box | color string / from theme | null |
+| height | height of the box | px string / from theme| null |
+| m | margin | px string / from theme| null |
+| mb | margin bottom | px string / from theme| null |
+| ml | margin left | px string / from theme| null |
+| mr | margin right | px string / from theme| null |
+| mt | margin top | px string / from theme| null |
+| mx | margin for left and right | px string / from theme| null |
+| my | margin for top and bottom | px string / from theme| null |
+| overflow | Sets the overflow CSS property | css value string | null |
+| overflowX | Sets the overflow X CSS property | css value string | null |
+| overflowY | Sets the overflow Y CSS property | css value string | null |
+| p | padding for all 4 side | px string / from theme| null |
+| pb | padding bottom | px string / from theme| null |
+| pl | padding left | px string / from theme| null |
+| pr | padding right | px string / from theme| null |
+| pt | padding top | px string / from theme| null |
+| px | padding for left and right | px string / from theme| null |
+| py | padding for top and bottom | px string / from theme| null |
+| width | width of the box | px string / from theme| null |
