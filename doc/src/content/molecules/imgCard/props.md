@@ -7,7 +7,7 @@ title: "Image Card"
 ---
 Any prop for the image can be passed in here
 
-***
-**title**: Title of the card
-***
-**description**: description of the card
+| Prop | Description | Type | Default |
+| ------ | ----------- | ---- | ------- |
+| title | Title of the card | string | null |
+| description | Description of the card | string | null |
