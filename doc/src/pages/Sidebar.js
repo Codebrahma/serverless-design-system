@@ -32,6 +32,7 @@ const SidebarItem = styled.div`
 const SidebarHeader = styled.h1`
   font-weight: bold;
   font-size: 1.3rem;
+  padding-left: 10px;
 `;
 
 const capitalize = (str) => {
