@@ -7,6 +7,7 @@ import {
 import styled, { ThemeProvider } from 'styled-components';
 
 import theme from '../../../src/theme';
+import './style.css';
 
 const LiveWrapper = styled.div`
   display: flex;
@@ -24,6 +25,7 @@ const StyledEditor = styled(LiveEditor)`
 
 const StyledPreview = styled(LivePreview)`
   margin-top:10px;
+  padding: 20px;
   width: 100%;
 `;
 
