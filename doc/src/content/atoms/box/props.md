@@ -5,35 +5,31 @@ type: "atom"
 title: "Box"
 ---
 
-
-(***Variations***: Box.fixed, Box.relative, Box.absolute)
-
-**width**: Sets the width of the Box Component ("2px" / "50%" / {2})
-***
-**height**: Sets the width of the Box Component ("2px" / "50%" / {2})
-***
-**color**: Sets the color of the box content ("red" / {colors.red})
-***
-**maxWidth / minWidth / maxHeight / minHeight** - same as width or height
-***
-**bg**: Sets the color of the background ("red")
-***
-**p/px/py/pt/pb/pr/pl** as per design system padding
-***
-**m/mx/my/mt/mb/mr/ml** as per design system padding
-***
-**boxSizing** sets the box sizing property
-***
-**background** Sets the background property (Can be used for images / multiple background)
-***
-**boxShadow** Sets the box shadow
-***
-**overflow** Sets the overflow property
-***
-**overflowX** Sets the overflow X property
-***
-**overflowY** Sets the overflow Y property
-***
-**backgroundSize** Sets the background Size property.
-***
-**backgroundImage** Sets the background image based on the given URL
+| Prop | Description | Type | Default |
+| ------ | ----------- | ---- | ------- |
+| width | width of the box | px string / from theme| null |
+| height | height of the box | px string / from theme| null |
+| color | color of the box | color string / from theme | null |
+| bg | background color of the box | color string / from theme | null |
+| p | padding for all 4 side | px string / from theme| null |
+| px | padding for left and right | px string / from theme| null |
+| py | padding for top and bottom | px string / from theme| null |
+| pt | padding top | px string / from theme| null |
+| pb | padding bottom | px string / from theme| null |
+| pr | padding right | px string / from theme| null |
+| pl | padding left | px string / from theme| null |
+| m | margin | px string / from theme| null |
+| mx | margin for left and right | px string / from theme| null |
+| my | margin for top and bottom | px string / from theme| null |
+| mt | margin top | px string / from theme| null |
+| mb | margin bottom | px string / from theme| null |
+| mr | margin right | px string / from theme| null |
+| ml | margin left | px string / from theme| null |
+| boxSizing | box-sizing CSS property | css value string | content-box |
+| background | Sets the background CSS property | css value string | null |
+| boxShadow | Sets the box shadow property | css value string | null |
+| overflow | Sets the overflow CSS property | css value string | null |
+| overflowX | Sets the overflow X CSS property | css value string | null |
+| overflowY | Sets the overflow Y CSS property | css value string | null |
+| backgroundSize | Sets the background size | css value string | null |
+| backgroundImage | Sets the background image | css value string | null |
