@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const SidebarWrapper = styled.div`
+  position: fixed;
   width: 20%;
   min-width: 130px;
   min-height: 100vh;

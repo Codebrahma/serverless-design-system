@@ -16,6 +16,7 @@ const Wrapper = styled.div`
 `;
 
 const Content = styled.div`
+  margin-left: 20%;
   width: 80%;
   min-width: 400px;
   padding-left: 5%;
