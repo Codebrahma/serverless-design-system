@@ -4,6 +4,8 @@ import {
   afterBoxHeight,
   beforeBoxWidth,
   afterBoxWidth,
+  beforeBoxBorderWidth,
+  afterBoxBorderWidth,
 } from './customStyleSystem';
 
 export default (comp, selector, beforeBlockStyle, afterBlockStyle) => (
@@ -14,12 +16,14 @@ export default (comp, selector, beforeBlockStyle, afterBlockStyle) => (
         ${beforeBoxHeight}
         ${beforeBoxWidth}
         ${beforeBlockStyle}
+        ${beforeBoxBorderWidth}
       }
 
       &:after {
         ${afterBoxHeight}
         ${afterBoxWidth}
         ${afterBlockStyle}
+        ${afterBoxBorderWidth}
       }
     }
   `
