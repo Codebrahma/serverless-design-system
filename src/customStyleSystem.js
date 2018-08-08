@@ -77,6 +77,16 @@ const afterBoxBackgroundColor = style({
   key: 'colors',
 });
 
+const beforeBoxContent = style({
+  prop: 'beforeBoxContent',
+  cssProperty: 'content',
+});
+
+const afterBoxContent = style({
+  prop: 'beforeBoxContent',
+  cssProperty: 'content',
+});
+
 export {
   overflow,
   overflowX,
@@ -92,5 +102,7 @@ export {
   afterBoxLeft,
   beforeBoxBackgroundColor,
   afterBoxBackgroundColor,
+  beforeBoxContent,
+  afterBoxContent,
   transition
 };
