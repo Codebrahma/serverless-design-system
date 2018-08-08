@@ -15,7 +15,7 @@ import {
 // TODO: Customize hovering color based on props.
 // This will break the header / hero section button hover
 const Button = styled.button`
-  padding: 2.2rem 3.5rem;
+  padding: 1.8rem;
 
   ${color} ${border} ${borderColor}
   ${fontFamily} ${fontSize} ${space}
@@ -32,6 +32,7 @@ const Button = styled.button`
 `;
 
 Button.defaultProps = {
+  width: '280px',
   color: 'white',
   bg: 'primaryColor',
   border: 'none',
