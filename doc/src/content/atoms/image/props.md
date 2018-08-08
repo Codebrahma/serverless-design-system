@@ -11,7 +11,7 @@ title: "Props for the component"
 | height | height of the image | px string / from theme | null |
 | m | margin | px string / from theme| null |
 | maxHeight | max height of the image | string / from theme | null |
-| maxWidth | max width of the image | color string / from theme | white |
+| maxWidth | max width of the image | color string / from theme | null |
 | mb | margin bottom | px string / from theme | null |
 | minwidth / maxWidth | width of the button | px string / from theme| null |
 | ml | margin left | px string / from theme | null |
@@ -24,6 +24,6 @@ title: "Props for the component"
 | pl | padding left | px string / from theme| null |
 | pr | padding right | px string / from theme| null |
 | pt | padding top | px string / from theme| null |
-| px | padding for left and right | px string / from theme| 3.5em |
-| py | padding for top and bottom | px string / from theme| 1em |
+| px | padding for left and right | px string / from theme| null |
+| py | padding for top and bottom | px string / from theme| null |
 | width | width of the image | px string / from theme | null|
