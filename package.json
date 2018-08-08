@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint . --fix",
     "build-local": "cd doc && yarn install && gatsby build",
-    "build": "npm install -g gatsby && npm install build-local",
+    "build": "npm install -g gatsby && npm run build-local",
     "start": "cd doc && gatsby develop"
   },
   "author": "Anand Narayan",
