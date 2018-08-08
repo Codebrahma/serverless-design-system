@@ -8,14 +8,28 @@ title: "Text"
 
 (***Variations***: Text.p, Text.span, Text.s)
 
-**color**: Sets the color of the Text content ("red" / {colors.red})
-***
-**maxWidth / minWidth / maxHeight / minHeight** - same as width or height
-***
-**bg**: Sets the color of the background ("red")
-***
-**p/px/py/pt/pb/pr/pl** as per design system padding
-***
-**m/mx/my/mt/mb/mr/ml** as per design system padding
-***
-**fontStyle, fontSize** sets the style and size
+| Prop | Description | Type | Default |
+| ------ | ----------- | ---- | ------- |
+| fontSize | fontSize of the text | px string / from theme | null|
+| fontWeight | fontWeight of the text | px string / from theme | null|
+| height | height of the text | px string / from theme | null |
+| m | margin | px string / from theme| null |
+| maxHeight | max height of the text | string / from theme | null |
+| maxWidth | max width of the text | color string / from theme | null |
+| mb | margin bottom | px string / from theme | null |
+| minwidth / maxWidth | width of the button | px string / from theme| null |
+| ml | margin left | px string / from theme | null |
+| mr | margin right | px string / from theme | null |
+| mt | margin top | px string / from theme| null |
+| mx | margin for left and right | px string / from theme| null |
+| my | margin for top and bottom | px string / from theme| null |
+| p | padding for all 4 side | px string / from theme| null |
+| pb | padding bottom | px string / from theme| null |
+| pl | padding left | px string / from theme| null |
+| pr | padding right | px string / from theme| null |
+| pt | padding top | px string / from theme| null |
+| px | padding for left and right | px string / from theme| null |
+| py | padding for top and bottom | px string / from theme| null |
+| width | width of the text | px string / from theme | null|
+
+
