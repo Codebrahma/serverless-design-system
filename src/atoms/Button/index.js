@@ -39,6 +39,9 @@ const Button = styled.button`
     background-color: ${
       (props) => props.disabled ? null : props.theme.colors.secondaryColor
     };
+    border-color: ${
+      (props) => props.disabled ? null : props.theme.colors.secondaryColor
+    }
     cursor: pointer;
   }
 `;
