@@ -30,7 +30,7 @@ class Documentation extends React.Component {
     this.state = {
       activeComponent: 'box',
       nodes: [],
-      sidebarList: { atoms: [], molecules: [] },
+      sidebarList: { atoms: [], molecules: [], components: [] },
     };
   }
 
@@ -56,11 +56,17 @@ class Documentation extends React.Component {
           accumulator.molecules.push(frontmatter.component);
         }
       }
+      if (frontmatter.type === 'component') {
+        if (accumulator.components.indexOf(frontmatter.component) === -1) {
+          accumulator.components.push(frontmatter.component);
+        }
+      }
 
       return accumulator;
     }, {
       atoms: [],
       molecules: [],
+      components: [],
     });
     sidebarList.atoms.sort((a, b) => a > b);
     sidebarList.molecules.sort((a, b) => a > b);
