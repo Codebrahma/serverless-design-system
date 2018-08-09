@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import {
   border,
+  borderWidth,
+  borderStyle,
   borderColor,
   color,
   fontFamily,
@@ -17,16 +19,26 @@ import {
 const Button = styled.button`
   padding: 1.8rem;
 
-  ${color} ${border} ${borderColor}
-  ${fontFamily} ${fontSize} ${space}
-  ${letterSpacing} ${width} ${minWidth}
+  ${color}
+  ${border}
+  ${borderWidth}
+  ${borderStyle}
+  ${borderColor}
+  ${fontFamily}
+  ${fontSize}
+  ${space}
+  ${letterSpacing}
+  ${width}
+  ${minWidth}
+
   &:disabled {
     opacity: 0.2;
   }
+
   &:hover {
-    background-color: ${ props =>
-        props.disabled ? null : props.theme.colors.secondaryColor
-      };
+    background-color: ${
+      (props) => props.disabled ? null : props.theme.colors.secondaryColor
+    };
     cursor: pointer;
   }
 `;
@@ -36,6 +48,7 @@ Button.defaultProps = {
   color: 'white',
   bg: 'primaryColor',
   border: 'none',
+  borderColor: 'primaryColor',
   fontFamily: 'Serverless',
   fontSize: '3',
   letterSpacing: 'primaryBtn',
