@@ -10,12 +10,10 @@ const SidebarWrapper = styled.div`
   border-right: 1px solid #d2d2d2;
 `;
 
-const SidebarSubList = styled.div`
-  
-`;
+const SidebarSubList = styled.div``;
 
 const SidebarItem = styled.div`
-  font-size: 16px;
+  font-size: 14px;
   padding-left: 16px;
   padding-right: 8px;
   padding-top: 10px;
