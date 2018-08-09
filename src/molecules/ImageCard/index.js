@@ -4,43 +4,45 @@ import Heading from '../../atoms/Heading';
 import P from '../Typography';
 
 import {
-  Image as Img,
   Box,
+  Flex,
+  Image as Img,
 } from '../../atoms';
 
-const comp = ({ img, title, description }) => (
+const comp = ({ img, imgProps, title, description, children }) => (
   <Box
-    px={[3, 4]}
-    py={4}
+    px={[2, 3, 2]}
+    py={[2, 2, 2]}
   >
-    <Box
-      display="flex"
-    >
+    <Flex>
       <Img
         height="100%"
         src={img}
         alt={title}
         mx="auto"
+        {...imgProps}
       />
-    </Box>
+    </Flex>
 
     <Heading.h3
       align="center"
+      fontFamily="SoleilBk"
       my={3}
-      fontFamily='SoleilBk'
     >
       {title}
     </Heading.h3>
     <P
       align="center"
       mt={0}
+      fontSize={3}
     >
       {description}
     </P>
 
+    { children }
   </Box>
 );
 
-const ImgCard = styled(comp)``;
+const ImageCard = styled(comp)``;
 
-export default ImgCard;
+export default ImageCard;

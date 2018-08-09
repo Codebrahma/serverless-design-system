@@ -4,23 +4,46 @@ import {
   afterBoxHeight,
   beforeBoxWidth,
   afterBoxWidth,
+  beforeBoxBorderWidth,
+  afterBoxBorderWidth,
+  beforeBoxLeft,
+  afterBoxLeft,
+  beforeBoxBackgroundColor,
+  afterBoxBackgroundColor,
+  beforeBoxContent,
+  afterBoxContent,
 } from './customStyleSystem';
 
-export default (comp, selector, beforeBlockStyle, afterBlockStyle) => (
+export default (
+  comp,
+  selector=`&`,
+  beforeBlockStyle=``,
+  afterBlockStyle=``,
+  selectorStyle=``
+) => (
   styled(comp)`
     ${selector} {
-
       &:before {
         ${beforeBoxHeight}
         ${beforeBoxWidth}
         ${beforeBlockStyle}
+        ${beforeBoxBorderWidth}
+        ${beforeBoxLeft}
+        ${beforeBoxBackgroundColor}
+        ${beforeBoxContent}
       }
 
       &:after {
         ${afterBoxHeight}
         ${afterBoxWidth}
         ${afterBlockStyle}
+        ${afterBoxBorderWidth}
+        ${afterBoxLeft}
+        ${afterBoxBackgroundColor}
+        ${afterBoxContent}
       }
+
+      ${selectorStyle}
     }
   `
 )

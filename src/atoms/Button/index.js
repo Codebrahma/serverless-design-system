@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import {
   border,
+  borderWidth,
+  borderStyle,
   borderColor,
   color,
   fontFamily,
@@ -11,48 +13,46 @@ import {
   minWidth,
 } from 'styled-system';
 
-import { hexToRgbA } from '../../utils';
 
-
-// TODO refactor the hover state implementation
-// i.e the logic for disabled buttons not to hover is repeated
-// across primary and secondary
-const secondary = (props) => {
-  if (!props.secondary) return null;
-  return {
-    background: 'transparent',
-    border: `1px solid ${props.theme.colors.primaryColor}`,
-    color: `${props.theme.colors.primaryColor}`,
-    '&:hover': {
-      // TODO fix the hover to base on the variable
-      background: props.disabled ? null :
-        hexToRgbA(props.theme.colors.secondaryColor, '0.1'),
-    },
-  };
-};
-
-// TODO: Customize hovering color based on props. This will break the header / hero section button hover
+// TODO: Customize hovering color based on props.
+// This will break the header / hero section button hover
 const Button = styled.button`
-  ${secondary}
-  ${color} ${border} ${borderColor}
-  ${fontFamily} ${fontSize} ${space}
-  ${letterSpacing} ${width} ${minWidth}
-  transition: background 0.5s ease;
+  padding: 1.8rem;
+
+  ${color}
+  ${border}
+  ${borderWidth}
+  ${borderStyle}
+  ${borderColor}
+  ${fontFamily}
+  ${fontSize}
+  ${space}
+  ${letterSpacing}
+  ${width}
+  ${minWidth}
+
   &:disabled {
     opacity: 0.2;
   }
+
   &:hover {
-    background-color: ${props => props.disabled ? null : hexToRgbA(props.theme.colors.white, '0.2')};
+    background-color: ${
+      (props) => props.disabled ? null : props.theme.colors.secondaryColor
+    };
+    border-color: ${
+      (props) => props.disabled ? null : props.theme.colors.secondaryColor
+    }
     cursor: pointer;
   }
 `;
 
 Button.defaultProps = {
+  width: '280px',
   color: 'white',
   bg: 'primaryColor',
+  border: 'none',
+  borderColor: 'primaryColor',
   fontFamily: 'Serverless',
-  px: '3.5em',
-  py: '1em',
   fontSize: '3',
   letterSpacing: 'primaryBtn',
 };
