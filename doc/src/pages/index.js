@@ -16,11 +16,10 @@ const Wrapper = styled.div`
 `;
 
 const Content = styled.div`
-  margin-left: 20%;
+  margin-left: 200px;
   width: 80%;
   min-width: 400px;
-  padding-left: 5%;
-  padding-right: 10%;
+  padding: 0 5%;
   font-size: 1.2rem;
 `;
 

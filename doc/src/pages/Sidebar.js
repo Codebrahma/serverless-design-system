@@ -4,9 +4,9 @@ import styled from 'styled-components';
 
 const SidebarWrapper = styled.div`
   position: fixed;
-  width: 20%;
-  min-width: 130px;
-  min-height: 100vh;
+  width: 200px;
+  height: 100vh;
+  overflow-y: auto;
   border-right: 1px solid #d2d2d2;
 `;
 
@@ -16,12 +16,11 @@ const SidebarItem = styled.div`
   font-size: 14px;
   padding-left: 16px;
   padding-right: 8px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   width: 100%;
   cursor: pointer;
-  background: ${props => props.active ? '#e6f7ff' : null}; ;
+  background: ${props => props.active ? '#e6f7ff' : '#fff'}; ;
   box-sizing: border-box;
   border-right: ${props => props.active ? '2px solid #1890ff' : null};
   color: ${props => props.active ? '#1890ff' : null};
@@ -31,6 +30,7 @@ const SidebarHeader = styled.h1`
   font-weight: bold;
   font-size: 1.3rem;
   padding-left: 10px;
+  background: #fff;
 `;
 
 const capitalize = (str) => {
