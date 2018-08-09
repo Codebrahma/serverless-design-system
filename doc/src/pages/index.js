@@ -22,7 +22,6 @@ const Content = styled.div`
   padding-left: 5%;
   padding-right: 10%;
   font-size: 1.2rem;
-  margin-top: 50px;
 `;
 
 class Documentation extends React.Component {
@@ -107,7 +106,7 @@ Documentation.propTypes = {
   data: PropTypes.object,
 };
 
-Documentation.defaultProps = { 
+Documentation.defaultProps = {
   data: '',
 };
 
