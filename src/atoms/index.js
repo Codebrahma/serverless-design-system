@@ -9,3 +9,4 @@ export { default as TextField } from './TextField';
 export { default as Logo } from './Logo';
 export { default as Heading } from './Heading';
 export { List, ListItem } from './List';
+export { default as GatsbyImg } from './GatsbyImage';
