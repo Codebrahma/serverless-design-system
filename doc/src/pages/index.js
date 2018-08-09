@@ -70,6 +70,8 @@ class Documentation extends React.Component {
     });
     sidebarList.atoms.sort((a, b) => a > b);
     sidebarList.molecules.sort((a, b) => a > b);
+    sidebarList.components.sort((a, b) => a > b);
+
     this.setState({
       nodes,
       sidebarList,

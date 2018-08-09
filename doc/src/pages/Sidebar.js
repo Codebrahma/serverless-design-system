@@ -92,7 +92,7 @@ Sidebar.propTypes = {
 };
 
 Sidebar.defaultProps = {
-  list: { atoms: [], molecules: [] },
+  list: { atoms: [], molecules: [], components: [] },
 };
 
 export default Sidebar;
