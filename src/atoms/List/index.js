@@ -10,6 +10,10 @@ const ListItem = styled.li`
   ${display}
 `;
 
+ListItem.noStyleType = styled(ListItem)`
+  list-style-type: none;
+`;
+
 export {
   List,
   ListItem
