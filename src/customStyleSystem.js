@@ -83,7 +83,7 @@ const beforeBoxContent = style({
 });
 
 const afterBoxContent = style({
-  prop: 'beforeBoxContent',
+  prop: 'afterBoxContent',
   cssProperty: 'content',
 });
 

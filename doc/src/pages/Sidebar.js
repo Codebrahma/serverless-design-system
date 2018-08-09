@@ -68,6 +68,20 @@ const Sidebar = ({ list, onClickListItem, activeComponent }) => {
           ))
         }
       </SidebarSubList>
+      <SidebarSubList>
+        <SidebarHeader>Components</SidebarHeader>
+        {
+          list.components.map((name, index) => (
+            <SidebarItem
+              key={index}
+              onClick={() => { onClickListItem(name); }}
+              active={activeComponent === name}
+            >
+              {capitalize(name)}
+            </SidebarItem>
+          ))
+        }
+      </SidebarSubList>
     </SidebarWrapper>
   );
 };
