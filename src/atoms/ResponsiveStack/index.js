@@ -5,45 +5,45 @@ import { flexDirection } from 'styled-system';
 
 import Flex from './../Flex';
 
-const Stack = styled(Flex)`
+const ResponsiveStack = styled(Flex)`
   ${flexDirection}
 `;
 
-Stack.relative = styled(Stack)`
+ResponsiveStack.relative = styled(ResponsiveStack)`
   position: relative;
 `;
 
-Stack.absolute = styled(Stack)`
+ResponsiveStack.absolute = styled(ResponsiveStack)`
   position: absolute;
 `;
 
-Stack.fixed = styled(Stack)`
+ResponsiveStack.fixed = styled(ResponsiveStack)`
   position: fixed;
 `;
 
-Stack.spaceBetween = styled(Stack)`
+ResponsiveStack.spaceBetween = styled(ResponsiveStack)`
   justify-content: space-between;
 `;
 
-Stack.horizontallyCenter = styled(Stack)`
+ResponsiveStack.horizontallyCenter = styled(ResponsiveStack)`
   justify-content: center;
 `;
 
-Stack.verticallyCenter = styled(Stack)`
+ResponsiveStack.verticallyCenter = styled(ResponsiveStack)`
   align-items: center;
 `;
 
-Stack.center = styled(Stack)`
+ResponsiveStack.center = styled(ResponsiveStack)`
   justify-content: center;
   align-items: center;
 `;
 
-Stack.propTypes = {
+ResponsiveStack.propTypes = {
   flexDirection: PropTypes.array,
 };
 
-Stack.defaultProps = {
+ResponsiveStack.defaultProps = {
   flexDirection: ['column', 'column', 'row'],
 };
 
-export default Stack;
+export default ResponsiveStack;
