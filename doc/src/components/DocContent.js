@@ -25,7 +25,7 @@ const StyledEditor = styled(LiveEditor)`
 
 const StyledPreview = styled(LivePreview)`
   margin-top:10px;
-  padding: 20px;
+  padding: 20px 0;
   width: 100%;
 `;
 
