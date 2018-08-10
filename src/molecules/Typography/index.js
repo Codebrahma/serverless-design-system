@@ -24,5 +24,7 @@ P.l.defaultProps = {
   color: 'black',
   fontSize: 4,
   lineHeight: 3,
+  fontWeight: 'normal',
+  fontStyle: 'normal'
 };
 export default P;
