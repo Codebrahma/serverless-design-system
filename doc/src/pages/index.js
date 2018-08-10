@@ -16,13 +16,11 @@ const Wrapper = styled.div`
 `;
 
 const Content = styled.div`
-  margin-left: 20%;
+  margin-left: 200px;
   width: 80%;
   min-width: 400px;
-  padding-left: 5%;
-  padding-right: 10%;
+  padding: 0 5%;
   font-size: 1.2rem;
-  margin-top: 50px;
 `;
 
 class Documentation extends React.Component {
@@ -32,7 +30,7 @@ class Documentation extends React.Component {
     this.state = {
       activeComponent: 'box',
       nodes: [],
-      sidebarList: { atoms: [], molecules: [] },
+      sidebarList: { atoms: [], molecules: [], components: [] },
     };
   }
 
@@ -58,14 +56,22 @@ class Documentation extends React.Component {
           accumulator.molecules.push(frontmatter.component);
         }
       }
+      if (frontmatter.type === 'component') {
+        if (accumulator.components.indexOf(frontmatter.component) === -1) {
+          accumulator.components.push(frontmatter.component);
+        }
+      }
 
       return accumulator;
     }, {
       atoms: [],
       molecules: [],
+      components: [],
     });
     sidebarList.atoms.sort((a, b) => a > b);
     sidebarList.molecules.sort((a, b) => a > b);
+    sidebarList.components.sort((a, b) => a > b);
+
     this.setState({
       nodes,
       sidebarList,
@@ -107,7 +113,7 @@ Documentation.propTypes = {
   data: PropTypes.object,
 };
 
-Documentation.defaultProps = { 
+Documentation.defaultProps = {
   data: '',
 };
 
