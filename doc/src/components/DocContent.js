@@ -30,7 +30,6 @@ const StyledPreview = styled(LivePreview)`
 `;
 
 const StyledHeader = styled.h3`
-  font-style: italic;
 `;
 
 const NodeList = ({ node, scope }) => (
@@ -59,7 +58,7 @@ const DocContent = ({ nodes, scope }) => {
         sortedNodes.map((item, index) => {
           return (item.node.frontmatter.path.split('/')[2]) === 'props' ? (
             <div key={index}>
-              <h3>Props</h3>
+              <h3>Props for {item.node.frontmatter.title}</h3>
               <div key={index} dangerouslySetInnerHTML={{ __html: item.node.html }} />
             </div>
           ) : (

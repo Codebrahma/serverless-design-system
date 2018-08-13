@@ -28,7 +28,7 @@ const SidebarItem = styled.div`
 
 const SidebarHeader = styled.h1`
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 2rem;
   padding-left: 10px;
   background: #fff;
 `;
