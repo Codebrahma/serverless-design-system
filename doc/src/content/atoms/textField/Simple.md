@@ -13,10 +13,10 @@ title: "Text Field"
     lineHeight={4}
     opacity="0.2"
     placeholder="email address"
-    pb="15px"
-    pt="11px"
+    placeholderColor="#ddd"
+    placeholderFontSize="1.2rem"
+    placeholderFontStyle="italic"
+    py="15px"
     px="24px"
   />
 </Box>
-
-  
