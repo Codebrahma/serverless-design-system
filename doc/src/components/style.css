@@ -14,26 +14,32 @@ thead {
   display: table-header-group;
   vertical-align: middle;
   border-color: inherit;
-  
+
 }
 
 tr {
   border-top: 1px solid #c6cbd1;
   background: #fff;
   border: 1px solid #e8e8e8;
+
+  &:hover > td {
+    background: #eee;
+    cursor: pointer;
+  }
 }
 
 th {
   padding: 14px 16px;
   background: #e8e8e8;
   padding: 10px 14px;
+  text-align: left;
 }
 
 td {
   font-weight: 500;
   width: 20%;
   color: #003a8c;
-  text-align: center;
+  text-align: left;
 
   padding: 10px 14px;
 }
