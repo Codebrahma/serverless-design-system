@@ -3,7 +3,7 @@ path: "/image/props"
 component: "image"
 type: "atom"
 date: "2017-07-12T17:12:33.962Z"
-title: "Props for the component"
+title: "Image"
 ---
 
 | Prop | Description | Type | Default |
