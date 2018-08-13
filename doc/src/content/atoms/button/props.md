@@ -3,7 +3,7 @@ path: "/button/props"
 component: "button"
 type: "atom"
 date: "2017-07-12T17:12:33.962Z"
-title: "Props for the component"
+title: "Button"
 ---
 
 | Prop | Description | Type | Default |

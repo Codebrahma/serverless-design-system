@@ -6,7 +6,7 @@ date: "2017-07-12T17:12:33.962Z"
 title: "List"
 ---
 
-**You can apply these to list or listitem component**
+**These props can be applied to `List` and `ListItem` component.**
 
 | Prop | Description | Type | Default |
 | ------ | ----------- | ---- | ------- |
