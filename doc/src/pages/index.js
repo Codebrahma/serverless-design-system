@@ -26,9 +26,9 @@ const Content = styled.div`
 class Documentation extends React.Component {
   constructor(props) {
     super(props);
-
+    
     this.state = {
-      activeComponent: 'box',
+      activeComponent: props.location.search.substring(11),
       nodes: [],
       sidebarList: { atoms: [], molecules: [], components: [] },
     };
@@ -39,6 +39,10 @@ class Documentation extends React.Component {
     const {
       activeComponent,
     } = this.state;
+    if (!activeComponent) {
+      window.location = '/?component=box';
+    }
+
     const nodes = docEdges.filter(edge => edge.node.frontmatter.component === activeComponent);
     const sidebarList = docEdges.reduce((accumulator, edge) => {
       const {
@@ -87,6 +91,7 @@ class Documentation extends React.Component {
       activeComponent,
     });
   }
+
   render() {
     const {
       nodes,

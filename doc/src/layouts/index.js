@@ -5,7 +5,7 @@ import './index.css'
 
 import { AppWrapper, Wrapper } from './default';
 
-const Layout = ({ children, data }) => (
+const Layout = ({ children, data, ...props }) => (
   <AppWrapper>
     <Helmet
       title={data.site.siteMetadata.title}
@@ -17,7 +17,7 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    {children()}
+    {children({ ...props })}
   </AppWrapper>
 )
 
