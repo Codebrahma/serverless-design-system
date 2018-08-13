@@ -31,9 +31,9 @@ title: "Box"
 | mt | margin top | px string / from theme| null |
 | mx | margin for left and right | px string / from theme| null |
 | my | margin for top and bottom | px string / from theme| null |
-| overflow | Sets the `overflow` CSS property | css value string | null |
-| overflowX | Sets the `overflowX` CSS property | css value string | null |
-| overflowY | Sets the `overflowY` CSS property | css value string | null |
+| o | Sets the `overflow` CSS property | css value string | null |
+| ox | Sets the `overflow-x` CSS property | css value string | null |
+| oy | Sets the `overflow-y` CSS property | css value string | null |
 | p | padding for all 4 side | px string / from theme| null |
 | pb | padding bottom | px string / from theme| null |
 | pl | padding left | px string / from theme| null |
