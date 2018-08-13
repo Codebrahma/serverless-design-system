@@ -4,16 +4,14 @@
   "description": "A design system for Serverless Inc.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint . --fix",
-    "storybook": "start-storybook -p 9001 -c .storybook",
-    "build": "x0 build docs -d .out && build-storybook -c .storybook -o .out/storybook",
-    "start": "x0 docs --open"
+    "build-local": "cd doc && yarn install && gatsby build",
+    "build": "npm install -g gatsby && npm run build-local",
+    "start": "cd doc && gatsby develop"
   },
   "author": "Anand Narayan",
   "license": "MIT",
   "devDependencies": {
-    "@storybook/react": "^3.4.8",
     "babel-core": "^6.26.3",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^17.0.0",
@@ -22,15 +20,12 @@
     "eslint-plugin-react": "^7.10.0"
   },
   "dependencies": {
-    "@compositor/x0": "^6.0.2",
     "babel-polyfill": "^6.26.0",
+    "gatsby-image": "^1.0.55",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-live": "^1.11.0",
     "styled-components": "^3.3.3",
     "styled-system": "^3.0.2"
-  },
-  "x0": {
-    "template": "./docs/src/template.js"
   }
 }
