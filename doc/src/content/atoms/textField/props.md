@@ -12,10 +12,7 @@ title: "TextField"
 | fontWeight | fontWeight of the text field | px string / from theme | null|
 | height | height of the text field | px string / from theme | null |
 | m | margin | px string / from theme| null |
-| maxHeight | max height of the text field | string / from theme | null |
-| maxWidth | max width of the text field | color string / from theme | null |
 | mb | margin bottom | px string / from theme | null |
-| minwidth / maxWidth | width of the button | px string / from theme| null |
 | ml | margin left | px string / from theme | null |
 | mr | margin right | px string / from theme | null |
 | mt | margin top | px string / from theme| null |
@@ -25,10 +22,13 @@ title: "TextField"
 | pb | padding bottom | px string / from theme| null |
 | pl | padding left | px string / from theme| null |
 | placeholder | placeholder of the text field | px string / from theme | null|
+| placeholderColor | color of the placeholder | color string / hex code | null |
+| placeholderFontSize | font size of the placeholder | css value for font-size | null |
+| placeholderFontStyle | font style of the placeholder | css value for font-style | null |
+| placeholderFontWeight | font weight of the placeholder | css value for font-weight | null |
 | pr | padding right | px string / from theme| null |
 | pt | padding top | px string / from theme| null |
 | px | padding for left and right | px string / from theme| null |
 | py | padding for top and bottom | px string / from theme| null |
+| value | value for the text field | string | null |
 | width | width of the text field | px string / from theme | null|
-
-
