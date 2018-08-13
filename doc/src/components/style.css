@@ -18,34 +18,37 @@ thead {
 }
 
 tr {
-  border-top: 1px solid #c6cbd1;
   background: #fff;
-  border: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
 
   &:hover > td {
-    background: #eee;
+    background: #f7fdff;
     cursor: pointer;
   }
 }
 
 th {
   padding: 14px 16px;
-  background: #e8e8e8;
-  padding: 10px 14px;
+  padding: 20px;
   text-align: left;
+  background: #e6f7ff;
+  box-sizing: border-box;
+  border-bottom: 2px solid #1890ff;
+  color: #1890ff;
 }
 
 td {
   font-weight: 500;
-  width: 20%;
+  max-width: 20%;
   color: #003a8c;
+  padding: 20px;
   text-align: left;
 
-  padding: 10px 14px;
-}
-
-tr > td:nth-child(3) {
-  color: #c41d7f;
+  &:first-child {
+    color: #000;
+    font-weight: bold;
+    font-style: italic;
+  }
 }
 
 .prism-code {
