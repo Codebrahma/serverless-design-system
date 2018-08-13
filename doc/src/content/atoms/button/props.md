@@ -9,8 +9,8 @@ title: "Props for the component"
 | Prop | Description | Type | Default |
 | ------ | ----------- | ---- | ------- |
 | bg | background color of the button | color string / from theme | theme.primaryColor |
-| borderColor | border color of the button | color string / from theme | null |
 | border | sets `border` CSS property | string | none |
+| borderColor | border color of the button | color string / from theme | null |
 | borderStyle | sets `border-style` css Property | string | null |
 | color | color of the button | color string / from theme | white |
 | fontFamily | font-family CSS property | string / from theme | 'Serverless' |
