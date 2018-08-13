@@ -47,4 +47,12 @@ Flex.center = styled(Flex)`
   align-items: center;
 `;
 
+Flex.column = styled(Flex)`
+  flex-direction: column;
+`;
+
+Flex.row = styled(Flex)`
+  flex-direction: row;
+`;
+
 export default Flex;
