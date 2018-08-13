@@ -1,9 +1,5 @@
+### Setup Instructions
+
 npm install
 npm start
-npm run storybook
 
-Deployed to 
-https://design-system-serverless.netlify.com/src
-ignore the LiveEdit and template links
-
-https://design-system-serverless.netlify.com/storybook
