@@ -6,5 +6,5 @@ title: "Simple Box"
 ---
 
 <Box>
-  Box1
+  Simple block
 </Box>
