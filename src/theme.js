@@ -34,6 +34,9 @@ const colors = {
     '#8c8c8c',
     '#5b5b5b',
   ],
+  gradient: {
+    black1: '#222222',
+  }
 };
 colors.primaryColor = colors.serverlessRed;
 colors.secondaryColor = colors.darkServerlessRed;
