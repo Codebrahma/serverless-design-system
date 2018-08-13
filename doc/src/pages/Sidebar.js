@@ -14,13 +14,8 @@ const SidebarWrapper = styled.div`
 const SidebarSubList = styled.div``;
 
 const ALink = styled(Link)`
-  a {
-    text-decoration: none;
-    color: #322500;
-    div {
-      color: #322500;
-    }
-  }
+  text-decoration: none;
+  color: #322500;
 `;
 
 const SidebarItem = styled.div`
