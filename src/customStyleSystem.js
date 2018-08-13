@@ -87,6 +87,11 @@ const afterBoxContent = style({
   cssProperty: 'content',
 });
 
+const styleType = style({
+  prop: 'styleType',
+  cssProperty: 'list-style-type',
+});
+
 export {
   overflow,
   overflowX,
@@ -104,5 +109,6 @@ export {
   afterBoxBackgroundColor,
   beforeBoxContent,
   afterBoxContent,
-  transition
+  transition,
+  styleType,
 };
