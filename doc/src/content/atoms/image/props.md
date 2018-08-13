@@ -26,4 +26,5 @@ title: "Props for the component"
 | pt | padding top | px string / from theme| null |
 | px | padding for left and right | px string / from theme| null |
 | py | padding for top and bottom | px string / from theme| null |
+| src | source for image | url string | null |
 | width | width of the image | px string / from theme | null|
