@@ -9,5 +9,6 @@ Any prop for the image can be passed in here
 
 | Prop | Description | Type | Default |
 | ------ | ----------- | ---- | ------- |
+| img | Image for the card | string | null |
 | title | Title of the card | string | null |
 | description | Description of the card | string | null |
