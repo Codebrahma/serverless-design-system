@@ -2,7 +2,7 @@
 path: "/box/4"
 component: "box"
 type: "atom"
-title: "Box with Type (Relative / Absolute / Fixed) "
+title: "Box with positioning (Relative / Absolute / Fixed)"
 ---
 
 <Box border="1px solid" height="200px" width="200px">
