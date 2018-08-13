@@ -23,8 +23,33 @@ const border = props => ({
 });
 
 const TextField = styled.input`
+  ::-webkit-input-placeholder {
+    color: ${(props) => props.placeholderColor};
+    font-size: ${(props) => props.placeholderFontSize};
+    font-weight: ${(props) => props.placeholderFontWeight};
+    font-style: ${(props) => props.placeholderFontStyle};
+  }
+  ::-moz-placeholder {
+    color: ${(props) => props.placeholderColor};
+    font-size: ${(props) => props.placeholderFontSize};
+    font-weight: ${(props) => props.placeholderFontWeight};
+    font-style: ${(props) => props.placeholderFontStyle};
+  }
+  :-ms-input-placeholder {
+    color: ${(props) => props.placeholderColor};
+    font-size: ${(props) => props.placeholderFontSize};
+    font-weight: ${(props) => props.placeholderFontWeight};
+    font-style: ${(props) => props.placeholderFontStyle};
+  }
+  :-moz-placeholder {
+    color: ${(props) => props.placeholderColor};
+    font-size: ${(props) => props.placeholderFontSize};
+    font-weight: ${(props) => props.placeholderFontWeight};
+    font-style: ${(props) => props.placeholderFontStyle};
+  }
+
   ${color}
-  ${fontFamily} 
+  ${fontFamily}
   ${fontSize}
   ${fontStyle}
   ${fontWeight}

@@ -10,16 +10,18 @@ title: "Text"
 
 | Prop | Description | Type | Default |
 | ------ | ----------- | ---- | ------- |
-| fontSize | fontSize of the text | px string / from theme | null|
-| fontWeight | fontWeight of the text | px string / from theme | null|
-| height | height of the text | px string / from theme | null |
+| align | represents `text-align` css property | css value string | null |
+| color | color of the text | string / from theme | null |
+| fontFamily | font family of the text | string / from theme | null |
+| fontSize | font size of the text | string / from theme | null |
+| fontStyle | font style of the text | string / from theme | null |
+| fontWeight | font weight of the text | string / from theme | null |
+| letterSpacing | represents `letter-spacing` css property | string / from theme | null |
+| lineHeight | represents `line-height` css property | string / from theme | null |
 | m | margin | px string / from theme| null |
-| maxHeight | max height of the text | string / from theme | null |
-| maxWidth | max width of the text | color string / from theme | null |
-| mb | margin bottom | px string / from theme | null |
-| minwidth / maxWidth | width of the button | px string / from theme| null |
-| ml | margin left | px string / from theme | null |
-| mr | margin right | px string / from theme | null |
+| mb | margin bottom | px string / from theme| null |
+| ml | margin left | px string / from theme| null |
+| mr | margin right | px string / from theme| null |
 | mt | margin top | px string / from theme| null |
 | mx | margin for left and right | px string / from theme| null |
 | my | margin for top and bottom | px string / from theme| null |
@@ -30,6 +32,3 @@ title: "Text"
 | pt | padding top | px string / from theme| null |
 | px | padding for left and right | px string / from theme| null |
 | py | padding for top and bottom | px string / from theme| null |
-| width | width of the text | px string / from theme | null|
-
-
