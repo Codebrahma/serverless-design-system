@@ -5,7 +5,7 @@ type: "atom"
 date: "2017-07-12T17:12:33.962Z"
 title: "Flex"
 ---
-**Any prop related to box can be used** (Example: `height`, `width`, `background`, `border` and etc)
+**Any prop related to `Box` can be used** (Example: `height`, `width`, `background`, `border` and etc)
 
 | Prop | Description | Type | Default |
 | ------ | ----------- | ---- | ------- |
