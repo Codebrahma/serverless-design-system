@@ -22,6 +22,7 @@
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "gatsby-image": "^1.0.55",
+    "gatsby-link": "^1.6.46",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-live": "^1.11.0",
