@@ -6,6 +6,10 @@ date: "2017-07-12T17:12:33.962Z"
 title: "Container"
 ---
 
+A Container centers its children.
+A Container is a Box (Div) whose margin is set to auto, and maxWidth is set
+
+
 | Prop | Description | Type | Default |
 | ------ | ----------- | ---- | ------- |
 | background | Sets the background CSS property | css value string | null |
