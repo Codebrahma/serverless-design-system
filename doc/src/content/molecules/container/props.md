@@ -6,9 +6,10 @@ date: "2017-07-12T17:12:33.962Z"
 title: "Container"
 ---
 
-A Container centers its children.
-A Container is a Box (Div) whose margin is set to auto, and maxWidth is set
+The <Container /> component is used to align the app body at the center of screen.
+If you'd like to add padding or margin, please use <Box /> inside it.
 
+If there is no maxWidth prop, theme.maxContainerWidth - 1260px will be used as default
 
 | Prop | Description | Type | Default |
 | ------ | ----------- | ---- | ------- |

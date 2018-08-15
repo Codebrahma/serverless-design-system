@@ -5,9 +5,7 @@ import {
   maxHeight,
   maxWidth,
   minHeight,
-  minWidth,
-  space,
-  width,
+  maxHeight,
 } from 'styled-system';
 
 const Box = styled.div`
