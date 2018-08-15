@@ -1,5 +1,10 @@
 import styled from 'styled-components';
-import { space, width, minWidth, maxWidth } from 'styled-system';
+import {
+  space,
+  width,
+  minWidth,
+  maxWidth,
+} from 'styled-system';
 
 import { Box } from '../../atoms';
 
@@ -12,7 +17,7 @@ const Container = styled(Box)`
 
 Container.defaultProps = {
   m: 'auto',
-  maxWidth: [0, 0, 0, 1]
+  maxWidth: [0, 0, 0, 1],
 };
 
 export default Container;
