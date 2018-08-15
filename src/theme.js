@@ -96,6 +96,7 @@ const shadows = [
 ];
 
 const theme = {
+  maxContainerWidth: '1260px',
   font,
   breakpoints,
   navbarHeights,
