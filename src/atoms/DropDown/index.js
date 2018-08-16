@@ -1,14 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import DefaultContainer from './DefaultContainer'
 import DefaultFieldContainer from './DefaultFieldContainer'
-import DefaultPlaceholder from './DefaultPlaceholder'
-import DefaultIcon from './DefaultIcon'
+import TogglableArrowIcon from './DefaultIcon'
 import DefaultMenuContainer from './DefaultMenuContainer'
 import DefaultOption from './DefaultOption'
 
-const DEFAULT_PLACEHOLDER_STRING = 'Select...'
+import Box from './../Box';
+
+const DEFAULT_PLACEHOLDER_STRING = 'Select'
 
 class Dropdown extends React.Component {
   constructor (props) {
@@ -90,20 +90,28 @@ class Dropdown extends React.Component {
 
   render() {
     const { isOpen, selected } = this.state;
+    const {
+      container: MainContainer,
+      fieldContainer: FieldContainer,
+      placeholderContainer: PlaceholderContainer,
+      icon: Icon,
+      menuContainer: MenuContainer,
+      option: Option
+    } = this.props;
     const placeHolderValue = typeof selected === 'string' ? selected : selected.label;
 
     return (
-      <DefaultContainer>
-        <DefaultFieldContainer onClick={this.handleMouseDown}>
-          <DefaultPlaceholder>
+      <MainContainer>
+        <FieldContainer onClick={this.handleMouseDown}>
+          <PlaceholderContainer>
             { placeHolderValue }
-          </DefaultPlaceholder>
-          <DefaultIcon isOpen={isOpen} />
-        </DefaultFieldContainer>
-        <DefaultMenuContainer isOpen={isOpen}>
+          </PlaceholderContainer>
+          <Icon isOpen={isOpen} />
+        </FieldContainer>
+        <MenuContainer isOpen={isOpen}>
           {
             this.props.options.map((option, index) => (
-              <DefaultOption
+              <Option
                 {...option}
                 key={index}
                 selected={selected}
@@ -111,8 +119,8 @@ class Dropdown extends React.Component {
               />
             ))
           }
-        </DefaultMenuContainer>
-      </DefaultContainer>
+        </MenuContainer>
+      </MainContainer>
     )
   }
 }
@@ -123,7 +131,13 @@ Dropdown.defaultProps = {
     { label: '2', value: '2' },
     { label: '3', value: '3' },
     { label: '4', value: '4' },
-  ]
+  ],
+  container: Box.relative,
+  fieldContainer: DefaultFieldContainer,
+  placeholderContainer: Box.relative,
+  icon: TogglableArrowIcon,
+  menuContainer: DefaultMenuContainer,
+  option: DefaultOption,
 }
 
 export default Dropdown
