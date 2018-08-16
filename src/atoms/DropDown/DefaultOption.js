@@ -8,16 +8,15 @@ const OptionContainer = styled(Box.relative)`
   color: ${({ isSelected }) => isSelected ? '#333' : null };
 
   &:hover {
-    background-color: #f2f9fc;
-    color: #333;
+    background-color: rgba(39, 39, 39, .1);
   }
 `
 
 OptionContainer.defaultProps = {
   color: 'rgba(51, 51, 51, 0.8)',
   cursor: 'pointer',
-  px: '8px',
-  py: 1,
+  px: 1,
+  py: '14.5px',
 }
 
 export default class Option extends React.Component {
@@ -45,6 +44,7 @@ export default class Option extends React.Component {
         onMouseDown={this.onSelect}
         onClick={this.onSelect}
         isSelected={isSelected}
+        {...this.props.styleProps}
       >
         { label }
       </OptionContainer>

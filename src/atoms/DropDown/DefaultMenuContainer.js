@@ -1,23 +1,28 @@
 import React from 'react'
 import styled from 'styled-components'
+import { borderLeft, borderTop, borderRight, borderBottom } from 'styled-system'
 
 import Box from './../Box'
 
 const MenuContainer = styled(Box.absolute)`
+  ${borderLeft}
+  ${borderTop}
+  ${borderRight}
+  ${borderBottom}
 `;
 
 MenuContainer.defaultProps = {
   bg: 'white',
   border: '1px solid #ccc',
-  boxShadow: '0 1px 0 rgba(0, 0, 0, 0.06)',
   mt: '-1px',
   maxHeight: '200px',
   oy: 'auto',
   top: '100%',
   width: 1,
-  zIndex: '1000',
+  zIndex: '100',
 }
 
-export default ({ isOpen, children }) => (
-  isOpen ? <MenuContainer>{ children }</MenuContainer> : null
-);
+export default ({ isOpen, styleProps, children }) => {
+  console.log(styleProps);
+  return (isOpen ? <MenuContainer {...styleProps}>{ children }</MenuContainer> : null)
+};

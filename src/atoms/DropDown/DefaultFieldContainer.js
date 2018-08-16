@@ -15,7 +15,7 @@ FieldContainer.defaultProps = {
   bg: 'white',
   border: '1px solid #ccc',
   color: 'black',
-  py: '8px',
+  py: '14.5px',
   pl: '10px',
   pr: '52px',
   transition: 'all 200ms ease',
