@@ -1,11 +1,13 @@
 import styled from 'styled-components';
 import {
   color,
+  space,
   height,
   maxHeight,
-  maxWidth,
   minHeight,
-  maxHeight,
+  width,
+  maxWidth,
+  minWidth,
 } from 'styled-system';
 
 const Box = styled.div`
