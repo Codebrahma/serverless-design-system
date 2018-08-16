@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 import Box from './../Box'
 
-const StyledOptionContainer = styled(Box.relative)`
+const OptionContainer = styled(Box.relative)`
   background-color: ${({ isSelected }) => isSelected ? '#f2f9fc' : null };
   color: ${({ isSelected }) => isSelected ? '#333' : null };
 
@@ -13,7 +13,7 @@ const StyledOptionContainer = styled(Box.relative)`
   }
 `
 
-StyledOptionContainer.defaultProps = {
+OptionContainer.defaultProps = {
   color: 'rgba(51, 51, 51, 0.8)',
   cursor: 'pointer',
   px: '8px',
@@ -40,14 +40,14 @@ export default class Option extends React.Component {
     const { label, isSelected, value } = this.state;
 
     return (
-      <StyledOptionContainer
+      <OptionContainer
         key={value}
         onMouseDown={this.onSelect}
         onClick={this.onSelect}
         isSelected={isSelected}
       >
         { label }
-      </StyledOptionContainer>
+      </OptionContainer>
     )
   }
 }
