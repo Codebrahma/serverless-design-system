@@ -21,10 +21,6 @@ class Dropdown extends React.Component {
       isOpen: false
     }
     this.mounted = true
-    this.handleDocumentClick = this.handleDocumentClick.bind(this)
-    this.handleMouseDown = this.handleMouseDown.bind(this)
-    this.fireChangeEvent = this.fireChangeEvent.bind(this)
-    this.setValue = this.setValue.bind(this)
   }
 
   componentWillReceiveProps (newProps) {
@@ -49,7 +45,7 @@ class Dropdown extends React.Component {
     document.removeEventListener('touchend', this.handleDocumentClick, false)
   }
 
-  handleMouseDown (event) {
+  handleMouseDown = (event) => {
     if (this.props.onFocus && typeof this.props.onFocus === 'function') {
       this.props.onFocus(this.state.isOpen)
     }
@@ -64,7 +60,7 @@ class Dropdown extends React.Component {
     }
   }
 
-  handleDocumentClick (event) {
+  handleDocumentClick = (event) => {
     if (this.mounted) {
       if (!ReactDOM.findDOMNode(this).contains(event.target)) {
         if (this.state.isOpen) {
@@ -74,7 +70,7 @@ class Dropdown extends React.Component {
     }
   }
 
-  setValue (value, label) {
+  setValue = (value, label) => {
     let newState = {
       selected: {
         value,
@@ -86,7 +82,7 @@ class Dropdown extends React.Component {
     this.setState(newState)
   }
 
-  fireChangeEvent (newState) {
+  fireChangeEvent = (newState) => {
     if (newState.selected !== this.state.selected && this.props.onChange) {
       this.props.onChange(newState.selected)
     }
