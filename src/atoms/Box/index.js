@@ -1,26 +1,24 @@
 import styled from 'styled-components';
 import {
+  color,
+  height,
+  maxHeight,
+  maxWidth,
+  minHeight,
+  minWidth,
   space,
   width,
-  height,
-  borderColor,
-  border,
-  maxWidth,
-  minWidth,
-  minHeight,
-  maxHeight,
 } from 'styled-system';
 
 const Box = styled.div`
+  ${color}
+  ${height}
+  ${maxHeight}
+  ${maxWidth}
+  ${minHeight}
+  ${minWidth}
   ${space}
   ${width}
-  ${height}
-  ${border}
-  ${borderColor}
-  ${maxWidth}
-  ${minWidth}
-  ${minHeight}
-  ${maxHeight}
 `;
 
 Box.displayName = 'Box';
