@@ -19,6 +19,6 @@ const Background = styled.div`
   ${backgroundPosition}
 `;
 
-Background.displayName = 'Box';
+Background.displayName = 'Background';
 
 export default Background;
