@@ -1,4 +1,4 @@
-import { Text } from '../../atoms';
+import Text from '../Text';
 import theme from '../../theme';
 
 const Heading = Text.withComponent('h3');
