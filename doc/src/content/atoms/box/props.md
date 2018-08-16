@@ -7,8 +7,7 @@ title: "Box"
 
 | Prop | Description | Type | Default |
 | ------ | ----------- | ---- | ------- |
-| border | sets the `border` CSS property | string or array | null |
-| borderColor | color for the border | string or array | null |
+| color | sets the color of the children texts | string or array | null |
 | height | height of the box | number, string or array | null |
 | m | margin | number, string or array | null |
 | maxHeight | maximum height of the box | number, string or array | null |
