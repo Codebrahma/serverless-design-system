@@ -22,6 +22,7 @@ class Dropdown extends React.Component {
     }
     this.mounted = true
     this.handleDocumentClick = this.handleDocumentClick.bind(this)
+    this.handleMouseDown = this.handleMouseDown.bind(this)
     this.fireChangeEvent = this.fireChangeEvent.bind(this)
     this.setValue = this.setValue.bind(this)
   }
@@ -92,17 +93,24 @@ class Dropdown extends React.Component {
   }
 
   render() {
+    const placeHolderValue = typeof this.state.selected === 'string' ? this.state.selected : this.state.selected.label;
+
     return (
       <DefaultContainer>
-        <DefaultFieldContainer>
-          <DefaultPlaceholder />
-          <DefaultIcon />
+        <DefaultFieldContainer
+          onClick={this.handleMouseDown}
+        >
+          <DefaultPlaceholder>
+            { placeHolderValue }
+          </DefaultPlaceholder>
+          <DefaultIcon isOpen={this.state.isOpen} />
         </DefaultFieldContainer>
-        <DefaultMenuContainer>
+        <DefaultMenuContainer isOpen={this.state.isOpen}>
           {
-            this.props.options.map((option) => (
+            this.props.options.map((option, index) => (
               <DefaultOption
                 {...option}
+                key={index}
                 selected={this.state.selected}
                 onSelect={this.setValue}
               />
@@ -115,12 +123,12 @@ class Dropdown extends React.Component {
 }
 
 Dropdown.defaultProps = {
-  options: [{
-    label: '1', value: '1',
-    label: '2', value: '2',
-    label: '3', value: '3',
-    label: '4', value: '4',
-  }]
-};
+  options: [
+    { label: '1', value: '1' },
+    { label: '2', value: '2' },
+    { label: '3', value: '3' },
+    { label: '4', value: '4' },
+  ]
+}
 
-export default Dropdown;
+export default Dropdown

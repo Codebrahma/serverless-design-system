@@ -1,3 +1,4 @@
+import React from 'react'
 import styled from 'styled-components'
 
 import Box from './../Box'
@@ -15,6 +16,8 @@ MenuContainer.defaultProps = {
   top: '100%',
   width: 1,
   zIndex: '1000',
-};
+}
 
-export default MenuContainer;
+export default ({ isOpen, children }) => (
+  isOpen ? <MenuContainer>{ children }</MenuContainer> : null
+);

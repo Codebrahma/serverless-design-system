@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const Icon = styled.span`
-  border-color: ${({ isOpen }) => (isOpen ? '#999 transparent transparent' : 'transparent transparent #999')};
+  border-color: ${({ isOpen }) => (isOpen ? 'transparent transparent #999' : '#999 transparent transparent')};
   border-style: solid;
   border-width: ${({ isOpen }) => (isOpen ? '0 5px 5px' : '5px 5px 0')};
   content: ' ';

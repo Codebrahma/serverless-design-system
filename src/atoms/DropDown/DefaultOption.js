@@ -13,7 +13,7 @@ const StyledOptionContainer = styled(Box.relative)`
   }
 `
 
-StyledOptionContainer.propTypes = {
+StyledOptionContainer.defaultProps = {
   color: 'rgba(51, 51, 51, 0.8)',
   cursor: 'pointer',
   px: '8px',
