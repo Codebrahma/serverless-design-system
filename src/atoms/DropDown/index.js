@@ -6,7 +6,8 @@ import TogglableArrowIcon from './DefaultIcon'
 import DefaultMenuContainer from './DefaultMenuContainer'
 import DefaultOption from './DefaultOption'
 
-import Box from './../Box';
+import Box from './../Box'
+import Text from './../Text'
 
 const DEFAULT_PLACEHOLDER_STRING = 'Select'
 
@@ -93,23 +94,36 @@ class Dropdown extends React.Component {
       placeholderContainer: PlaceholderContainer,
       icon: Icon,
       menuContainer: MenuContainer,
-      option: Option
+      option: Option,
+      containerProps,
+      fieldContainerProps,
+      placeholderProps,
+      iconProps,
+      menuContainerProps,
+      optionProps,
     } = this.props;
     const placeHolderValue = typeof selected === 'string' ? selected : selected.label;
 
     return (
-      <MainContainer>
-        <FieldContainer onClick={this.handleMouseDown}>
-          <PlaceholderContainer>
+      <MainContainer {...containerProps}>
+        <FieldContainer
+          onClick={this.handleMouseDown}
+          {...fieldContainerProps}
+        >
+          <PlaceholderContainer {...placeholderProps}>
             { placeHolderValue }
           </PlaceholderContainer>
-          <Icon isOpen={isOpen} />
+          <Icon isOpen={isOpen} {...iconProps} />
         </FieldContainer>
-        <MenuContainer isOpen={isOpen}>
+        <MenuContainer
+          isOpen={isOpen}
+          styleProps={menuContainerProps}
+        >
           {
             this.props.options.map((option, index) => (
               <Option
                 {...option}
+                styleProps={optionProps}
                 key={index}
                 selected={selected}
                 onSelect={this.setValue}
@@ -126,10 +140,16 @@ Dropdown.defaultProps = {
   options: [],
   container: Box.relative,
   fieldContainer: DefaultFieldContainer,
-  placeholderContainer: Box.relative,
+  placeholderContainer: Text.span,
   icon: TogglableArrowIcon,
   menuContainer: DefaultMenuContainer,
   option: DefaultOption,
+  containerProps: {},
+  fieldContainerProps: {},
+  placeholderProps: {},
+  iconProps: {},
+  menuContainerProps: {},
+  optionProps: {},
 }
 
 export default Dropdown

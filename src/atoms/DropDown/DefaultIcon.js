@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 const Icon = styled.span`
+  display: inline;
   border-color: ${({ isOpen }) => (isOpen ? 'transparent transparent #999' : '#999 transparent transparent')};
   border-style: solid;
   border-width: ${({ isOpen }) => (isOpen ? '0 5px 5px' : '5px 5px 0')};
@@ -10,7 +11,7 @@ const Icon = styled.span`
   margin-top: -ceil(2.5);
   position: absolute;
   right: 10px;
-  top: 14px;
+  top: 24px;
   width: 0;
 `
 
