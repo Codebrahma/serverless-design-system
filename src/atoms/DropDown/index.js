@@ -89,25 +89,24 @@ class Dropdown extends React.Component {
   }
 
   render() {
-    const placeHolderValue = typeof this.state.selected === 'string' ? this.state.selected : this.state.selected.label;
+    const { isOpen, selected } = this.state;
+    const placeHolderValue = typeof selected === 'string' ? selected : selected.label;
 
     return (
       <DefaultContainer>
-        <DefaultFieldContainer
-          onClick={this.handleMouseDown}
-        >
+        <DefaultFieldContainer onClick={this.handleMouseDown}>
           <DefaultPlaceholder>
             { placeHolderValue }
           </DefaultPlaceholder>
-          <DefaultIcon isOpen={this.state.isOpen} />
+          <DefaultIcon isOpen={isOpen} />
         </DefaultFieldContainer>
-        <DefaultMenuContainer isOpen={this.state.isOpen}>
+        <DefaultMenuContainer isOpen={isOpen}>
           {
             this.props.options.map((option, index) => (
               <DefaultOption
                 {...option}
                 key={index}
-                selected={this.state.selected}
+                selected={selected}
                 onSelect={this.setValue}
               />
             ))
