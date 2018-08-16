@@ -72,10 +72,7 @@ class Dropdown extends React.Component {
 
   setValue = (value, label) => {
     let newState = {
-      selected: {
-        value,
-        label
-      },
+      selected: { value, label },
       isOpen: false
     }
     this.fireChangeEvent(newState)
@@ -126,12 +123,7 @@ class Dropdown extends React.Component {
 }
 
 Dropdown.defaultProps = {
-  options: [
-    { label: '1', value: '1' },
-    { label: '2', value: '2' },
-    { label: '3', value: '3' },
-    { label: '4', value: '4' },
-  ],
+  options: [],
   container: Box.relative,
   fieldContainer: DefaultFieldContainer,
   placeholderContainer: Box.relative,
