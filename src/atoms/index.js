@@ -1,3 +1,4 @@
+export { default as Background } from './Background';
 export { default as Box } from './Box';
 export { default as Flex } from './Flex';
 export { default as InlineBlock } from './InlineBlock';
