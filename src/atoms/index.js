@@ -6,6 +6,7 @@ export { default as InlineBlock } from './InlineBlock';
 export { default as Button } from './Button';
 export { default as SecondaryButton } from './SecondaryButton';
 export { default as Image } from './Image';
+export { default as Overflow } from './Overflow';
 export { default as Text } from './Text';
 export { default as TextField } from './TextField';
 export { default as Logo } from './Logo';
