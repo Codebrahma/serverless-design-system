@@ -4,9 +4,6 @@ component: "button"
 type: "atom"
 title: "Fixed Size Button with color"
 ---
-
-<Box>
-  <Button width="350px" px="50px" mr={'20px'} fontSize={'1.2rem'}>
-    Button with fixed size
-  </Button>
-</Box>
+<Button width="350px" px="50px" mr='20px' fontSize='1.2rem'>
+  Button with fixed size
+</Button>
