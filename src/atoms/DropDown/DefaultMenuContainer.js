@@ -22,7 +22,6 @@ MenuContainer.defaultProps = {
   zIndex: '100',
 }
 
-export default ({ isOpen, styleProps, children }) => {
-  console.log(styleProps);
-  return (isOpen ? <MenuContainer {...styleProps}>{ children }</MenuContainer> : null)
-};
+export default ({ isOpen, styleProps, children }) => (
+  isOpen ? <MenuContainer {...styleProps}>{ children }</MenuContainer> : null
+)
