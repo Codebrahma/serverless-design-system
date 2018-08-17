@@ -13,3 +13,5 @@ export { default as GatsbyImg } from './GatsbyImage';
 export { default as ResponsiveStack } from './ResponsiveStack';
 export { default as Label } from './Label';
 export { default as DropDown } from './DropDown';
+export { default as Checkbox } from './Checkbox';
+export { default as TextArea } from './TextArea';
