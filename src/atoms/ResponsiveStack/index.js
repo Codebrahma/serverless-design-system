@@ -9,18 +9,6 @@ const ResponsiveStack = styled(Flex)`
   ${flexDirection}
 `;
 
-ResponsiveStack.relative = styled(ResponsiveStack)`
-  position: relative;
-`;
-
-ResponsiveStack.absolute = styled(ResponsiveStack)`
-  position: absolute;
-`;
-
-ResponsiveStack.fixed = styled(ResponsiveStack)`
-  position: fixed;
-`;
-
 ResponsiveStack.spaceBetween = styled(ResponsiveStack)`
   justify-content: space-between;
 `;

@@ -1,11 +1,11 @@
 ---
-path: "/absolute/props"
-component: "absolute"
+path: "/fixed/props"
+component: "fixed"
 type: "atom"
-title: "Absolute"
+title: "Fixed"
 ---
 
-`Absolute` is an extension of `Box` component with absolute position.
+`Fixed` is an extension of `Box` component with fixed position.
 
 | Prop | Description | Type | Default |
 | ------ | ----------- | ---- | ------- |

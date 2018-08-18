@@ -28,7 +28,7 @@ const SidebarItem = styled.div`
   cursor: pointer;
   background: ${props => props.active ? '#e6f7ff' : '#fff'}; ;
   box-sizing: border-box;
-  border-right: ${props => props.active ? '2px solid #1890ff' : null};
+  border-right: ${props => props.active ? '4px solid #1890ff' : null};
   color: ${props => props.active ? '#1890ff' : null};
 `;
 
@@ -43,16 +43,24 @@ const capitalize = (str) => {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
+const sort = (array) => (
+  array.sort(function(strA, strB) {
+    return strA.toLowerCase().localeCompare(strB.toLowerCase());
+  })
+)
+
 const Sidebar = ({ list, onClickListItem, activeComponent }) => {
   return (
     <SidebarWrapper>
       <SidebarSubList>
         <SidebarHeader>Atoms</SidebarHeader>
         {
-          list.atoms.map((name, index) => (
-            <ALink to={`/?component=${name}`}>
+          sort(list.atoms).map((name, index) => (
+            <ALink
+              to={`/?component=${name}`}
+              key={index}
+            >
               <SidebarItem
-                key={index}
                 onClick={() => { onClickListItem(name); }}
                 active={activeComponent === name}
               >
@@ -65,10 +73,12 @@ const Sidebar = ({ list, onClickListItem, activeComponent }) => {
       <SidebarSubList>
         <SidebarHeader>Molecules</SidebarHeader>
         {
-          list.molecules.map((name, index) => (
-            <ALink to={`/?component=${name}`}>
+          sort(list.molecules).map((name, index) => (
+            <ALink
+              to={`/?component=${name}`}
+              key={index}
+            >
               <SidebarItem
-                key={index}
                 onClick={() => { onClickListItem(name); }}
                 active={activeComponent === name}
               >
@@ -81,8 +91,11 @@ const Sidebar = ({ list, onClickListItem, activeComponent }) => {
       <SidebarSubList>
         <SidebarHeader>Components</SidebarHeader>
         {
-          list.components.map((name, index) => (
-            <ALink to={`/?component=${name}`}>
+          sort(list.components).map((name, index) => (
+            <ALink
+              to={`/?component=${name}`}
+              key={index}
+            >
               <SidebarItem
                 key={index}
                 onClick={() => { onClickListItem(name); }}

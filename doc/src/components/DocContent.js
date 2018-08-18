@@ -14,8 +14,7 @@ const LiveWrapper = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  max-width: 1300px;
-  margin: 10px auto;
+  margin: 10px 0;
 `;
 
 const StyledEditor = styled(LiveEditor)`
@@ -34,7 +33,7 @@ const StyledHeader = styled.h3`
 
 const NodeList = ({ node, scope }) => (
   <LiveProvider
-    code={node.html}
+    code={node.html.replace(/<([\/]*)codeblock>/g, '').trim()}
     scope={scope}
   >
     <StyledHeader>
