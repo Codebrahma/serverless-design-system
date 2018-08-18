@@ -28,7 +28,7 @@ const SidebarItem = styled.div`
   cursor: pointer;
   background: ${props => props.active ? '#e6f7ff' : '#fff'}; ;
   box-sizing: border-box;
-  border-right: ${props => props.active ? '2px solid #1890ff' : null};
+  border-right: ${props => props.active ? '4px solid #1890ff' : null};
   color: ${props => props.active ? '#1890ff' : null};
 `;
 
