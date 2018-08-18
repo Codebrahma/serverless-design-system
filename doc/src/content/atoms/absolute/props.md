@@ -14,4 +14,3 @@ title: "Absolute"
 | right | sets `right` css property | string or array | null |
 | bottom | sets `bottom` css property | string or array | null |
 | zIndex | sets `zIndex` css property | number or array | null |
-
