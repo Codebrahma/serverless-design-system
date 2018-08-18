@@ -9,7 +9,7 @@ title: "Simple Fixed Box"
   <Fixed
     height="225px"
     top="450px"
-    right="100px"
+    right="95px"
   >
     <Card
       border="2px solid #7ecd28"
@@ -17,8 +17,8 @@ title: "Simple Fixed Box"
     >
       <Image
         src="https://i.gifer.com/5de.gif"
-        height="350px"
-        width="350px"
+        height="200px"
+        width="200px"
       />
       <Flex justifyContent="center">
         I'm a fixed div :)
