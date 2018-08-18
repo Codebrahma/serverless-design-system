@@ -14,8 +14,7 @@ const LiveWrapper = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  max-width: 1300px;
-  margin: 10px auto;
+  margin: 10px 0;
 `;
 
 const StyledEditor = styled(LiveEditor)`
