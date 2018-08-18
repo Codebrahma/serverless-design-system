@@ -4,7 +4,12 @@ component: "overflow"
 type: "atom"
 title: "Overflow X"
 ---
-<Card p={2} width="450px" border="2px dotted cyan">
+<codeblock>
+<Card
+  p={2}
+  width="450px"
+  border="2px dotted cyan"
+>
   <Overflow
     ox="scroll"
   >
@@ -15,3 +20,4 @@ title: "Overflow X"
     </Box>
   </Overflow>
 </Card>
+</codeblock>
