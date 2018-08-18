@@ -34,7 +34,7 @@ const StyledHeader = styled.h3`
 
 const NodeList = ({ node, scope }) => (
   <LiveProvider
-    code={node.html}
+    code={node.html.replace(/<([\/]*)codeblock>/g, '').trim()}
     scope={scope}
   >
     <StyledHeader>
