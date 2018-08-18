@@ -92,6 +92,17 @@ const styleType = style({
   cssProperty: 'list-style-type',
 });
 
+const horizontalRuleHeight = style({
+  prop: 'height',
+  cssProperty: 'border-top-width',
+});
+
+const horizontalRuleColor = style({
+  prop: 'color',
+  cssProperty: 'border-top-color',
+  key: 'colors',
+});
+
 export {
   overflow,
   overflowX,
@@ -111,4 +122,6 @@ export {
   afterBoxContent,
   transition,
   styleType,
+  horizontalRuleHeight,
+  horizontalRuleColor
 };
