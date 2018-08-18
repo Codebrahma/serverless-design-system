@@ -17,3 +17,4 @@ export { default as Heading } from './Heading';
 export { List, ListItem } from './List';
 export { default as GatsbyImg } from './GatsbyImage';
 export { default as ResponsiveStack } from './ResponsiveStack';
+export { default as HorizontalRule } from './HorizontalRule';
