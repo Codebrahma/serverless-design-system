@@ -43,13 +43,19 @@ const capitalize = (str) => {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
+const sort = (array) => (
+  array.sort(function(strA, strB) {
+    return strA.toLowerCase().localeCompare(strB.toLowerCase());
+  })
+)
+
 const Sidebar = ({ list, onClickListItem, activeComponent }) => {
   return (
     <SidebarWrapper>
       <SidebarSubList>
         <SidebarHeader>Atoms</SidebarHeader>
         {
-          list.atoms.map((name, index) => (
+          sort(list.atoms).map((name, index) => (
             <ALink
               to={`/?component=${name}`}
               key={index}
@@ -67,7 +73,7 @@ const Sidebar = ({ list, onClickListItem, activeComponent }) => {
       <SidebarSubList>
         <SidebarHeader>Molecules</SidebarHeader>
         {
-          list.molecules.map((name, index) => (
+          sort(list.molecules).map((name, index) => (
             <ALink
               to={`/?component=${name}`}
               key={index}
@@ -85,7 +91,7 @@ const Sidebar = ({ list, onClickListItem, activeComponent }) => {
       <SidebarSubList>
         <SidebarHeader>Components</SidebarHeader>
         {
-          list.components.map((name, index) => (
+          sort(list.components).map((name, index) => (
             <ALink
               to={`/?component=${name}`}
               key={index}
