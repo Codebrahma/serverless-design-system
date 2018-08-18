@@ -50,9 +50,11 @@ const Sidebar = ({ list, onClickListItem, activeComponent }) => {
         <SidebarHeader>Atoms</SidebarHeader>
         {
           list.atoms.map((name, index) => (
-            <ALink to={`/?component=${name}`}>
+            <ALink
+              to={`/?component=${name}`}
+              key={index}
+            >
               <SidebarItem
-                key={index}
                 onClick={() => { onClickListItem(name); }}
                 active={activeComponent === name}
               >
@@ -66,9 +68,11 @@ const Sidebar = ({ list, onClickListItem, activeComponent }) => {
         <SidebarHeader>Molecules</SidebarHeader>
         {
           list.molecules.map((name, index) => (
-            <ALink to={`/?component=${name}`}>
+            <ALink
+              to={`/?component=${name}`}
+              key={index}
+            >
               <SidebarItem
-                key={index}
                 onClick={() => { onClickListItem(name); }}
                 active={activeComponent === name}
               >
@@ -82,7 +86,10 @@ const Sidebar = ({ list, onClickListItem, activeComponent }) => {
         <SidebarHeader>Components</SidebarHeader>
         {
           list.components.map((name, index) => (
-            <ALink to={`/?component=${name}`}>
+            <ALink
+              to={`/?component=${name}`}
+              key={index}
+            >
               <SidebarItem
                 key={index}
                 onClick={() => { onClickListItem(name); }}
