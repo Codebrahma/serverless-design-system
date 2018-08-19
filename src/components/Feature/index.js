@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Box, Heading, Image } from '../../atoms';
+import { Heading, Image, Relative } from '../../atoms';
 import { P } from '../../molecules';
 import withBeforeAfter from '../../withBeforeAfter';
 
