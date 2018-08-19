@@ -34,7 +34,7 @@ const UseCase = ({ title, description, imgSrc, imageFirst }) => {
           src={imgSrc}
           alt={title}
           maxWidth={1}
-          width={[ '100%', '80%', '60%', '80%' ]}
+          width={[ '100%', '80%', '60%', '100%' ]}
           my="auto"
         />
       </Flex.horizontallyCenter>
