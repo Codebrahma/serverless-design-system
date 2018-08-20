@@ -67,7 +67,8 @@ p {
   line-height: 2;
 }
 
-.prism-code {
+.react-live .prism-code {
   font-size: 14px;
-  padding: 20px !important;
+  background: #002240;
+  padding: 20px;
 }
