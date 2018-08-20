@@ -24,15 +24,26 @@ const CopyToClipboardLink = styled.button`
   padding: 10px;
   position: absolute;
   color: white;
-  right: 0;
   cursor: pointer;
+  right: 0;
   border: 0;
   background: rgb(255, 255, 255, 0.2);
+  min-width: 50px;
+  text-align: center;
+  &:after {
+    content: 'copy';
+  }
+
   &:focus {
     outline: none;
   }
+
   &:active {
     background: rgb(255, 255, 255, 0.8);
+
+    &:after {
+      content: '✔ done';
+    }
   }
 `;
 
@@ -70,7 +81,7 @@ class NodeList extends React.Component {
         </StyledHeader>
         <LiveWrapper>
           <CopyToClipboard text={clipboardValue}>
-            <CopyToClipboardLink>copy</CopyToClipboardLink>
+            <CopyToClipboardLink />
           </CopyToClipboard>
           <StyledEditor onChange={(value) => this.setState({ value })} />
           <ThemeProvider theme={theme}>
