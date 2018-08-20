@@ -11,7 +11,11 @@ const Container = styled.div`
 `;
 
 Container.propTypes = {
-  maxWidth: PropTypes.number,
+  maxWidth: PropTypes.oneOfType([
+    PropTypes.number,
+    PropTypes.string,
+    PropTypes.array,
+  ])
 };
 
 Container.defaultProps = {
