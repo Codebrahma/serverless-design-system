@@ -4,6 +4,7 @@ import {
   LivePreview,
   LiveProvider,
 } from 'react-live';
+import { CopyToClipboard } from 'react-copy-to-clipboard';
 import styled, { ThemeProvider } from 'styled-components';
 
 import theme from '../../../src/theme';
@@ -15,6 +16,24 @@ const LiveWrapper = styled.div`
   flex-wrap: wrap;
   width: 100%;
   margin: 10px 0;
+  position: relative;
+`;
+
+const CopyToClipboardLink = styled.button`
+  font-size: 12px;
+  padding: 10px;
+  position: absolute;
+  color: white;
+  right: 0;
+  cursor: pointer;
+  border: 0;
+  background: rgb(255, 255, 255, 0.2);
+  &:focus {
+    outline: none;
+  }
+  &:active {
+    background: rgb(255, 255, 255, 0.8);
+  }
 `;
 
 const StyledEditor = styled(LiveEditor)`
@@ -30,22 +49,38 @@ const StyledPreview = styled(LivePreview)`
 const StyledHeader = styled.h3`
 `;
 
-const NodeList = ({ node, scope }) => (
-  <LiveProvider
-    code={node.html.replace(/<([\/]*)codeblock>/g, '').trim()}
-    scope={scope}
-  >
-    <StyledHeader>
-      {node.frontmatter.title}
-    </StyledHeader>
-    <LiveWrapper>
-      <StyledEditor />
-      <ThemeProvider theme={theme}>
-        <StyledPreview />
-      </ThemeProvider>
-    </LiveWrapper>
-  </LiveProvider>
-);
+class NodeList extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { value: null }
+  }
+
+  render() {
+    const { node: { html, frontmatter }, scope } = this.props;
+    const formattedCode = html.replace(/<([\/]*)codeblock>/g, '').trim();
+    const clipboardValue = this.state.value || formattedCode;
+
+    return (
+      <LiveProvider
+        code={formattedCode}
+        scope={this.props.scope}
+      >
+        <StyledHeader>
+          {frontmatter.title}
+        </StyledHeader>
+        <LiveWrapper>
+          <CopyToClipboard text={clipboardValue}>
+            <CopyToClipboardLink>copy</CopyToClipboardLink>
+          </CopyToClipboard>
+          <StyledEditor onChange={(value) => this.setState({ value })} />
+          <ThemeProvider theme={theme}>
+            <StyledPreview />
+          </ThemeProvider>
+        </LiveWrapper>
+      </LiveProvider>
+    );
+  }
+}
 
 const DocContent = ({ nodes, scope }) => {
   if (nodes.length === 0) return null;
