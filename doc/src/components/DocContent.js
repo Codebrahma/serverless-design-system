@@ -27,23 +27,16 @@ const CopyToClipboardLink = styled.button`
   cursor: pointer;
   right: 0;
   border: 0;
-  background: rgb(255, 255, 255, 0.2);
+  background: rgb(255, 255, 255, ${({ copied }) => (copied ? 0.8 : 0.2)});
   min-width: 50px;
   text-align: center;
+
   &:after {
-    content: 'copy';
+    content: '${({ copied }) => (copied ? '✔ done' : 'copy')}';
   }
 
   &:focus {
     outline: none;
-  }
-
-  &:active {
-    background: rgb(255, 255, 255, 0.8);
-
-    &:after {
-      content: '✔ done';
-    }
   }
 `;
 
@@ -63,27 +56,35 @@ const StyledHeader = styled.h3`
 class NodeList extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { value: null }
+    this.state = { value: null, copied: false }
+  }
+
+  componentWillReceiveProps(_nextProps) {
+    this.setState({ value: null, copied: false });
   }
 
   render() {
     const { node: { html, frontmatter }, scope } = this.props;
+    const { value, copied } = this.state;
     const formattedCode = html.replace(/<([\/]*)codeblock>/g, '').trim();
-    const clipboardValue = this.state.value || formattedCode;
+    const clipboardValue = value || formattedCode;
 
     return (
       <LiveProvider
         code={formattedCode}
-        scope={this.props.scope}
+        scope={scope}
       >
         <StyledHeader>
           {frontmatter.title}
         </StyledHeader>
         <LiveWrapper>
           <CopyToClipboard text={clipboardValue}>
-            <CopyToClipboardLink />
+            <CopyToClipboardLink
+              copied={copied}
+              onClick={() => this.setState({ copied: true })}
+            />
           </CopyToClipboard>
-          <StyledEditor onChange={(value) => this.setState({ value })} />
+          <StyledEditor onChange={(value) => this.setState({ value, copied: false })} />
           <ThemeProvider theme={theme}>
             <StyledPreview />
           </ThemeProvider>
