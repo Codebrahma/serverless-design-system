@@ -18,18 +18,6 @@ const Flex = styled(Box)`
   ${order}
 `;
 
-Flex.relative = styled(Flex)`
-  position: relative;
-`;
-
-Flex.absolute = styled(Flex)`
-  position: absolute;
-`;
-
-Flex.fixed = styled(Flex)`
-  position: fixed;
-`;
-
 Flex.spaceBetween = styled(Flex)`
   justify-content: space-between;
 `;

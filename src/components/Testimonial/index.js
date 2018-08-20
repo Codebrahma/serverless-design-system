@@ -6,7 +6,9 @@ import {
   Flex,
   Text,
   Image as Img,
-  ResponsiveStack
+  ResponsiveStack,
+  Background,
+  Card
 } from '../../atoms';
 
 const comp = ({
@@ -14,66 +16,71 @@ const comp = ({
 }) => {
   const testimonial = children;
   return (
-    <Flex
-      px={[2, 3, 4]}
-      py={5}
-      border={3}
-      borderColor="primaryColor"
-      flexWrap="wrap"
-      flexDirection={['column', 'row']}
-      justifyContent={['', 'space-between']}
-      bg='white'
-    >
-      <Text
-        fontFamily="SoleilBk"
-        fontSize={4}
-        fontStyle="italic"
-        lineHeight={3}
-        mb={3}
-        width={1}
+    <Background background="white">
+      <Card
+        px={[2, 3, 4]}
+        py={5}
+        border={3}
+        borderColor="primaryColor"
       >
-        {testimonial}
-      </Text>
-
-      <ResponsiveStack width={1}>
         <Flex
-          width={[1, 1, 4 / 10]}
-          order={[ '0', '0', '1' ]}
-          justifyContent={[ 'flex-start', 'flex-start', 'flex-end' ]}
-        >
-          <Img
-            mt={3}
-            width={[82, 128]}
-            height={[27, 42]}
-            src={img}
-            alt={alt}
-          />
-        </Flex>
-
-        <Flex
-          flexDirection='column'
-          mt={3}
-          width={[1, 1, 6 / 10]}
-          order={[ '1', '1', '0' ]}
+          flexWrap="wrap"
+          flexDirection={['column', 'row']}
+          justifyContent={['', 'space-between']}
         >
           <Text
             fontFamily="SoleilBk"
-            fontSize={3}
-            letterSpacing="smallNegative"
-          >
-            {name}
-          </Text>
-          <Text
-            fontFamily="Soleil"
-            fontSize={0}
+            fontSize={4}
+            fontStyle="italic"
             lineHeight={3}
-            color="gray.2"
+            mb={3}
+            width={1}
           >
-            {designation}
+            {testimonial}
           </Text>
+
+          <ResponsiveStack width={1}>
+            <Flex
+              width={[1, 1, 4 / 10]}
+              order={[ '0', '0', '1' ]}
+              alignItems="flex-end"
+              justifyContent={[ 'flex-start', 'flex-start', 'flex-end' ]}
+            >
+              <Img
+                mt={3}
+                width={[82, 128]}
+                height={[27, 42]}
+                src={img}
+                alt={alt}
+              />
+            </Flex>
+
+            <Flex
+              flexDirection='column'
+              mt={3}
+              width={[1, 1, 6 / 10]}
+              order={[ '1', '1', '0' ]}
+            >
+              <Text
+                fontFamily="SoleilBk"
+                fontSize={3}
+                letterSpacing="smallNegative"
+              >
+                {name}
+              </Text>
+              <Text
+                fontFamily="Soleil"
+                fontSize={0}
+                lineHeight={3}
+                color="gray.2"
+              >
+                {designation}
+              </Text>
+            </Flex>
+          </ResponsiveStack>
         </Flex>
-      </ResponsiveStack>
-    </Flex>
+      </Card>
+    </Background>
   );
 };
 

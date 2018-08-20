@@ -14,7 +14,7 @@ const comp = ({ img, imgProps, title, description, children }) => (
     px={[2, 3, 2]}
     py={[2, 2, 2]}
   >
-    <Flex>
+    <Flex.horizontallyCenter>
       <Img
         height="100%"
         src={img}
@@ -22,7 +22,7 @@ const comp = ({ img, imgProps, title, description, children }) => (
         mx="auto"
         {...imgProps}
       />
-    </Flex>
+    </Flex.horizontallyCenter>
 
     <Heading.h3
       align="center"
