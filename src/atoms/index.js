@@ -21,3 +21,4 @@ export { default as GatsbyImg } from './GatsbyImage';
 export { default as ResponsiveStack } from './ResponsiveStack';
 export { default as HorizontalRule } from './HorizontalRule';
 export { default as Position } from './Position';
+export { default as Transition } from './Transition';
