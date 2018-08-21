@@ -10,7 +10,7 @@ const UseCase = ({ title, description, imgSrc, imageFirst }) => {
   };
 
   return (
-    <ResponsiveStack py={[0, 0, 4]}>
+    <ResponsiveStack py={[2, 2, 4]}>
       <Flex.horizontallyCenter
         flexDirection="column"
         width={[1, 1, 5/10]}
@@ -30,13 +30,13 @@ const UseCase = ({ title, description, imgSrc, imageFirst }) => {
         mb={2}
         order={imageFirst ? [1, 1, 1] : [1, 1, 2]}
       >
-        <Image
-          src={imgSrc}
-          alt={title}
-          maxWidth={1}
-          width={[ '100%', '80%', '60%', '100%' ]}
-          my="auto"
-        />
+        <Flex.center width={1}>
+          <Image
+            src={imgSrc}
+            alt={title}
+            maxWidth={[ '100%', '60%', '80%', '100%' ]}
+          />
+        </Flex.center>
       </Flex.horizontallyCenter>
     </ResponsiveStack>
   );
