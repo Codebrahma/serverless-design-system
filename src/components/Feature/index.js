@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Heading, Image, Relative } from '../../atoms';
+import { Box, Heading, Image, Relative } from '../../atoms';
 import { P } from '../../molecules';
 import withBeforeAfter from '../../withBeforeAfter';
 
@@ -30,7 +30,9 @@ const Feature = ({ header, img, content, rightAligned }) => (
     pb={[4, 4, 6]}
     style={{ counterIncrement: 'step-counter' }}
   >
-    <Image src={img} mb={25} />
+    <Box mb={25}>
+      <Image src={img} />
+    </Box>
     <HeaderWithCount
       fontFamily="SoleilBk"
       beforeBoxContent={[
