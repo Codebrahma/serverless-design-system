@@ -61,6 +61,10 @@ const lineHeights = [
   1.5, 2, 3, 7,
 ];
 
+const heights = {
+  fullHeight: '100%'
+};
+
 const fontWeights = {
   normal: 400,
   bold: 700,
@@ -98,6 +102,7 @@ const shadows = [
 const theme = {
   maxContainerWidth: '1260px',
   font,
+  heights,
   breakpoints,
   navbarHeights,
   maxWidths,
