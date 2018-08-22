@@ -7,7 +7,6 @@ title: "InlineBlock with custom styling"
 ---
 <Box>
   <InlineBlock
-    border="1px dotted"
     p={2}
     m={1}
     bg="serverlessRed"
@@ -17,8 +16,6 @@ title: "InlineBlock with custom styling"
   </InlineBlock>
   <InlineBlock
     bg="green"
-    borderColor="white"
-    border="1px dotted"
     color="white"
     p={2}
     m={1}

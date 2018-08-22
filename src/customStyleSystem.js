@@ -103,6 +103,51 @@ const horizontalRuleColor = style({
   key: 'colors',
 });
 
+const placeholderColor = style({
+  prop: 'placeholderColor',
+  cssProperty: 'color',
+  key: 'colors',
+});
+
+const placeholderFontFamily = style({
+  prop: 'placeholderFontFamily',
+  cssProperty: 'font-family',
+});
+
+const placeholderFontSize = style({
+  prop: 'placeholderFontSize',
+  cssProperty: 'font-size',
+  key: 'fontSizes',
+});
+
+const placeholderFontWeight = style({
+  prop: 'placeholderFontWeight',
+  cssProperty: 'font-weight',
+  key: 'fontWeights',
+});
+
+const placeholderFontStyle = style({
+  prop: 'placeholderFontStyle',
+  cssProperty: 'font-style',
+});
+
+const placeholderLineHeight = style({
+  prop: 'placeholderLineHeight',
+  cssProperty: 'line-height',
+  key: 'lineHeights',
+});
+
+const placeholderLetterSpacing = style({
+  prop: 'placeholderLetterSpacing',
+  cssProperty: 'letter-spacing',
+  key: 'letterSpacings',
+});
+
+const boxSizing = style({
+  prop: 'boxSizing',
+  cssProperty: 'box-sizing',
+});
+
 export {
   overflow,
   overflowX,
@@ -123,5 +168,13 @@ export {
   transition,
   styleType,
   horizontalRuleHeight,
-  horizontalRuleColor
+  horizontalRuleColor,
+  placeholderColor,
+  placeholderFontFamily,
+  placeholderFontSize,
+  placeholderFontStyle,
+  placeholderFontWeight,
+  placeholderLineHeight,
+  placeholderLetterSpacing,
+  boxSizing,
 };

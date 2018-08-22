@@ -11,6 +11,8 @@ import {
   minWidth,
 } from 'styled-system';
 
+import { boxSizing } from '../../customStyleSystem';
+
 const Box = styled.div`
   ${color}
   ${display}
@@ -21,7 +23,12 @@ const Box = styled.div`
   ${minWidth}
   ${space}
   ${width}
+  ${boxSizing}
 `;
+
+Box.defaultProps = {
+  boxSizing: 'border-box',
+};
 
 Box.displayName = 'Box';
 
