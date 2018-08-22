@@ -1,18 +1,26 @@
 import styled from 'styled-components';
-import { space, width, minWidth, maxWidth } from 'styled-system';
+import { maxWidth } from 'styled-system';
+import PropTypes from 'prop-types';
 
-import { Box } from '../../atoms';
+import theme from '../../theme';
 
-const Container = styled(Box)`
-  ${space}
-  ${width}
-  ${minWidth}
-  ${maxWidth}
+const Container = styled.div`
+  margin-left: auto;
+  margin-right: auto;
+  ${maxWidth};
 `;
 
-Container.defaultProps = {
-  m: 'auto',
-  maxWidth: [0, 0, 0, 1]
+Container.propTypes = {
+  maxWidth: PropTypes.oneOfType([
+    PropTypes.number,
+    PropTypes.string,
+    PropTypes.array,
+  ])
 };
 
+Container.defaultProps = {
+  maxWidth: theme.maxContainerWidth,
+};
+
+Container.displayName = 'Container';
 export default Container;

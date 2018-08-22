@@ -6,7 +6,7 @@ import TogglableArrowIcon from './DefaultIcon'
 import DefaultMenuContainer from './DefaultMenuContainer'
 import DefaultOption from './DefaultOption'
 
-import Box from './../Box'
+import Relative from './../Relative'
 import Text from './../Text'
 
 const DEFAULT_PLACEHOLDER_STRING = 'Select'
@@ -100,8 +100,10 @@ class Dropdown extends React.Component {
       placeholderProps,
       iconProps,
       menuContainerProps,
+      options,
       optionProps,
     } = this.props;
+
     const placeHolderValue = typeof selected === 'string' ? selected : selected.label;
 
     return (
@@ -120,7 +122,7 @@ class Dropdown extends React.Component {
           styleProps={menuContainerProps}
         >
           {
-            this.props.options.map((option, index) => (
+            options.constructor.name === 'Array' && options.map((option, index) => (
               <Option
                 {...option}
                 styleProps={optionProps}
@@ -138,7 +140,7 @@ class Dropdown extends React.Component {
 
 Dropdown.defaultProps = {
   options: [],
-  container: Box.relative,
+  container: Relative,
   fieldContainer: DefaultFieldContainer,
   placeholderContainer: Text.span,
   icon: TogglableArrowIcon,

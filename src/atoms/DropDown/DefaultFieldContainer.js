@@ -1,9 +1,10 @@
 import styled from 'styled-components'
-import Box from '../Box'
+import Relative from '../Relative'
 
-const FieldContainer = styled(Box.relative)`
+const FieldContainer = styled(Relative)`
   cursor: default;
   outline: none;
+  border: 1px solid #ccc;
 
   &:hover {
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
@@ -13,7 +14,6 @@ const FieldContainer = styled(Box.relative)`
 FieldContainer.defaultProps = {
   o: 'hidden',
   bg: 'white',
-  border: '1px solid #ccc',
   color: 'black',
   py: '14.5px',
   pl: '10px',

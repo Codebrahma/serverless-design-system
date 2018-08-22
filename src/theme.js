@@ -7,15 +7,15 @@ const font = {
 };
 
 const breakpoints = [
-  '320px', '768px', '992px', '1280px', '1600px'
+  '320px', '768px', '992px', '1280px', '1600px',
 ];
 
 const navbarHeights = {
-  mobile:'62px',
+  mobile: '62px',
   desktop: '90px',
 };
 
-const maxWidths = [ '100%', '1260px' ];
+const maxWidths = ['100%', '1260px'];
 
 const colors = {
   text: '#024',
@@ -36,7 +36,7 @@ const colors = {
   ],
   gradient: {
     black1: '#222222',
-  }
+  },
 };
 colors.primaryColor = colors.serverlessRed;
 colors.secondaryColor = colors.darkServerlessRed;
@@ -46,7 +46,7 @@ colors.secondaryColor = colors.darkServerlessRed;
 // when used in nested elements
 // numbers are converted to px
 const space = [
-  0, 10, 20, 30, 40, 60, 80, 100, 120, 140, 160, 180, 200
+  0, 10, 20, 30, 40, 60, 80, 100, 120, 140, 160, 180, 200,
 ];
 // typographic scale
 const fontSizes = [
@@ -60,6 +60,10 @@ const lineHeights = [
   1, 1.125, 1.25, 1.33,
   1.5, 2, 3, 7,
 ];
+
+const heights = {
+  fullHeight: '100%'
+};
 
 const fontWeights = {
   normal: 400,
@@ -78,7 +82,7 @@ const letterSpacings = {
   h3: 'normal',
   h4: '-0.5px',
   h5: '-0.4px',
-  h6: '-0.3px'
+  h6: '-0.3px',
 };
 
 // border-radius
@@ -96,7 +100,9 @@ const shadows = [
 ];
 
 const theme = {
+  maxContainerWidth: '1260px',
   font,
+  heights,
   breakpoints,
   navbarHeights,
   maxWidths,
