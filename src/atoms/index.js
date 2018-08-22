@@ -22,3 +22,7 @@ export { default as ResponsiveStack } from './ResponsiveStack';
 export { default as HorizontalRule } from './HorizontalRule';
 export { default as Position } from './Position';
 export { default as Transition } from './Transition';
+export { default as Label } from './Label';
+export { default as DropDown } from './DropDown';
+export { default as Checkbox } from './Checkbox';
+export { default as TextArea } from './TextArea';

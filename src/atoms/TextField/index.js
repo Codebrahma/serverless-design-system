@@ -4,11 +4,22 @@ import {
   fontFamily,
   fontSize,
   fontWeight,
+  height,
   letterSpacing,
   lineHeight,
   space,
   width,
 } from 'styled-system';
+
+import {
+  placeholderColor,
+  placeholderFontFamily,
+  placeholderFontSize,
+  placeholderFontStyle,
+  placeholderFontWeight,
+  placeholderLineHeight,
+  placeholderLetterSpacing,
+} from './../../customStyleSystem';
 
 const fontStyle = props => ({
   fontStyle: props.fontStyle ? props.fontStyle : null,
@@ -24,35 +35,49 @@ const border = props => ({
 
 const TextField = styled.input`
   ::-webkit-input-placeholder {
-    color: ${(props) => props.placeholderColor};
-    font-size: ${(props) => props.placeholderFontSize};
-    font-weight: ${(props) => props.placeholderFontWeight};
-    font-style: ${(props) => props.placeholderFontStyle};
+    ${placeholderColor}
+    ${placeholderFontFamily}
+    ${placeholderFontSize}
+    ${placeholderFontStyle}
+    ${placeholderFontWeight}
+    ${placeholderLineHeight}
+    ${placeholderLetterSpacing}
   }
   ::-moz-placeholder {
-    color: ${(props) => props.placeholderColor};
-    font-size: ${(props) => props.placeholderFontSize};
-    font-weight: ${(props) => props.placeholderFontWeight};
-    font-style: ${(props) => props.placeholderFontStyle};
+    ${placeholderColor}
+    ${placeholderFontFamily}
+    ${placeholderFontSize}
+    ${placeholderFontStyle}
+    ${placeholderFontWeight}
+    ${placeholderLineHeight}
+    ${placeholderLetterSpacing}
   }
   :-ms-input-placeholder {
-    color: ${(props) => props.placeholderColor};
-    font-size: ${(props) => props.placeholderFontSize};
-    font-weight: ${(props) => props.placeholderFontWeight};
-    font-style: ${(props) => props.placeholderFontStyle};
+    ${placeholderColor}
+    ${placeholderFontFamily}
+    ${placeholderFontSize}
+    ${placeholderFontStyle}
+    ${placeholderFontWeight}
+    ${placeholderLineHeight}
+    ${placeholderLetterSpacing}
   }
   :-moz-placeholder {
-    color: ${(props) => props.placeholderColor};
-    font-size: ${(props) => props.placeholderFontSize};
-    font-weight: ${(props) => props.placeholderFontWeight};
-    font-style: ${(props) => props.placeholderFontStyle};
+    ${placeholderColor}
+    ${placeholderFontFamily}
+    ${placeholderFontSize}
+    ${placeholderFontStyle}
+    ${placeholderFontWeight}
+    ${placeholderLineHeight}
+    ${placeholderLetterSpacing}
   }
+  -webkit-appearance: ${(props) => props.webkitAppearance};
 
   ${color}
   ${fontFamily}
   ${fontSize}
   ${fontStyle}
   ${fontWeight}
+  ${height}
   ${letterSpacing}
   ${lineHeight}
   ${space}
