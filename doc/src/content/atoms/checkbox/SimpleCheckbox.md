@@ -2,7 +2,7 @@
 path: "/checkbox/1"
 component: "checkbox"
 type: "atom"
-title: "Checkbox with simple border"
+title: "Checkbox"
 ---
 <codeblock>
 <Label htmlFor="terms">
