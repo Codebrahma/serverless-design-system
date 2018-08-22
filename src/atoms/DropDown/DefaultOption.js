@@ -1,11 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import Box from './../Box'
+import Relative from './../Relative'
 
-const OptionContainer = styled(Box.relative)`
+const OptionContainer = styled(Relative)`
   background-color: ${({ isSelected }) => isSelected ? '#f2f9fc' : null };
   color: ${({ isSelected }) => isSelected ? '#333' : null };
+  cursor: pointer;
 
   &:hover {
     background-color: rgba(39, 39, 39, .1);
@@ -14,7 +15,6 @@ const OptionContainer = styled(Box.relative)`
 
 OptionContainer.defaultProps = {
   color: 'rgba(51, 51, 51, 0.8)',
-  cursor: 'pointer',
   px: 1,
   py: '14.5px',
 }

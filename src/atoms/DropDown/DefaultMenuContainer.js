@@ -1,18 +1,29 @@
 import React from 'react'
 import styled from 'styled-components'
-import { borderLeft, borderTop, borderRight, borderBottom } from 'styled-system'
+import {
+  top,
+  left,
+  right,
+  bottom,
+  zIndex,
+  space,
+  background,
+} from 'styled-system'
 
-import Box from './../Box'
+import Card from './../Card'
 
-const MenuContainer = styled(Box.absolute)`
-  ${borderLeft}
-  ${borderTop}
-  ${borderRight}
-  ${borderBottom}
+const MenuContainer = styled(Card)`
+  position: absolute;
+  ${left}
+  ${top}
+  ${right}
+  ${bottom}
+  ${zIndex}
+  ${background}
 `;
 
 MenuContainer.defaultProps = {
-  bg: 'white',
+  background: 'white',
   border: '1px solid #ccc',
   mt: '-1px',
   maxHeight: '200px',

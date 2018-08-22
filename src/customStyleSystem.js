@@ -92,6 +92,17 @@ const styleType = style({
   cssProperty: 'list-style-type',
 });
 
+const horizontalRuleHeight = style({
+  prop: 'height',
+  cssProperty: 'border-top-width',
+});
+
+const horizontalRuleColor = style({
+  prop: 'color',
+  cssProperty: 'border-top-color',
+  key: 'colors',
+});
+
 const placeholderColor = style({
   prop: 'placeholderColor',
   cssProperty: 'color',
@@ -151,6 +162,8 @@ export {
   afterBoxContent,
   transition,
   styleType,
+  horizontalRuleHeight,
+  horizontalRuleColor,
   placeholderColor,
   placeholderFontFamily,
   placeholderFontSize,
