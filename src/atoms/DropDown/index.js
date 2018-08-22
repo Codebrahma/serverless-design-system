@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import DefaultFieldContainer from './DefaultFieldContainer'
+import FieldContainer from './DefaultFieldContainer'
 import TogglableArrowIcon from './DefaultIcon'
-import DefaultMenuContainer from './DefaultMenuContainer'
-import DefaultOption from './DefaultOption'
+import MenuContainer from './DefaultMenuContainer'
+import Option from './DefaultOption'
 
 import Relative from './../Relative'
 import Text from './../Text'
@@ -89,16 +89,10 @@ class Dropdown extends React.Component {
   render() {
     const { isOpen, selected } = this.state;
     const {
-      container: MainContainer,
-      fieldContainer: FieldContainer,
-      placeholderContainer: PlaceholderContainer,
       icon: Icon,
-      menuContainer: MenuContainer,
-      option: Option,
       containerProps,
       fieldContainerProps,
       placeholderProps,
-      iconProps,
       menuContainerProps,
       options,
       optionProps,
@@ -107,15 +101,15 @@ class Dropdown extends React.Component {
     const placeHolderValue = typeof selected === 'string' ? selected : selected.label;
 
     return (
-      <MainContainer {...containerProps}>
+      <Relative {...containerProps}>
         <FieldContainer
           onClick={this.handleMouseDown}
           {...fieldContainerProps}
         >
-          <PlaceholderContainer {...placeholderProps}>
+          <Text.span {...placeholderProps}>
             { placeHolderValue }
-          </PlaceholderContainer>
-          <Icon isOpen={isOpen} {...iconProps} />
+          </Text.span>
+          { Icon && <Icon isOpen={isOpen} /> }
         </FieldContainer>
         <MenuContainer
           isOpen={isOpen}
@@ -133,23 +127,17 @@ class Dropdown extends React.Component {
             ))
           }
         </MenuContainer>
-      </MainContainer>
+      </Relative>
     )
   }
 }
 
 Dropdown.defaultProps = {
   options: [],
-  container: Relative,
-  fieldContainer: DefaultFieldContainer,
-  placeholderContainer: Text.span,
   icon: TogglableArrowIcon,
-  menuContainer: DefaultMenuContainer,
-  option: DefaultOption,
   containerProps: {},
   fieldContainerProps: {},
   placeholderProps: {},
-  iconProps: {},
   menuContainerProps: {},
   optionProps: {},
 }

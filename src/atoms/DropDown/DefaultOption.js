@@ -1,11 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
+import { background } from 'styled-system'
 
-import Relative from './../Relative'
+import Relative from '../Relative'
 
 const OptionContainer = styled(Relative)`
-  background-color: ${({ isSelected }) => isSelected ? '#f2f9fc' : null };
-  color: ${({ isSelected }) => isSelected ? '#333' : null };
+  ${background}
+  background-color: ${({ isSelected }) => (isSelected ? '#f2f9fc' : null)};
+  color: ${({ isSelected }) => (isSelected ? '#333' : null)};
   cursor: pointer;
 
   &:hover {
@@ -31,9 +33,10 @@ export default class Option extends React.Component {
     }
   }
 
-  onSelect = () => (
-    this.props.onSelect(this.state.value, this.state.label)
-  )
+  onSelect = () => {
+    const { label, value } = this.state
+    this.props.onSelect(value, label)
+  }
 
   render() {
     const { label, isSelected, value } = this.state;

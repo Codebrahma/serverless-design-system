@@ -143,6 +143,11 @@ const placeholderLetterSpacing = style({
   key: 'letterSpacings',
 });
 
+const boxSizing = style({
+  prop: 'boxSizing',
+  cssProperty: 'box-sizing',
+});
+
 export {
   overflow,
   overflowX,
@@ -171,4 +176,5 @@ export {
   placeholderFontWeight,
   placeholderLineHeight,
   placeholderLetterSpacing,
+  boxSizing,
 };
