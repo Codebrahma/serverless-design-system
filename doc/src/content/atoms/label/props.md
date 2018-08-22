@@ -10,10 +10,10 @@ Use `Label` component to associate a text label with a form `input` field
 | Prop | Description | Type | Default |
 | ------ | ----------- | ---- | ------- |
 | htmlFor | to refer the associated input field | string | null |
-| fontFamily | placeholder for the input field | string | null |
-| fontSize | intial value for the input field | string | null |
-| fontStyle | initial state of the input field | boolean | false |
-| fontWeight | height of the input field | number, string / array | null |
-| color | width of the input field | number, string / array | null |
-| lineHeight | background of the input field | string | null |
-| letterSpacing | color of the placeholder and the value | string | black |
+| fontFamily | sets the font family of label | string | null |
+| fontSize | sets the font size of label | number, string / array | null |
+| fontStyle | sets the font style of label | string | false |
+| fontWeight | sets the font weight of label | number, string / array | normal |
+| color | sets the color of label | string | black |
+| lineHeight | sets the line height of label | number, string / array | null |
+| letterSpacing | sets the letter-spacing of label | number, string / array | null |

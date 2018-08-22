@@ -13,5 +13,5 @@ Wrap the checkbox with styled components to change the styles.
 | ------ | ----------- | ---- | ------- |
 | name | name for the input field | string | null |
 | id | id for the input field | string | null |
-| checked | initial value of the checkbox | boolean | false |
-| disabled | initial state of the checkbox | boolean | false |
+| checked | a value which represents whether the checkbox is checked or not | boolean | false |
+| disabled | a value which represents whether the checkbox is disabled or not | boolean | false |

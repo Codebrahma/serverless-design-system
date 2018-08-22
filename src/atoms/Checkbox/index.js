@@ -9,14 +9,6 @@ const Checkbox = styled.input.attrs({
 
 Checkbox.displayName = 'Checkbox'
 
-Checkbox.propTypes = {
-  name: PropTypes.string,
-  id: PropTypes.string.isRequired,
-  defaultChecked: PropTypes.bool,
-  disabled: PropTypes.bool,
-  onChange: PropTypes.func.isRequired,
-}
-
 Checkbox.defaultProps = {
   disabled: false,
   defaultChecked: false,
