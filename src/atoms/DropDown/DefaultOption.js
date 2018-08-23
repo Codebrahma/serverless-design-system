@@ -5,10 +5,10 @@ import { background } from 'styled-system'
 import Relative from '../Relative'
 
 const OptionContainer = styled(Relative)`
-  ${background}
-  background-color: ${({ isSelected }) => (isSelected ? '#f2f9fc' : null)};
+  background: ${({ isSelected }) => (isSelected ? '#f2f9fc' : null)};
   color: ${({ isSelected }) => (isSelected ? '#333' : null)};
   cursor: pointer;
+  ${background}
 
   &:hover {
     background-color: rgba(39, 39, 39, .1);
