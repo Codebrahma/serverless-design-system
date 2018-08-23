@@ -43,4 +43,8 @@ Flex.row = styled(Flex)`
   flex-direction: row;
 `;
 
+Flex.inline = styled(Flex)`
+  display: inline-flex;
+`;
+
 export default Flex;
