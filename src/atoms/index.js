@@ -4,6 +4,7 @@ export { default as Card } from './Card';
 export { default as Flex } from './Flex';
 export { default as Row } from './Flex/Row';
 export { default as Column } from './Flex/Column';
+export { default as InlineFlex } from './Flex/Inline';
 export { default as Fixed } from './Fixed';
 export { default as InlineBlock } from './InlineBlock';
 export { default as Relative } from './Relative';
