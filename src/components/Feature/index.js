@@ -27,7 +27,7 @@ const Feature = ({ header, img, content, leadingNumber, rightAligned }) => (
     width={[1, 1, 3/7, 4/10]}
     mr={[0, 0, 2, rightAligned ? '10%' : 0]}
     ml={[0, 0, 2, rightAligned ? 0 : '10%' ]}
-    pb={[4, 4, 6]}
+    pb={[4, 4, 5]}
     style={{ counterIncrement: 'step-counter' }}
   >
     <Box mb={25}>
