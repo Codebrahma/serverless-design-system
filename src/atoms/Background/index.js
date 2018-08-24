@@ -7,6 +7,8 @@ import {
   backgroundRepeat,
   backgroundSize,
   backgroundPosition,
+  minHeight,
+  minWidth,
 } from 'styled-system';
 
 const Background = styled.div`
@@ -17,6 +19,8 @@ const Background = styled.div`
   ${backgroundRepeat}
   ${backgroundSize}
   ${backgroundPosition}
+  ${minHeight}
+  ${minWidth}
 `;
 
 Background.displayName = 'Background';
