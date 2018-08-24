@@ -22,7 +22,7 @@ const HeaderWithCount = withBeforeAfter(
   `
 );
 
-const Feature = ({ header, img, content, rightAligned }) => (
+const Feature = ({ header, img, content, leadingNumber, rightAligned }) => (
   <Relative
     width={[1, 1, 3/7, 4/10]}
     mr={[0, 0, 2, rightAligned ? '10%' : 0]}
@@ -38,7 +38,7 @@ const Feature = ({ header, img, content, rightAligned }) => (
       beforeBoxContent={[
         'none',
         'none',
-        "counter(step-counter, decimal-leading-zero)"
+        leadingNumber ? "counter(step-counter, decimal-leading-zero)" : 'none',
       ]}
     >
       {header}
@@ -51,6 +51,11 @@ Feature.propTypes = {
   header: PropTypes.string.isRequired,
   content: PropTypes.string.isRequired,
   img: PropTypes.string.isRequired,
+  leadingNumber: PropTypes.bool
 };
+
+Feature.defaultProps = {
+  leadingNumber: true
+}
 
 export default Feature;
