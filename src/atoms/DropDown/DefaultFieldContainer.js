@@ -1,5 +1,10 @@
 import styled from 'styled-components'
-import { background } from 'styled-system'
+import {
+  background,
+  backgroundSize,
+  backgroundPosition,
+  backgroundRepeat,
+} from 'styled-system'
 
 import Card from '../Card'
 
@@ -8,6 +13,9 @@ const FieldContainer = styled(Card)`
   cursor: default;
   outline: none;
   ${background}
+  ${backgroundSize}
+  ${backgroundRepeat}
+  ${backgroundPosition}
 
   &:hover {
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
