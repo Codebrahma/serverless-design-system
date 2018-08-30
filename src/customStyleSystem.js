@@ -153,6 +153,11 @@ const objectFit = style({
   cssProperty: 'object-fit',
 });
 
+const textDecoration = style({
+  prop: 'textDecoration',
+  cssProperty: 'text-decoration',
+});
+
 export {
   overflow,
   overflowX,
@@ -183,4 +188,5 @@ export {
   placeholderLetterSpacing,
   boxSizing,
   objectFit,
+  textDecoration,
 };
