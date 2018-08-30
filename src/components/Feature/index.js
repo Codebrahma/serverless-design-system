@@ -16,7 +16,7 @@ const HeaderWithCount = withBeforeAfter(
     font-size: 10rem;
     line-height: 1;
     z-index: -1;
-    opacity: 0.2;
+    opacity: 0.08;
     top: 7.5rem;
     left: -5rem;
   `
