@@ -148,6 +148,11 @@ const boxSizing = style({
   cssProperty: 'box-sizing',
 });
 
+const objectFit = style({
+  prop: 'objectFit',
+  cssProperty: 'object-fit',
+});
+
 export {
   overflow,
   overflowX,
@@ -177,4 +182,5 @@ export {
   placeholderLineHeight,
   placeholderLetterSpacing,
   boxSizing,
+  objectFit,
 };
