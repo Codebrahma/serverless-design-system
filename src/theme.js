@@ -22,7 +22,7 @@ const colors = {
   white: '#fff',
   black: '#000',
   serverlessRed: '#fd5750',
-  darkServerlessRed: '#cb0a02',
+  darkServerlessRed: '#b73833',
   // nested objects work as well
   dark: {
     blue: '#058',
