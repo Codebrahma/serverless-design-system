@@ -65,6 +65,16 @@ const afterBoxLeft = style({
   cssProperty: 'left',
 });
 
+const beforeBoxTop = style({
+  prop: 'beforeBoxTop',
+  cssProperty: 'top',
+});
+
+const afterBoxTop = style({
+  prop: 'afterBoxTop',
+  cssProperty: 'top',
+});
+
 const beforeBoxBackgroundColor = style({
   prop: 'beforeBoxBackgroundColor',
   cssProperty: 'background-color',
@@ -171,6 +181,8 @@ export {
   afterBoxBorderWidth,
   beforeBoxLeft,
   afterBoxLeft,
+  beforeBoxTop,
+  afterBoxTop,
   beforeBoxBackgroundColor,
   afterBoxBackgroundColor,
   beforeBoxContent,

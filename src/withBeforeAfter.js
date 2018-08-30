@@ -8,6 +8,8 @@ import {
   afterBoxBorderWidth,
   beforeBoxLeft,
   afterBoxLeft,
+  beforeBoxTop,
+  afterBoxTop,
   beforeBoxBackgroundColor,
   afterBoxBackgroundColor,
   beforeBoxContent,
@@ -31,6 +33,7 @@ export default (
         ${beforeBoxLeft}
         ${beforeBoxBackgroundColor}
         ${beforeBoxContent}
+        ${beforeBoxTop}
       }
 
       &:after {
@@ -41,6 +44,7 @@ export default (
         ${afterBoxLeft}
         ${afterBoxBackgroundColor}
         ${afterBoxContent}
+        ${afterBoxTop}
       }
 
       ${selectorStyle}

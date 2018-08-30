@@ -17,7 +17,6 @@ const HeaderWithCount = withBeforeAfter(
     line-height: 1;
     z-index: -1;
     opacity: 0.08;
-    top: 7.5rem;
     left: -5rem;
   `
 );
@@ -30,16 +29,22 @@ const Feature = ({ header, img, content, leadingNumber, rightAligned }) => (
     pb={[4, 4, 5]}
     style={{ counterIncrement: 'step-counter' }}
   >
-    <Box mb={25}>
-      <Image src={img} />
-    </Box>
+    {
+      img && (
+        <Box mb={25}>
+          <Image src={img} />
+        </Box>
+      )
+    }
     <HeaderWithCount
       fontFamily="SoleilBk"
+      headingImagePresence={!!img}
       beforeBoxContent={[
         'none',
         'none',
         leadingNumber ? "counter(step-counter, decimal-leading-zero)" : 'none',
       ]}
+      beforeBoxTop={img ? "7.5rem" : "-2.5rem"}
     >
       {header}
     </HeaderWithCount>
