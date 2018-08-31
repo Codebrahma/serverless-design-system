@@ -26,7 +26,7 @@ const HeaderWithCount = withBeforeAfter(
 
 const Feature = ({ header, img, content, leadingNumber, rightAligned }) => (
   <Relative
-    width={[1, 1, 3/7, 5/10]}
+    width={[1, 1, 0.49, 0.5]}
     pr={[0, 0, 2, rightAligned ? '15.5%' : 0]}
     pl={[0, 0, 2, rightAligned ? 0 : '15.5%' ]}
     pb={[4, 4, 5]}
