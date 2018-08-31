@@ -18,14 +18,17 @@ const HeaderWithCount = withBeforeAfter(
     z-index: -1;
     opacity: 0.08;
     left: -5rem;
-  `
+    top: -2.5rem;
+  `,
+  ``,
+  `position: relative;`
 );
 
 const Feature = ({ header, img, content, leadingNumber, rightAligned }) => (
   <Relative
-    width={[1, 1, 3/7, 4/10]}
-    mr={[0, 0, 2, rightAligned ? '10%' : 0]}
-    ml={[0, 0, 2, rightAligned ? 0 : '10%' ]}
+    width={[1, 1, 3/7, 5/10]}
+    pr={[0, 0, 2, rightAligned ? '15.5%' : 0]}
+    pl={[0, 0, 2, rightAligned ? 0 : '15.5%' ]}
     pb={[4, 4, 5]}
     style={{ counterIncrement: 'step-counter' }}
   >
@@ -44,7 +47,6 @@ const Feature = ({ header, img, content, leadingNumber, rightAligned }) => (
         'none',
         leadingNumber ? "counter(step-counter, decimal-leading-zero)" : 'none',
       ]}
-      beforeBoxTop={img ? "7.5rem" : "-2.5rem"}
     >
       {header}
     </HeaderWithCount>
