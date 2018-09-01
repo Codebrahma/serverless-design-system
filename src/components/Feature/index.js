@@ -1,7 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Box, Heading, Image, Relative } from '../../atoms';
+import {
+  Box,
+  Button,
+  Heading,
+  Image,
+  Relative,
+  Column
+} from '../../atoms';
 import { P } from '../../molecules';
 import withBeforeAfter from '../../withBeforeAfter';
 
@@ -24,34 +31,45 @@ const HeaderWithCount = withBeforeAfter(
   `position: relative;`
 );
 
-const Feature = ({ header, img, content, leadingNumber, rightAligned }) => (
-  <Relative
+const Feature = ({
+  header,
+  img,
+  content,
+  leadingNumber,
+  rightAligned,
+  action
+}) => (
+  <Column
     width={[1, 1, 0.49, 0.5]}
     pr={[0, 0, 2, rightAligned ? '15.5%' : 0]}
     pl={[0, 0, 2, rightAligned ? 0 : '15.5%' ]}
     pb={[4, 4, 5]}
     style={{ counterIncrement: 'step-counter' }}
+    justifyContent={action ? "space-between" : "flex-start"}
   >
-    {
-      img && (
-        <Box mb={25}>
-          <Image src={img} />
-        </Box>
-      )
-    }
-    <HeaderWithCount
-      fontFamily="SoleilBk"
-      headingImagePresence={!!img}
-      beforeBoxContent={[
-        'none',
-        'none',
-        leadingNumber ? "counter(step-counter, decimal-leading-zero)" : 'none',
-      ]}
-    >
-      {header}
-    </HeaderWithCount>
-    <P>{content}</P>
-  </Relative>
+    <Relative>
+      {
+        img && (
+          <Box mb={25}>
+            <Image src={img} />
+          </Box>
+        )
+      }
+      <HeaderWithCount
+        fontFamily="SoleilBk"
+        headingImagePresence={!!img}
+        beforeBoxContent={[
+          'none',
+          'none',
+          leadingNumber ? "counter(step-counter, decimal-leading-zero)" : 'none',
+        ]}
+      >
+        {header}
+      </HeaderWithCount>
+      <P>{content}</P>
+    </Relative>
+    {action}
+  </Column>
 );
 
 Feature.propTypes = {
