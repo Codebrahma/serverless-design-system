@@ -10,6 +10,7 @@ import {
   letterSpacing,
   space,
   width,
+  height,
   minWidth,
 } from 'styled-system';
 
@@ -29,6 +30,7 @@ const Button = styled.button`
   ${space}
   ${letterSpacing}
   ${width}
+  ${height}
   ${minWidth}
 
   &:disabled {
