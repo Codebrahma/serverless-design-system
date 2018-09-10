@@ -9,6 +9,7 @@ import {
   lineHeight,
   space,
   width,
+  borderRadius,
 } from 'styled-system';
 
 import {
@@ -84,6 +85,7 @@ const TextField = styled.input`
   ${width}
   ${boxSizing}
   ${border}
+  ${borderRadius}
 `;
 
 export default TextField;
