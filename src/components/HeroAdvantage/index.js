@@ -5,7 +5,7 @@ import { Flex, Text } from '../../atoms'
 import { P, TextWithIcon } from '../../molecules'
 
 const HeroAdvantage = ({ img, title, description }) => (
-  <Flex width={[1, 1, 1 / 3]} px={2} mt={2} flexDirection='column'>
+  <Flex width={[1, 1, 1 / 3]} px={[0, 0, 2]} mt={2} flexDirection='column'>
     <Flex justifyContent={['center', 'center', 'left']}>
       <TextWithIcon
         iconSrc={img}
@@ -14,6 +14,7 @@ const HeroAdvantage = ({ img, title, description }) => (
         iconTop='-5px'
         iconLeft='-10px'
         backgroundSize='cover'
+        textAlign={['center', 'center', 'left']}
       >
         <Text.span
           color='white'

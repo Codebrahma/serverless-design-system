@@ -9,9 +9,11 @@ import {
   left,
   height,
   width,
+  textAlign,
 } from 'styled-system';
 
 const TextWithIcon = styled.span`
+  ${textAlign}
   position: relative;
   > h1, h2, h3, h4, h5, h6, span, p, div {
     position: relative;
