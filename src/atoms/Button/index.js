@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { withTheme } from 'styled-components';
 import {
   border,
   borderWidth,
@@ -61,4 +61,4 @@ Button.defaultProps = {
 
 Button.displayName = 'Button';
 
-export default Button;
+export default withTheme(Button);
