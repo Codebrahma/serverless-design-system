@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { withTheme } from 'styled-components';
 import {
   border,
   borderWidth,
@@ -10,6 +10,7 @@ import {
   letterSpacing,
   space,
   width,
+  height,
   minWidth,
 } from 'styled-system';
 
@@ -29,6 +30,7 @@ const Button = styled.button`
   ${space}
   ${letterSpacing}
   ${width}
+  ${height}
   ${minWidth}
 
   &:disabled {
@@ -59,4 +61,4 @@ Button.defaultProps = {
 
 Button.displayName = 'Button';
 
-export default Button;
+export default withTheme(Button);

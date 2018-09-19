@@ -6,7 +6,7 @@ import { P } from '../../molecules';
 
 const UseCase = ({ title, description, imgSrc, imageFirst }) => {
   const descSectionPadding = {
-    [ imageFirst ? 'pl' : 'pr' ] : [ 0, 0, '55px', '110px' ]
+    [ imageFirst ? 'pl' : 'pr' ] : [ 0, 0, '50px', '230px' ]
   };
 
   return (

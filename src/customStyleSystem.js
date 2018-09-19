@@ -65,6 +65,16 @@ const afterBoxLeft = style({
   cssProperty: 'left',
 });
 
+const beforeBoxTop = style({
+  prop: 'beforeBoxTop',
+  cssProperty: 'top',
+});
+
+const afterBoxTop = style({
+  prop: 'afterBoxTop',
+  cssProperty: 'top',
+});
+
 const beforeBoxBackgroundColor = style({
   prop: 'beforeBoxBackgroundColor',
   cssProperty: 'background-color',
@@ -148,6 +158,16 @@ const boxSizing = style({
   cssProperty: 'box-sizing',
 });
 
+const objectFit = style({
+  prop: 'objectFit',
+  cssProperty: 'object-fit',
+});
+
+const textDecoration = style({
+  prop: 'textDecoration',
+  cssProperty: 'text-decoration',
+});
+
 export {
   overflow,
   overflowX,
@@ -161,6 +181,8 @@ export {
   afterBoxBorderWidth,
   beforeBoxLeft,
   afterBoxLeft,
+  beforeBoxTop,
+  afterBoxTop,
   beforeBoxBackgroundColor,
   afterBoxBackgroundColor,
   beforeBoxContent,
@@ -177,4 +199,6 @@ export {
   placeholderLineHeight,
   placeholderLetterSpacing,
   boxSizing,
+  objectFit,
+  textDecoration,
 };

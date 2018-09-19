@@ -1,7 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Box, Heading, Image, Relative } from '../../atoms';
+import {
+  Box,
+  Button,
+  Heading,
+  Image,
+  Relative,
+  Column
+} from '../../atoms';
 import { P } from '../../molecules';
 import withBeforeAfter from '../../withBeforeAfter';
 
@@ -16,41 +23,64 @@ const HeaderWithCount = withBeforeAfter(
     font-size: 10rem;
     line-height: 1;
     z-index: -1;
-    opacity: 0.2;
-    top: 7.5rem;
+    opacity: 0.08;
     left: -5rem;
-  `
+    top: -2.5rem;
+  `,
+  ``,
+  `position: relative;`
 );
 
-const Feature = ({ header, img, content, rightAligned }) => (
-  <Relative
-    width={[1, 1, 3/7, 4/10]}
-    mr={[0, 0, 2, rightAligned ? '10%' : 0]}
-    ml={[0, 0, 2, rightAligned ? 0 : '10%' ]}
-    pb={[4, 4, 6]}
+const Feature = ({
+  header,
+  img,
+  content,
+  leadingNumber,
+  rightAligned,
+  action
+}) => (
+  <Column
+    width={[1, 1, 0.49, 0.5]}
+    pr={[0, 0, 2, rightAligned ? '15.5%' : 0]}
+    pl={[0, 0, 2, rightAligned ? 0 : '15.5%' ]}
+    pb={[4, 4, 5]}
     style={{ counterIncrement: 'step-counter' }}
+    justifyContent={action ? "space-between" : "flex-start"}
   >
-    <Box mb={25}>
-      <Image src={img} />
-    </Box>
-    <HeaderWithCount
-      fontFamily="SoleilBk"
-      beforeBoxContent={[
-        'none',
-        'none',
-        "counter(step-counter, decimal-leading-zero)"
-      ]}
-    >
-      {header}
-    </HeaderWithCount>
-    <P>{content}</P>
-  </Relative>
+    <Relative>
+      {
+        img && (
+          <Box mb={25}>
+            <Image src={img} />
+          </Box>
+        )
+      }
+      <HeaderWithCount
+        fontFamily="SoleilBk"
+        headingImagePresence={!!img}
+        beforeBoxContent={[
+          'none',
+          'none',
+          leadingNumber ? "counter(step-counter, decimal-leading-zero)" : 'none',
+        ]}
+      >
+        {header}
+      </HeaderWithCount>
+      <P>{content}</P>
+    </Relative>
+    {action}
+  </Column>
 );
 
 Feature.propTypes = {
   header: PropTypes.string.isRequired,
   content: PropTypes.string.isRequired,
   img: PropTypes.string.isRequired,
+  leadingNumber: PropTypes.bool
 };
+
+Feature.defaultProps = {
+  leadingNumber: true
+}
 
 export default Feature;

@@ -22,7 +22,7 @@ const colors = {
   white: '#fff',
   black: '#000',
   serverlessRed: '#fd5750',
-  darkServerlessRed: '#cb0a02',
+  darkServerlessRed: '#b73833',
   // nested objects work as well
   dark: {
     blue: '#058',
@@ -46,7 +46,7 @@ colors.secondaryColor = colors.darkServerlessRed;
 // when used in nested elements
 // numbers are converted to px
 const space = [
-  0, 10, 20, 30, 40, 60, 80, 100, 120, 140, 160, 180, 200,
+  0, 10, 20, 30, 40, 60, 80, 100, 120, 140, 160, 180, 200, 220, 240,
 ];
 // typographic scale
 const fontSizes = [

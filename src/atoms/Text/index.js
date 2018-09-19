@@ -7,6 +7,7 @@ import {
   letterSpacing,
   lineHeight,
   space,
+  opacity,
 } from 'styled-system';
 import { align } from './../../customStyleSystem';
 
@@ -24,6 +25,7 @@ const Text = styled.div`
   ${lineHeight}
   ${space}
   ${align}
+  ${opacity}
 `;
 
 Text.displayName = 'Text';
