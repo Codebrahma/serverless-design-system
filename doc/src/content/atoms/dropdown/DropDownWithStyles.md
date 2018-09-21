@@ -1,5 +1,5 @@
 ---
-path: "/dropdown/4"
+path: "/dropDown/4"
 component: "dropDown"
 type: "atom"
 title: "DropDown with custom styles"
