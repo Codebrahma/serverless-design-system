@@ -9,13 +9,7 @@ const Layout = ({ children, data, ...props }) => (
   <AppWrapper>
     <Helmet
       title={data.site.siteMetadata.title}
-      bodyAttributes={{
-        class: 'body-wrapper',
-      }}
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
+      bodyAttributes={{ class: 'body-wrapper' }}
     />
     {children({ ...props })}
   </AppWrapper>
