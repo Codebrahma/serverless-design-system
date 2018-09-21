@@ -1,5 +1,5 @@
 ### Setup Instructions
 
+npm install gatsby-cli@1.1.58 -g
 npm install
 npm start
-
