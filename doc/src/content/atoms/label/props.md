@@ -1,6 +1,6 @@
 ---
 path: "/label/props"
-component: "Label"
+component: "label"
 type: "atom"
 title: "Label"
 ---

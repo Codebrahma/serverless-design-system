@@ -1,6 +1,6 @@
 ---
 path: "/dropdown/3"
-component: "DropDown"
+component: "dropDown"
 type: "atom"
 title: "DropDown with custom icon"
 ---
