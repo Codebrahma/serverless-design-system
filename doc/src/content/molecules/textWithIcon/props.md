@@ -8,7 +8,7 @@ title: "Text With Icon"
 
 | Prop | Description | Type | Default |
 | ------ | ----------- | ---- | ------- |
-| iconSrc | Icon for image  | string | null |
+| iconSrc | Icon for image  | url / data string | null |
 | iconHeight | String pixel / from theme | string | null |
 | iconWidth | String pixel / from theme | string | null |
 | iconTop | String pixel / from theme | string | null |
