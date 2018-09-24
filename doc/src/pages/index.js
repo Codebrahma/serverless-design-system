@@ -29,37 +29,35 @@ export default () => (
         Add `ThemeProvider` in your application. You can also pass theme object as prop to set custom theme.
         <br />
         To know more, <Link to="/theme-provider">check this out.</Link>
-        <br />
+      </p>
+      <pre>
         <code>
-          <pre>
-            {
+          {
 `import { ThemeProvider } from 'serverless-design-system'
 export default () => (
   <ThemeProvider>
     { /*  Render the root component */ }
   </ThemeProvider>
 )`
-            }
-          </pre>
+          }
         </code>
-      </p>
+      </pre>
 
       <p>
         Importing and using the components in your application
-        <br />
+      </p>
+      <pre>
         <code>
-          <pre>
-            {
+          {
 `import { Box, Image } from 'serverless-design-system'
 export default () => (
   <Box m={1}>
     <Image src={logoSource} alt="logo" />
   </Box>
 )`
-            }
-          </pre>
+          }
         </code>
-      </p>
+      </pre>
     </Section>
   </AppWrapper>
 )

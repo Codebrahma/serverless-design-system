@@ -9,9 +9,10 @@ export default () => (
 
       <p>
         Add `ThemeProvider` in your application. The below code takes the default theme defined in the design-system.
+      </p>
         <br />
-        <code>
-          <pre>
+        <pre>
+          <code>
             {
 `import { ThemeProvider } from 'serverless-design-system'
 export default () => (
@@ -20,19 +21,18 @@ export default () => (
   </ThemeProvider>
 )`
             }
-          </pre>
         </code>
-      </p>
+      </pre>
     </Section>
 
     <Section>
       <h2>ThemeProvider with a custom theme</h2>
       <p>
         To set a custom theme for the design system components, we must pass the custom theme to the ThemeProvider.
-        <br />
+      </p>
+      <pre>
         <code>
-          <pre>
-            {
+          {
 `import { ThemeProvider } from 'serverless-design-system'
 export default () => {
   const customTheme = { fontSizes: [ '1rem', '2rem', '4rem', '8rem' ] }
@@ -42,10 +42,9 @@ export default () => {
     </ThemeProvider>
   )
 }`
-            }
-          </pre>
+          }
         </code>
-      </p>
+      </pre>
     </Section>
   </AppWrapper>
 )
