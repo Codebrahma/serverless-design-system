@@ -1,7 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Link from 'gatsby-link'
+import logo from './../assets/images/logo.svg'
 
 const SidebarWrapper = styled.div`
   position: fixed;
@@ -38,6 +38,11 @@ const SidebarHeader = styled.h1`
   padding-left: 10px;
   background: #fff;
 `;
+
+const Logo = styled.img`
+  margin: 10px;
+  margin-top: 20px;
+`
 
 const capitalize = (str) => {
   return str.charAt(0).toUpperCase() + str.slice(1);
@@ -110,6 +115,9 @@ class Sidebar extends React.Component {
     return (
       <SidebarWrapper>
         <SidebarSubList>
+          <ALink to="/">
+            <Logo src={logo}  />
+          </ALink>
           <SidebarHeader>Atoms</SidebarHeader>
           {
             sort(list.atoms).map((name, index) => (
