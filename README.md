@@ -10,13 +10,13 @@
   `npm start`
 
 ### Directory Structure
-  .
-  └── src
-      ├── atoms                 # Contains all the atoms components for serverless website
-      ├── molecules             # Contains all the molecules
-      ├── customStyleSystem.js  # Defines custom style system methods which are not available in `styled-system`
-      ├── theme.js              # Defines theme for the design system
-      └── utils                 # Contains utility functions
+	.
+    └── src
+        ├── atoms         		   # Contains all the atoms
+        ├── molecules              # Contains all the molecules
+        ├── customStyleSystem.js   # Defines custom style methods which are unavailable in styled-system
+        ├── theme.js               # Defines theme for the design system
+        └── utils          		   # Contains utility functions
 
 ### Building blocks
 
@@ -42,6 +42,6 @@
     An Example of Component is: `Feature` which displays heading, description and image. `Feature` is a re-usable component on serverless website
 
 ### Docs
-  Refer [`docs`](./docs) directory for contributing to docs.
+  Refer [`docs`](./doc) directory for contributing to docs.
 
 
