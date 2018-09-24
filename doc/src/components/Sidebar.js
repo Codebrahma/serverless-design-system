@@ -156,6 +156,9 @@ class Sidebar extends React.Component {
             ))
           }
         </SidebarSubList>
+        <ALink to="/theme-provider">
+          <SidebarHeader>Theme provider</SidebarHeader>
+        </ALink>
       </SidebarWrapper>
     );
   }

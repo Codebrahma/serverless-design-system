@@ -1,36 +1,7 @@
 import React from 'react'
-import styled from 'styled-components'
-
-const AppWrapper = styled.div`
-  margin-top: 25px;
-
-  h1 {
-    font-size: 3rem;
-  }
-
-  h2 {
-    font-size: 2rem;
-  }
-
-  span, p {
-    font-size: 1.6rem;
-  }
-`
-
-const Section = styled.div`
-  margin-top: 50px;
-
-  code {
-    display: block;
-    font-size: 1.5rem;
-    background: #e9f4ff;
-    padding: 15px;
-
-    pre {
-      margin: 0px;
-    }
-  }
-`
+import Link from 'gatsby-link'
+import AppWrapper from './../components/AppWrapper'
+import Section from './../components/Section'
 
 export default () => (
   <AppWrapper>
@@ -54,6 +25,25 @@ export default () => (
       <h2>
         Usage
       </h2>
+      <p>
+        Add `ThemeProvider` in your application. You can also pass theme object as prop to set custom theme.
+        <br />
+        To know more, <Link to="/theme-provider">check this out.</Link>
+        <br />
+        <code>
+          <pre>
+            {
+`import { ThemeProvider } from 'serverless-design-system'
+export default () => (
+  <ThemeProvider>
+    { /*  Render the root component */ }
+  </ThemeProvider>
+)`
+            }
+          </pre>
+        </code>
+      </p>
+
       <p>
         Importing and using the components in your application
         <br />
