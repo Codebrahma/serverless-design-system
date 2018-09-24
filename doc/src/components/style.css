@@ -9,9 +9,9 @@ html {
 code {
   color: #1890ff;
   padding: 2px 4px 2px;
-  border: 1px solid #1890ff;
+  /* border: 1px solid #1890ff;
   border-radius: 5px;
-  background: #e6f7ff;
+  background: #e6f7ff; */
 }
 
 table {

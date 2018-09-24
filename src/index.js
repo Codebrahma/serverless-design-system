@@ -1,3 +1,4 @@
+import { ThemeProvider } from 'styled-components'
 import * as atoms from './atoms';
 import * as molecules from './molecules';
 import * as components from './components';
@@ -8,4 +9,5 @@ export default {
   ...molecules,
   ...components,
   withBeforeAfter,
+  ThemeProvider,
 };
