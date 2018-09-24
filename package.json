@@ -9,6 +9,7 @@
     "build": "npm install -g gatsby-cli@1.1.58 && npm run build-local",
     "start": "cd doc && gatsby develop"
   },
+  "homepage" : "https://github.com/codebrahma/serverless-design-system",
   "author": "Serverless",
   "license": "MIT",
   "devDependencies": {
