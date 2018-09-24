@@ -1,3 +1,9 @@
+### Setup
+
+    Run
+        - npm install
+        - gatsby develop
+
 ### Directory Structure
     .
     ├── dynamic-content-generator

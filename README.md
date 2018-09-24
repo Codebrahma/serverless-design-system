@@ -42,6 +42,6 @@ Components are made of atoms and molecules. Complex molecules are also implement
 An Example of Component is: `Feature` which displays heading, description and image. `Feature` is a re-usable component on serverless website
 
 ### Docs
-Refer [`docs`](./doc) directory for contributing to docs.
+Checkout [`docs`](./doc) directory for running the static docs.
 
 
