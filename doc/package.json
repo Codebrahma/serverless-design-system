@@ -2,7 +2,7 @@
   "name": "serverless-design-system",
   "description": "Design system for serverless.com",
   "version": "1.0.0",
-  "author": "Codebrahma <admin@codebrahma.com>",
+  "author": "Serverless",
   "dependencies": {
     "gatsby": "^1.9.277",
     "gatsby-link": "^1.6.46",

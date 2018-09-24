@@ -9,7 +9,7 @@
     "build": "npm install -g gatsby-cli@1.1.58 && npm run build-local",
     "start": "cd doc && gatsby develop"
   },
-  "author": "Anand Narayan",
+  "author": "Serverless",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
