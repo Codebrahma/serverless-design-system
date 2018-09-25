@@ -13,7 +13,7 @@
 	.
     └── src
         ├── atoms                  # Contains all the atoms
-	├── components             # Contains all the components
+        ├── components             # Contains all the components
         ├── molecules              # Contains all the molecules
         ├── customStyleSystem.js   # Defines custom style methods which are unavailable in styled-system
         ├── theme.js               # Defines theme for the design system
