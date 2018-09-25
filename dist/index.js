@@ -26,11 +26,16 @@ var _themeProvider = require('./themeProvider');
 
 var _themeProvider2 = _interopRequireDefault(_themeProvider);
 
+var _theme = require('./theme');
+
+var _theme2 = _interopRequireDefault(_theme);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
 exports.default = _extends({}, atoms, molecules, components, {
   withBeforeAfter: _withBeforeAfter2.default,
-  ThemeProvider: _themeProvider2.default
+  ThemeProvider: _themeProvider2.default,
+  theme: _theme2.default
 });

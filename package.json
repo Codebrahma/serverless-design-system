@@ -1,6 +1,6 @@
 {
   "name": "serverless-design-system",
-  "version": "0.0.1p3",
+  "version": "0.0.1p4",
   "description": "A design system for Serverless Inc.",
   "main": "dist/index.js",
   "scripts": {
