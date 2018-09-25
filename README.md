@@ -39,7 +39,7 @@ An Example of molecule is: `Container`. Container is a styled Box but only `maxW
 #### Components
 Components are made of atoms and molecules. Complex molecules are also implemented as components.
 
-An Example of Component is: `Feature` which displays heading, description and image. `Feature` is a re-usable component on serverless website
+An Example of Component is: `Feature` which displays heading, description and image. `Feature` is a re-usable component on serverless website.
 
 ### Docs
 Checkout [`docs`](./doc) directory for running the static docs.
