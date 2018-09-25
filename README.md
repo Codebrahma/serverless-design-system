@@ -12,11 +12,12 @@
 ### Directory Structure
 	.
     └── src
-        ├── atoms         		   # Contains all the atoms
+        ├── atoms                  # Contains all the atoms
+	├── components             # Contains all the components
         ├── molecules              # Contains all the molecules
         ├── customStyleSystem.js   # Defines custom style methods which are unavailable in styled-system
         ├── theme.js               # Defines theme for the design system
-        └── utils          		   # Contains utility functions
+        └── utils                  # Contains utility functions
 
 ### Building blocks
 
@@ -37,7 +38,7 @@ Molecules are components which are built on top of html elements and/or atom com
 An Example of molecule is: `Container`. Container is a styled Box but only `maxWidth` can be configured for it.
 
 #### Components
-Components are made of atoms and molecules. Complex molecules are also implemented as components.
+Components are made of atoms and molecules. Complex molecules which are specific to the use case (serverless website) of the design system are grouped under components.
 
 An Example of Component is: `Feature` which displays heading, description and image. `Feature` is a re-usable component on serverless website
 
