@@ -20,10 +20,15 @@ var _molecules = require('../../molecules');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const UseCase = ({ title, description, imgSrc, imageFirst }) => {
-  const descSectionPadding = {
-    [imageFirst ? 'pl' : 'pr']: [0, 0, '50px', '230px']
-  };
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var UseCase = function UseCase(_ref) {
+  var title = _ref.title,
+      description = _ref.description,
+      imgSrc = _ref.imgSrc,
+      imageFirst = _ref.imageFirst;
+
+  var descSectionPadding = _defineProperty({}, imageFirst ? 'pl' : 'pr', [0, 0, '50px', '230px']);
 
   return _react2.default.createElement(
     _atoms.ResponsiveStack,

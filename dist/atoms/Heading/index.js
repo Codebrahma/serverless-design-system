@@ -14,7 +14,7 @@ var _theme2 = _interopRequireDefault(_theme);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const Heading = _Text2.default.withComponent('h3');
+var Heading = _Text2.default.withComponent('h3');
 Heading.defaultProps = {
   fontFamily: _theme2.default.font.header
 };

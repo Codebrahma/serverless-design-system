@@ -15,19 +15,20 @@ var _customStyleSystem = require('./../../customStyleSystem');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const List = _styledComponents2.default.ul`
-  ${_styledSystem.space}
-`;
+var List = _styledComponents2.default.ul.withConfig({
+  displayName: 'List',
+  componentId: 'f4z44x-0'
+})(['', ''], _styledSystem.space);
 
-const ListItem = _styledComponents2.default.li`
-  ${_styledSystem.space}
-  ${_styledSystem.display}
-  ${_customStyleSystem.styleType}
-`;
+var ListItem = _styledComponents2.default.li.withConfig({
+  displayName: 'List__ListItem',
+  componentId: 'f4z44x-1'
+})(['', ' ', ' ', ''], _styledSystem.space, _styledSystem.display, _customStyleSystem.styleType);
 
-ListItem.noStyleType = (0, _styledComponents2.default)(ListItem)`
-  list-style-type: none;
-`;
+ListItem.noStyleType = (0, _styledComponents2.default)(ListItem).withConfig({
+  displayName: 'List__noStyleType',
+  componentId: 'f4z44x-2'
+})(['list-style-type:none;']);
 
 exports.List = List;
 exports.ListItem = ListItem;

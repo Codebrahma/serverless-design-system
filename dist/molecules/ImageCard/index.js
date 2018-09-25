@@ -26,43 +26,53 @@ var _atoms = require('../../atoms');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const comp = ({ img, imgProps, title, description, children }) => _react2.default.createElement(
-  _atoms.Box,
-  {
-    px: [2, 3, 2],
-    py: [2, 2, 2]
-  },
-  _react2.default.createElement(
-    _atoms.Flex.horizontallyCenter,
-    null,
-    _react2.default.createElement(_atoms.Image, _extends({
-      height: '100%',
-      src: img,
-      alt: title,
-      mx: 'auto'
-    }, imgProps))
-  ),
-  _react2.default.createElement(
-    _Heading2.default.h3,
+var comp = function comp(_ref) {
+  var img = _ref.img,
+      imgProps = _ref.imgProps,
+      title = _ref.title,
+      description = _ref.description,
+      children = _ref.children;
+  return _react2.default.createElement(
+    _atoms.Box,
     {
-      align: 'center',
-      fontFamily: 'SoleilBk',
-      my: 3
+      px: [2, 3, 2],
+      py: [2, 2, 2]
     },
-    title
-  ),
-  _react2.default.createElement(
-    _Typography2.default,
-    {
-      align: 'center',
-      mt: 0,
-      fontSize: 3
-    },
-    description
-  ),
-  children
-);
+    _react2.default.createElement(
+      _atoms.Flex.horizontallyCenter,
+      null,
+      _react2.default.createElement(_atoms.Image, _extends({
+        height: '100%',
+        src: img,
+        alt: title,
+        mx: 'auto'
+      }, imgProps))
+    ),
+    _react2.default.createElement(
+      _Heading2.default.h3,
+      {
+        align: 'center',
+        fontFamily: 'SoleilBk',
+        my: 3
+      },
+      title
+    ),
+    _react2.default.createElement(
+      _Typography2.default,
+      {
+        align: 'center',
+        mt: 0,
+        fontSize: 3
+      },
+      description
+    ),
+    children
+  );
+};
 
-const ImageCard = (0, _styledComponents2.default)(comp)``;
+var ImageCard = (0, _styledComponents2.default)(comp).withConfig({
+  displayName: 'ImageCard',
+  componentId: 'sc-1fxpzfb-0'
+})(['']);
 
 exports.default = ImageCard;

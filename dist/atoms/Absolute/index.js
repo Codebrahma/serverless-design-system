@@ -16,12 +16,7 @@ var _Box2 = _interopRequireDefault(_Box);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = (0, _styledComponents2.default)(_Box2.default)`
-  position: absolute;
-
-  ${_styledSystem.top}
-  ${_styledSystem.left}
-  ${_styledSystem.right}
-  ${_styledSystem.bottom}
-  ${_styledSystem.zIndex}
-`;
+exports.default = (0, _styledComponents2.default)(_Box2.default).withConfig({
+  displayName: 'Absolute',
+  componentId: 'sc-1by4slh-0'
+})(['position:absolute;', ' ', ' ', ' ', ' ', ''], _styledSystem.top, _styledSystem.left, _styledSystem.right, _styledSystem.bottom, _styledSystem.zIndex);

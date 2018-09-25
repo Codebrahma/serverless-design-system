@@ -14,8 +14,9 @@ var _Box2 = _interopRequireDefault(_Box);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const InlineBlock = (0, _styledComponents2.default)(_Box2.default)`
-  display: inline-block;
-`;
+var InlineBlock = (0, _styledComponents2.default)(_Box2.default).withConfig({
+  displayName: 'InlineBlock',
+  componentId: 'laufxp-0'
+})(['display:inline-block;']);
 
 exports.default = InlineBlock;

@@ -20,10 +20,14 @@ var _atoms = require('../../atoms');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const comp = ({
-  img, children, name, designation, alt
-}) => {
-  const testimonial = children;
+var comp = function comp(_ref) {
+  var img = _ref.img,
+      children = _ref.children,
+      name = _ref.name,
+      designation = _ref.designation,
+      alt = _ref.alt;
+
+  var testimonial = children;
   return _react2.default.createElement(
     _atoms.Background,
     { background: 'white' },
@@ -115,6 +119,9 @@ comp.propTypes = {
   children: _propTypes2.default.node.isRequired
 };
 
-const Testimonial = (0, _styledComponents2.default)(comp)``;
+var Testimonial = (0, _styledComponents2.default)(comp).withConfig({
+  displayName: 'Testimonial',
+  componentId: 'bgqztt-0'
+})(['']);
 
 exports.default = Testimonial;

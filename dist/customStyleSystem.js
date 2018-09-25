@@ -7,170 +7,170 @@ exports.textDecoration = exports.objectFit = exports.boxSizing = exports.placeho
 
 var _styledSystem = require('styled-system');
 
-const overflow = (0, _styledSystem.style)({
+var overflow = (0, _styledSystem.style)({
   prop: 'o',
   cssProperty: 'overflow'
 });
 
-const overflowX = (0, _styledSystem.style)({
+var overflowX = (0, _styledSystem.style)({
   prop: 'ox',
   cssProperty: 'overflowX'
 });
 
-const overflowY = (0, _styledSystem.style)({
+var overflowY = (0, _styledSystem.style)({
   prop: 'oy',
   cssProperty: 'overflowY'
 });
 
-const align = (0, _styledSystem.style)({
+var align = (0, _styledSystem.style)({
   prop: 'align',
   cssProperty: 'text-align'
 });
 
-const beforeBoxWidth = (0, _styledSystem.style)({
+var beforeBoxWidth = (0, _styledSystem.style)({
   prop: 'beforeBoxWidth',
   cssProperty: 'width'
 });
 
-const afterBoxWidth = (0, _styledSystem.style)({
+var afterBoxWidth = (0, _styledSystem.style)({
   prop: 'afterBoxWidth',
   cssProperty: 'width'
 });
 
-const beforeBoxHeight = (0, _styledSystem.style)({
+var beforeBoxHeight = (0, _styledSystem.style)({
   prop: 'beforeBoxHeight',
   cssProperty: 'height'
 });
 
-const afterBoxHeight = (0, _styledSystem.style)({
+var afterBoxHeight = (0, _styledSystem.style)({
   prop: 'afterBoxHeight',
   cssProperty: 'height'
 });
 
-const transition = (0, _styledSystem.style)({
+var transition = (0, _styledSystem.style)({
   prop: 'transition',
   cssProperty: 'transition'
 });
 
-const beforeBoxBorderWidth = (0, _styledSystem.style)({
+var beforeBoxBorderWidth = (0, _styledSystem.style)({
   prop: 'beforeBoxBorderWidth',
   cssProperty: 'border-width'
 });
 
-const afterBoxBorderWidth = (0, _styledSystem.style)({
+var afterBoxBorderWidth = (0, _styledSystem.style)({
   prop: 'afterBoxBorderWidth',
   cssProperty: 'border-width'
 });
 
-const beforeBoxLeft = (0, _styledSystem.style)({
+var beforeBoxLeft = (0, _styledSystem.style)({
   prop: 'beforeBoxLeft',
   cssProperty: 'left'
 });
 
-const afterBoxLeft = (0, _styledSystem.style)({
+var afterBoxLeft = (0, _styledSystem.style)({
   prop: 'afterBoxLeft',
   cssProperty: 'left'
 });
 
-const beforeBoxTop = (0, _styledSystem.style)({
+var beforeBoxTop = (0, _styledSystem.style)({
   prop: 'beforeBoxTop',
   cssProperty: 'top'
 });
 
-const afterBoxTop = (0, _styledSystem.style)({
+var afterBoxTop = (0, _styledSystem.style)({
   prop: 'afterBoxTop',
   cssProperty: 'top'
 });
 
-const beforeBoxBackgroundColor = (0, _styledSystem.style)({
+var beforeBoxBackgroundColor = (0, _styledSystem.style)({
   prop: 'beforeBoxBackgroundColor',
   cssProperty: 'background-color',
   key: 'colors'
 });
 
-const afterBoxBackgroundColor = (0, _styledSystem.style)({
+var afterBoxBackgroundColor = (0, _styledSystem.style)({
   prop: 'afterBoxBackgroundColor',
   cssProperty: 'background-color',
   key: 'colors'
 });
 
-const beforeBoxContent = (0, _styledSystem.style)({
+var beforeBoxContent = (0, _styledSystem.style)({
   prop: 'beforeBoxContent',
   cssProperty: 'content'
 });
 
-const afterBoxContent = (0, _styledSystem.style)({
+var afterBoxContent = (0, _styledSystem.style)({
   prop: 'afterBoxContent',
   cssProperty: 'content'
 });
 
-const styleType = (0, _styledSystem.style)({
+var styleType = (0, _styledSystem.style)({
   prop: 'styleType',
   cssProperty: 'list-style-type'
 });
 
-const horizontalRuleHeight = (0, _styledSystem.style)({
+var horizontalRuleHeight = (0, _styledSystem.style)({
   prop: 'height',
   cssProperty: 'border-top-width'
 });
 
-const horizontalRuleColor = (0, _styledSystem.style)({
+var horizontalRuleColor = (0, _styledSystem.style)({
   prop: 'color',
   cssProperty: 'border-top-color',
   key: 'colors'
 });
 
-const placeholderColor = (0, _styledSystem.style)({
+var placeholderColor = (0, _styledSystem.style)({
   prop: 'placeholderColor',
   cssProperty: 'color',
   key: 'colors'
 });
 
-const placeholderFontFamily = (0, _styledSystem.style)({
+var placeholderFontFamily = (0, _styledSystem.style)({
   prop: 'placeholderFontFamily',
   cssProperty: 'font-family'
 });
 
-const placeholderFontSize = (0, _styledSystem.style)({
+var placeholderFontSize = (0, _styledSystem.style)({
   prop: 'placeholderFontSize',
   cssProperty: 'font-size',
   key: 'fontSizes'
 });
 
-const placeholderFontWeight = (0, _styledSystem.style)({
+var placeholderFontWeight = (0, _styledSystem.style)({
   prop: 'placeholderFontWeight',
   cssProperty: 'font-weight',
   key: 'fontWeights'
 });
 
-const placeholderFontStyle = (0, _styledSystem.style)({
+var placeholderFontStyle = (0, _styledSystem.style)({
   prop: 'placeholderFontStyle',
   cssProperty: 'font-style'
 });
 
-const placeholderLineHeight = (0, _styledSystem.style)({
+var placeholderLineHeight = (0, _styledSystem.style)({
   prop: 'placeholderLineHeight',
   cssProperty: 'line-height',
   key: 'lineHeights'
 });
 
-const placeholderLetterSpacing = (0, _styledSystem.style)({
+var placeholderLetterSpacing = (0, _styledSystem.style)({
   prop: 'placeholderLetterSpacing',
   cssProperty: 'letter-spacing',
   key: 'letterSpacings'
 });
 
-const boxSizing = (0, _styledSystem.style)({
+var boxSizing = (0, _styledSystem.style)({
   prop: 'boxSizing',
   cssProperty: 'box-sizing'
 });
 
-const objectFit = (0, _styledSystem.style)({
+var objectFit = (0, _styledSystem.style)({
   prop: 'objectFit',
   cssProperty: 'object-fit'
 });
 
-const textDecoration = (0, _styledSystem.style)({
+var textDecoration = (0, _styledSystem.style)({
   prop: 'textDecoration',
   cssProperty: 'text-decoration'
 });

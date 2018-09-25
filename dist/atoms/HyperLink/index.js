@@ -14,20 +14,16 @@ var _customStyleSystem = require('./../../customStyleSystem');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const HyperLink = _styledComponents2.default.a`
-  ${_customStyleSystem.textDecoration}
-  ${_styledSystem.borderBottom}
-  ${_styledSystem.borderColor}
-  ${_styledSystem.color}
-
-  &:hover {
-    ${({ hoverColor }) => ({ color: hoverColor })}
-  }
-
-  &:active {
-    ${({ activeColor }) => ({ color: activeColor })}
-  }
-`;
+var HyperLink = _styledComponents2.default.a.withConfig({
+  displayName: 'HyperLink',
+  componentId: 'qghr5z-0'
+})(['', ' ', ' ', ' ', ' &:hover{', '}&:active{', '}'], _customStyleSystem.textDecoration, _styledSystem.borderBottom, _styledSystem.borderColor, _styledSystem.color, function (_ref) {
+  var hoverColor = _ref.hoverColor;
+  return { color: hoverColor };
+}, function (_ref2) {
+  var activeColor = _ref2.activeColor;
+  return { color: activeColor };
+});
 
 HyperLink.defaultProps = {
   color: 'gray.3'

@@ -14,14 +14,17 @@ var _molecules = require('../../molecules');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const HeroInlineDescription = ({ children }) => _react2.default.createElement(
-  _atoms.Flex.horizontallyCenter,
-  { px: [2, 2, 0], pb: 1 },
-  _react2.default.createElement(
-    _molecules.P,
-    { m: 0, fontSize: '2rem', lineHeight: 3, color: 'white', align: 'center' },
-    children
-  )
-);
+var HeroInlineDescription = function HeroInlineDescription(_ref) {
+  var children = _ref.children;
+  return _react2.default.createElement(
+    _atoms.Flex.horizontallyCenter,
+    { px: [2, 2, 0], pb: 1 },
+    _react2.default.createElement(
+      _molecules.P,
+      { m: 0, fontSize: '2rem', lineHeight: 3, color: 'white', align: 'center' },
+      children
+    )
+  );
+};
 
 exports.default = HeroInlineDescription;

@@ -10,5 +10,5 @@ var _index2 = _interopRequireDefault(_index);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const InlineFlex = _index2.default.inline;
+var InlineFlex = _index2.default.inline;
 exports.default = InlineFlex;

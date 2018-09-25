@@ -16,19 +16,10 @@ var _Card2 = _interopRequireDefault(_Card);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const FieldContainer = (0, _styledComponents2.default)(_Card2.default)`
-  position: relative;
-  cursor: default;
-  outline: none;
-  ${_styledSystem.background}
-  ${_styledSystem.backgroundSize}
-  ${_styledSystem.backgroundRepeat}
-  ${_styledSystem.backgroundPosition}
-
-  &:hover {
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
-  }
-`;
+var FieldContainer = (0, _styledComponents2.default)(_Card2.default).withConfig({
+  displayName: 'DefaultFieldContainer__FieldContainer',
+  componentId: 'nr1bqp-0'
+})(['position:relative;cursor:default;outline:none;', ' ', ' ', ' ', ' &:hover{box-shadow:0 1px 0 rgba(0,0,0,0.06);}'], _styledSystem.background, _styledSystem.backgroundSize, _styledSystem.backgroundRepeat, _styledSystem.backgroundPosition);
 
 FieldContainer.defaultProps = {
   o: 'hidden',

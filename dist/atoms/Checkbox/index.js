@@ -14,11 +14,12 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const Checkbox = _styledComponents2.default.input.attrs({
+var Checkbox = _styledComponents2.default.input.attrs({
   type: 'checkbox'
-})`
-  margin-right: 10px;
-`;
+}).withConfig({
+  displayName: 'Checkbox',
+  componentId: 'sc-12z65bs-0'
+})(['margin-right:10px;']);
 
 Checkbox.displayName = 'Checkbox';
 

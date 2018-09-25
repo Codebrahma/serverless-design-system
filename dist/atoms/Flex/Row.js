@@ -10,5 +10,5 @@ var _index2 = _interopRequireDefault(_index);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const Row = _index2.default.row;
+var Row = _index2.default.row;
 exports.default = Row;

@@ -16,11 +16,10 @@ var _Box2 = _interopRequireDefault(_Box);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const Overflow = (0, _styledComponents2.default)(_Box2.default)`
-  ${_customStyleSystem.overflow}
-  ${_customStyleSystem.overflowX}
-  ${_customStyleSystem.overflowY}
-`;
+var Overflow = (0, _styledComponents2.default)(_Box2.default).withConfig({
+  displayName: 'Overflow',
+  componentId: 'sc-183b8bx-0'
+})(['', ' ', ' ', ''], _customStyleSystem.overflow, _customStyleSystem.overflowX, _customStyleSystem.overflowY);
 
 Overflow.displayName = 'Overflow';
 

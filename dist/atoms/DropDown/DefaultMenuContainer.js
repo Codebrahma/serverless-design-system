@@ -20,16 +20,10 @@ var _Card2 = _interopRequireDefault(_Card);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const MenuContainer = (0, _styledComponents2.default)(_Card2.default)`
-  position: absolute;
-  overflow: auto;
-  ${_styledSystem.left}
-  ${_styledSystem.top}
-  ${_styledSystem.right}
-  ${_styledSystem.bottom}
-  ${_styledSystem.zIndex}
-  ${_styledSystem.background}
-`;
+var MenuContainer = (0, _styledComponents2.default)(_Card2.default).withConfig({
+  displayName: 'DefaultMenuContainer__MenuContainer',
+  componentId: 'sc-1s96lm8-0'
+})(['position:absolute;overflow:auto;', ' ', ' ', ' ', ' ', ' ', ''], _styledSystem.left, _styledSystem.top, _styledSystem.right, _styledSystem.bottom, _styledSystem.zIndex, _styledSystem.background);
 
 MenuContainer.defaultProps = {
   background: 'white',
@@ -41,8 +35,13 @@ MenuContainer.defaultProps = {
   zIndex: '100'
 };
 
-exports.default = ({ isOpen, styleProps, children }) => isOpen ? _react2.default.createElement(
-  MenuContainer,
-  styleProps,
-  children
-) : null;
+exports.default = function (_ref) {
+  var isOpen = _ref.isOpen,
+      styleProps = _ref.styleProps,
+      children = _ref.children;
+  return isOpen ? _react2.default.createElement(
+    MenuContainer,
+    styleProps,
+    children
+  ) : null;
+};

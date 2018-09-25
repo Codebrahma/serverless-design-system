@@ -16,7 +16,9 @@ var _theme2 = _interopRequireDefault(_theme);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const CustomThemeProvider = props => _react2.default.createElement(_styledComponents.ThemeProvider, props);
+var CustomThemeProvider = function CustomThemeProvider(props) {
+  return _react2.default.createElement(_styledComponents.ThemeProvider, props);
+};
 
 CustomThemeProvider.defaultProps = { theme: _theme2.default };
 

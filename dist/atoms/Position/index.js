@@ -16,12 +16,7 @@ var _Box2 = _interopRequireDefault(_Box);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = (0, _styledComponents2.default)(_Box2.default)`
-  ${_styledSystem.position}
-  ${_styledSystem.top}
-  ${_styledSystem.left}
-  ${_styledSystem.right}
-  ${_styledSystem.bottom}
-  ${_styledSystem.minWidth}
-  ${_styledSystem.zIndex}
-`;
+exports.default = (0, _styledComponents2.default)(_Box2.default).withConfig({
+  displayName: 'Position',
+  componentId: 'sc-88vajn-0'
+})(['', ' ', ' ', ' ', ' ', ' ', ' ', ''], _styledSystem.position, _styledSystem.top, _styledSystem.left, _styledSystem.right, _styledSystem.bottom, _styledSystem.minWidth, _styledSystem.zIndex);

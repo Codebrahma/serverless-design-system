@@ -16,6 +16,7 @@ var _Box2 = _interopRequireDefault(_Box);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = (0, _styledComponents2.default)(_Box2.default)`
-  ${_customStyleSystem.transition}
-`;
+exports.default = (0, _styledComponents2.default)(_Box2.default).withConfig({
+  displayName: 'Transition',
+  componentId: 'sc-1oj1dt8-0'
+})(['', ''], _customStyleSystem.transition);

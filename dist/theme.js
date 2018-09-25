@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-const font = {
+var font = {
   default: 'Serverless',
   header: 'SoleilBk',
   p: 'SoleilBk',
@@ -11,16 +11,16 @@ const font = {
   plarge: 'SoleilLt'
 };
 
-const breakpoints = ['320px', '768px', '992px', '1280px', '1600px'];
+var breakpoints = ['320px', '768px', '992px', '1280px', '1600px'];
 
-const navbarHeights = {
+var navbarHeights = {
   mobile: '62px',
   desktop: '90px'
 };
 
-const maxWidths = ['100%', '1260px'];
+var maxWidths = ['100%', '1260px'];
 
-const colors = {
+var colors = {
   text: '#024',
   white: '#fff',
   black: '#000',
@@ -43,23 +43,23 @@ colors.secondaryColor = colors.darkServerlessRed;
 // it's recommended to use powers of two to ensure alignment
 // when used in nested elements
 // numbers are converted to px
-const space = [0, 10, 20, 30, 40, 60, 80, 100, 120, 140, 160, 180, 200, 220, 240];
+var space = [0, 10, 20, 30, 40, 60, 80, 100, 120, 140, 160, 180, 200, 220, 240];
 // typographic scale
-const fontSizes = ['1.2rem', '1.4rem', '1.6rem', '1.8rem', '2.4rem', '3.2rem', '4rem', '4.8rem', '9rem'];
+var fontSizes = ['1.2rem', '1.4rem', '1.6rem', '1.8rem', '2.4rem', '3.2rem', '4rem', '4.8rem', '9rem'];
 
 // for any scale, either array or objects will work
-const lineHeights = [1, 1.125, 1.25, 1.33, 1.5, 2, 3, 7];
+var lineHeights = [1, 1.125, 1.25, 1.33, 1.5, 2, 3, 7];
 
-const heights = {
+var heights = {
   fullHeight: '100%'
 };
 
-const fontWeights = {
+var fontWeights = {
   normal: 400,
   bold: 700
 };
 
-const letterSpacings = {
+var letterSpacings = {
   normal: 'normal',
   caps: '0.25em',
   smallNegative: '-0.03px',
@@ -75,28 +75,28 @@ const letterSpacings = {
 };
 
 // border-radius
-const radii = [0, 2, 4, 8];
+var radii = [0, 2, 4, 8];
 
-const borders = [0, '1px solid', '2px solid', '3px solid'];
+var borders = [0, '1px solid', '2px solid', '3px solid'];
 
-const shadows = [`0 1px 2px 0 ${colors.text}`, `0 1px 4px 0 ${colors.text}`];
+var shadows = ['0 1px 2px 0 ' + colors.text, '0 1px 4px 0 ' + colors.text];
 
-const theme = {
+var theme = {
   maxContainerWidth: '1260px',
-  font,
-  heights,
-  breakpoints,
-  navbarHeights,
-  maxWidths,
-  colors,
-  space,
-  fontSizes,
-  lineHeights,
-  fontWeights,
-  letterSpacings,
-  radii,
-  borders,
-  shadows
+  font: font,
+  heights: heights,
+  breakpoints: breakpoints,
+  navbarHeights: navbarHeights,
+  maxWidths: maxWidths,
+  colors: colors,
+  space: space,
+  fontSizes: fontSizes,
+  lineHeights: lineHeights,
+  fontWeights: fontWeights,
+  letterSpacings: letterSpacings,
+  radii: radii,
+  borders: borders,
+  shadows: shadows
 };
 
 exports.default = theme;

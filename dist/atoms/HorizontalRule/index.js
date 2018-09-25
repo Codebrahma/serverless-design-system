@@ -14,15 +14,13 @@ var _customStyleSystem = require('./../../customStyleSystem');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const HorizontalRule = _styledComponents2.default.div`
-  border-top-style: ${({ type }) => type}
-  display: block;
-  height: 1px;
-
-  ${_styledSystem.width}
-  ${_customStyleSystem.horizontalRuleColor}
-  ${_customStyleSystem.horizontalRuleHeight}
-`;
+var HorizontalRule = _styledComponents2.default.div.withConfig({
+  displayName: 'HorizontalRule',
+  componentId: 'op20a6-0'
+})(['border-top-style:', ' display:block;height:1px;', ' ', ' ', ''], function (_ref) {
+  var type = _ref.type;
+  return type;
+}, _styledSystem.width, _customStyleSystem.horizontalRuleColor, _customStyleSystem.horizontalRuleHeight);
 
 HorizontalRule.defaultProps = {
   type: 'solid'

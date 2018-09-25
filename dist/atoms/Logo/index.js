@@ -12,11 +12,10 @@ var _styledSystem = require('styled-system');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const Logo = _styledComponents2.default.img`
-  cursor: pointer;
-  ${_styledSystem.height}
-  ${_styledSystem.width}
-`;
+var Logo = _styledComponents2.default.img.withConfig({
+  displayName: 'Logo',
+  componentId: 'kv0fwj-0'
+})(['cursor:pointer;', ' ', ''], _styledSystem.height, _styledSystem.width);
 
 Logo.displayName = 'Logo';
 

@@ -20,11 +20,10 @@ var _theme2 = _interopRequireDefault(_theme);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const Container = _styledComponents2.default.div`
-  margin-left: auto;
-  margin-right: auto;
-  ${_styledSystem.maxWidth};
-`;
+var Container = _styledComponents2.default.div.withConfig({
+  displayName: 'Container',
+  componentId: 'fkmw7y-0'
+})(['margin-left:auto;margin-right:auto;', ';'], _styledSystem.maxWidth);
 
 Container.propTypes = {
   maxWidth: _propTypes2.default.oneOfType([_propTypes2.default.number, _propTypes2.default.string, _propTypes2.default.array])

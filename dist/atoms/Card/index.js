@@ -16,18 +16,10 @@ var _Box2 = _interopRequireDefault(_Box);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const Card = (0, _styledComponents2.default)(_Box2.default)`
-  ${_styledSystem.border}
-  ${_styledSystem.borderLeft}
-  ${_styledSystem.borderRight}
-  ${_styledSystem.borderTop}
-  ${_styledSystem.borderBottom}
-  ${_styledSystem.borderStyle}
-  ${_styledSystem.borderWidth}
-  ${_styledSystem.borderColor}
-  ${_styledSystem.borderRadius}
-  ${_styledSystem.boxShadow}
-`;
+var Card = (0, _styledComponents2.default)(_Box2.default).withConfig({
+  displayName: 'Card',
+  componentId: 'phpqrs-0'
+})(['', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ''], _styledSystem.border, _styledSystem.borderLeft, _styledSystem.borderRight, _styledSystem.borderTop, _styledSystem.borderBottom, _styledSystem.borderStyle, _styledSystem.borderWidth, _styledSystem.borderColor, _styledSystem.borderRadius, _styledSystem.boxShadow);
 
 Card.displayName = 'Card';
 

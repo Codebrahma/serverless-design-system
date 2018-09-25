@@ -10,11 +10,12 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const RadioButton = _styledComponents2.default.input.attrs({
+var RadioButton = _styledComponents2.default.input.attrs({
   type: 'radio'
-})`
-  margin-right: 10px;
-`;
+}).withConfig({
+  displayName: 'RadioButton',
+  componentId: 'sc-8dn70r-0'
+})(['margin-right:10px;']);
 
 RadioButton.displayName = 'RadioButton';
 

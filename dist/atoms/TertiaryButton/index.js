@@ -16,13 +16,17 @@ var _utils = require('../../utils');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const TertiaryButton = (0, _styledComponents2.default)(_Button2.default)`
-  background: ${({ background }) => background || 'white'};
-  color: ${({ theme }) => theme.colors.primaryColor};
-  transition: background 0.5s ease;
-  &:hover {
-    background: ${props => props.disabled ? null : (0, _utils.hexToRgbA)(props.theme.colors.white, 0.70)};
-  };
-`;
+var TertiaryButton = (0, _styledComponents2.default)(_Button2.default).withConfig({
+  displayName: 'TertiaryButton',
+  componentId: 'sw8hbh-0'
+})(['background:', ';color:', ';transition:background 0.5s ease;&:hover{background:', ';};'], function (_ref) {
+  var background = _ref.background;
+  return background || 'white';
+}, function (_ref2) {
+  var theme = _ref2.theme;
+  return theme.colors.primaryColor;
+}, function (props) {
+  return props.disabled ? null : (0, _utils.hexToRgbA)(props.theme.colors.white, 0.70);
+});
 
 exports.default = TertiaryButton;

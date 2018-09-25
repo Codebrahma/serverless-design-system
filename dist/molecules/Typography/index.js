@@ -12,7 +12,7 @@ var _theme2 = _interopRequireDefault(_theme);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const P = _atoms.Text.withComponent('p');
+var P = _atoms.Text.withComponent('p');
 
 P.defaultProps = {
   fontFamily: _theme2.default.font.p,
