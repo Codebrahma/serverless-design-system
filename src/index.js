@@ -1,15 +1,10 @@
-import * as atoms from './atoms';
-import * as molecules from './molecules';
-import * as components from './components';
-import withBeforeAfter from './withBeforeAfter';
+import withBeforeAfter from './withBeforeAfter'
 import ThemeProvider from './themeProvider'
 import theme from './theme'
 
-export default {
-  ...atoms,
-  ...molecules,
-  ...components,
-}
+export * from './atoms'
+export * from './molecules'
+export * from './components'
 
 export {
   withBeforeAfter,
