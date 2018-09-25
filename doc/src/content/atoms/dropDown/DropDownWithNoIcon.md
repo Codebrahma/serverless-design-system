@@ -1,6 +1,6 @@
 ---
-path: "/dropdown/2"
-component: "DropDown"
+path: "/dropDown/2"
+component: "dropDown"
 type: "atom"
 title: "DropDown with no icon"
 ---

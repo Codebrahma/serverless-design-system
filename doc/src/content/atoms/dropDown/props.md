@@ -1,6 +1,6 @@
 ---
-path: "/dropdown/props"
-component: "DropDown"
+path: "/dropDown/props"
+component: "dropDown"
 type: "atom"
 title: "DropDown"
 ---

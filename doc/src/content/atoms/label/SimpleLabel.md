@@ -1,6 +1,6 @@
 ---
 path: "/label/1"
-component: "Label"
+component: "label"
 type: "atom"
 title: "Simple Label"
 ---

@@ -3,21 +3,24 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import './index.css'
 
-import { AppWrapper, Wrapper } from './default';
+import Sidebar from './../components/Sidebar'
+import { AppWrapper, Wrapper, Content } from './default';
 
 const Layout = ({ children, data, ...props }) => (
   <AppWrapper>
     <Helmet
       title={data.site.siteMetadata.title}
-      bodyAttributes={{
-        class: 'body-wrapper',
-      }}
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
+      bodyAttributes={{ class: 'body-wrapper' }}
     />
-    {children({ ...props })}
+    <Wrapper>
+      <Sidebar
+        data={data.allMarkdownRemark}
+        path={props.location.pathname}
+      />
+      <Content>
+        { children({ ...props }) }
+      </Content>
+    </Wrapper>
   </AppWrapper>
 )
 
@@ -28,10 +31,22 @@ Layout.propTypes = {
 export default Layout
 
 export const query = graphql`
-  query SiteTitleQuery {
+  query query {
     site {
       siteMetadata {
         title
+      }
+    }
+
+    allMarkdownRemark {
+      edges {
+        node {
+          id
+          frontmatter {
+            component
+            type
+          }
+        }
       }
     }
   }

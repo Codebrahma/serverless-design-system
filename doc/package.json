@@ -2,7 +2,7 @@
   "name": "serverless-design-system",
   "description": "Design system for serverless.com",
   "version": "1.0.0",
-  "author": "Codebrahma <admin@codebrahma.com>",
+  "author": "Serverless",
   "dependencies": {
     "gatsby": "^1.9.277",
     "gatsby-link": "^1.6.46",
@@ -11,6 +11,7 @@
     "gatsby-source-filesystem": "^1.5.39",
     "gatsby-transformer-remark": "^1.7.44",
     "install": "^0.12.1",
+    "node-dir": "^0.1.17",
     "npm": "^6.3.0",
     "react-copy-to-clipboard": "^5.0.1",
     "react-helmet": "^5.2.0",

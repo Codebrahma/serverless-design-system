@@ -1,15 +1,16 @@
 {
   "name": "serverless-design-system",
-  "version": "0.0.1",
+  "version": "0.0.1p2",
   "description": "A design system for Serverless Inc.",
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --fix",
     "build-local": "cd doc && yarn install && gatsby build",
-    "build": "npm install -g gatsby && npm run build-local",
+    "build": "npm install -g gatsby-cli@1.1.58 && npm run build-local",
     "start": "cd doc && gatsby develop"
   },
-  "author": "Anand Narayan",
+  "homepage" : "https://github.com/codebrahma/serverless-design-system",
+  "author": "Serverless",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
