@@ -9,7 +9,10 @@ export default {
   ...atoms,
   ...molecules,
   ...components,
+}
+
+export {
   withBeforeAfter,
   ThemeProvider,
-  theme,
-};
+  theme
+}
